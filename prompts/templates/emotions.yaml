@@ -1,0 +1,7 @@
+name: emotions
+type: float
+template: |
+  Given the concept of {concept} {description_clause},
+  provide an estimation of the average {dimension}{dimension_description_clause} in the range of {range_clause}.
+  Return only JSON with key:
+    - {dimension} (float)

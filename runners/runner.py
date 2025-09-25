@@ -23,10 +23,20 @@ class Runner:
         runs: int = 1,
         return_range: str = "",
         measurement: str = None,
-        output_path: str = "output.json"
+        output_path: str = "output.json",
+        **kwargs
     ) -> List[Dict]:
         template_data = load_template(template_name)
         results = []
+
+        dimension_range = ""
+        dimension_description = ""
+
+        if "dimension_description" in kwargs:
+            dimension_description = kwargs["dimension_description"]
+   
+        if "dimension_range" in kwargs:
+            dimension_range = kwargs["dimension_range"]
 
         for client in self.clients:
             for i in range(runs):
@@ -37,7 +47,10 @@ class Runner:
                     domain=domain,
                     dimension=dimension,
                     return_range=return_range,
-                    measurement=measurement
+                    measurement=measurement,
+                    dimension_description = dimension_description,
+                    dimension_range = dimension_range
+
                 )
 
                 response = None

@@ -7,10 +7,10 @@ local:
   #   model_path: models/olmo-2-1124-13B-instruct-Q4_K_M.gguf
   # - name: mistral_7b_instruct
   #   model_path: models/mistral-7b-instruct-v0.1.Q4_K_M.gguf
-  # - name: llama31_8b_instruct
-  #   model_path: models/Meta-Llama-3.1-8B-Instruct-Q4_K_S.gguf
-  - name: deepseekr1_8b_instruct
-    model_path: models/DeepSeek-R1-0528-Qwen3-8B-Q4_K_M.gguf
+  - name: llama31_8b_instruct
+    model_path: models/Meta-Llama-3.1-8B-Instruct-Q4_K_S.gguf
+  # - name: deepseekr1_8b_instruct
+  #   model_path: models/DeepSeek-R1-0528-Qwen3-8B-Q4_K_M.gguf
 
 groq:
   # - name: deepseekr1llama_70b_distill
@@ -25,17 +25,17 @@ groq:
   #   model_path: meta-llama/llama-4-maverick-17b-128e-instruct
 
 nebula:
-  # - name: llava_7b_standard
-  #   model_path: llava:7b
-  # - name: llama32_11b_vision
-  #   model_path: llama3.2-vision:11b
-  # - name: qwen25_7b_standard
-  #   model_path: qwen2.5:7b
-  # - name: qwen25_1b_standard
-  #   model_path: qwen2.5:1.5b
-  # - name: llama31_8b_standard
-  #   model_path: llama3.1:8b 
-  # - name: deepseekr1_8b_standard
-  #   model_path: deepseek-r1:8b
-  # - name: deepseekr1_1b_standard
-  #   model_path: deepseek-r1:1.5b
+  - name: llava_7b_standard
+    model_path: llava:7b
+  - name: llama32_11b_vision
+    model_path: llama3.2-vision:11b
+  - name: qwen25_7b_standard
+    model_path: qwen2.5:7b
+  - name: qwen25_1b_standard
+    model_path: qwen2.5:1.5b
+  - name: llama31_8b_standard
+    model_path: llama3.1:8b 
+  - name: deepseekr1_8b_standard
+    model_path: deepseek-r1:8b
+  - name: deepseekr1_1b_standard
+    model_path: deepseek-r1:1.5b

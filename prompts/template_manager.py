@@ -12,14 +12,16 @@ def fill_template(template_str: str, **kwargs) -> str:
     return template_str.format(**{k: v.replace('_', ' ') if isinstance(v, str) else v for k, v in kwargs.items()})
 
 def preprocess_template(template: str, **kwargs) -> str:
-    description = kwargs.get("description")
-    dimension = kwargs.get("dimension")
-    domain = kwargs.get("domain")
-    range = kwargs.get("range")
+    description = kwargs.get("description", "")
+    dimension = kwargs.get("dimension", "")
+    domain = kwargs.get("domain", "")
+    dim_range = kwargs.get("dimension_range", "")
+    dimension_description = kwargs.get("dimension_description", "")
     kwargs["measurement"] = kwargs.get("measurement", "")
     kwargs["description_clause"] = f"(which is {description})" if description else ""
+    kwargs["dimension_description_clause"] = f"(as in {dimension_description})" if dimension_description else ""
     kwargs["dimension_clause"] = f" as in {dimension}" if dimension else ""
-    kwargs["range_clause"] = "range for " if range else ""
+    kwargs["range_clause"] = f"{dim_range}" if dim_range else ""
     kwargs["properties_clause"] = "\n".join(f"- {d}" for d in domain) if domain else ""
     result = template.format(**{k: v.replace('_', ' ') if isinstance(v, str) else v for k, v in kwargs.items()})
     return result

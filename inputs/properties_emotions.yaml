@@ -1,0 +1,46 @@
+
+dimensional:
+  circumplex:
+    quality_dimensions:
+      arousal:
+        definition: "amount of physiological change in the person's body"
+        range: [0, 1]
+      valence:
+        definition: "degree of pleasantness or unpleasantness of an emotion"
+        range: [-1, 1]
+  PAD:
+    quality_dimensions:
+      arousal:
+        definition: "amount of physiological change in the person's body"
+        range: [0, 1]
+      pleasure:
+        definition: "degree of pleasantness or unpleasantness of an emotion"
+        range: [-1, 1]
+      dominance:
+        definition: "the feeling of being in control of the situation vs being controlled"
+        range: [-1, 1]
+  Osgood:
+    quality_dimensions:
+      activity:
+        definition: "amount of physiological change in the person's body"
+        range: [0, 1]
+      potency:
+        definition: "the perceived strength, dominance, or control inherent in an emotion."
+        range: [0, 1]
+      evaluation:
+        definition: "degree of pleasantness or unpleasantness of an emotion"
+        range: [-1, 1]
+  Fontaine:
+    quality_dimensions:
+      activity:
+        definition: "amount of physiological change in the person's body"
+        range: [0, 1]
+      potency:
+        definition: "the perceived strength, dominance, or control inherent in an emotion."
+        range: [0, 1]
+      evaluation:
+        definition: "degree of pleasantness or unpleasantness of an emotion"
+        range: [-1, 1]
+      unpredictability:
+        definition: "a person's reaction to a stimulus based on their familiarity with the situation"
+        range: [0, 1]
