@@ -1,5 +1,5 @@
 import os
-from groq import Groq
+# from groq import Groq
 from openai import OpenAI
 from prompts.template_manager import load_template, preprocess_template
 import json
@@ -40,73 +40,6 @@ def return_batch(output_file_id, client, result_name="batch_results.jsonl"):
     file_response = client.files.content(output_file_id)
     file_response.write_to_file(result_name)
 
-def create_batch_file(model_name, model_path, output_path=None, runs=5):
-    OUTPUT_DIR = Path(__file__).parent.parent / 'data' / 'raw_data' / 'batch_runs' / model_name
-    INPUT_DIR = 'inputs'
-    id=0
-    input_path_concept = os.path.join(INPUT_DIR, "concepts_mscoco.json")
-    input_path_property = os.path.join(INPUT_DIR, "exp_properties.yaml")
-    with open(input_path_property, "r") as f:
-        properties = yaml.safe_load(f)
-
-    output_path  = OUTPUT_DIR / f"input_{model_name}_batch_{runs}runs.jsonl"
-    templates = ['measurement', 'categorical']
-
-    with open(input_path_concept, "r") as f:
-        concepts = json.load(f)
-    concepts_to_check = {}
-    for key in concepts.keys():
-        concepts_to_check[concepts[key]["name"]] = concepts[key]["definition"]    
-    batch_info_df = pd.DataFrame(columns=['model_name', 'concept', 'domain', 'dimension', 'measurement', 'custom_id'])
-    with output_path.open("w") as f:
-        for concept, description in concepts_to_check.items():
-            for template in templates:
-                template_data = load_template(template)
-                system_prompt=template_data.get("system_prompt", "You are a commonsense knowledge engineer. Return **ONLY** valid JSON.")
-                domain_type = 'measurable' if template == 'measurement' else 'categorical'
-                domains = properties.get(domain_type, {})
-                if isinstance(domains, list):
-                    domains = {domain: {'quality_dimensions': [''], 'units': ['']} for domain in domains}
-                for domain, details in domains.items():
-                    for qd in details.get("quality_dimensions", []):
-                        for unit in details.get("units", []):
-                            for run in range(runs):
-                                custom_id = f"mscoco-{id}-run{run}"
-                                user_prompt = preprocess_template(
-                                    template_data["template"],
-                                    concept=concept,
-                                    description=description,
-                                    domain=domain,
-                                    dimension=qd,
-                                    return_range='',
-                                    measurement=unit
-                                )
-                                payload = {
-                                    "custom_id": custom_id,
-                                    "method": "POST",
-                                    "url": "/v1/chat/completions",
-                                    "body": {
-                                        "model": model_path,
-                                        "messages": [
-                                            {"role": "system", "content": system_prompt},
-                                            {"role": "user", "content": user_prompt}
-                                        ],
-                                        "max_tokens": 500
-                                    }
-                                }
-                                f.write(json.dumps(payload) + "\n")
-                                data = [model_name, concept, domain, qd, unit, custom_id]
-                                temp_df = pd.DataFrame([data], columns=batch_info_df.columns)
-                                batch_info_df = pd.concat([temp_df, batch_info_df], ignore_index=True)
-                            id+=1
-    batch_info_df['concept'] = batch_info_df['concept'].astype(str).str.strip()
-
-    batch_info_df.to_csv(
-        str(OUTPUT_DIR / f"{model_name}_batch_info.csv"),
-        index=False,
-        quoting=csv.QUOTE_NONNUMERIC
-    )
-
 def start_batch_pipeline(models, client_name, runs):
     if client_name == 'openai':
         client = OpenAI(api_key=os.getenv('OPENAI_API_KEY'))
@@ -114,11 +47,13 @@ def start_batch_pipeline(models, client_name, runs):
         client = Groq(api_key=os.getenv('GROQ_BATCH_API_KEY'))
     else:
         return 'Invalid client name. Must be Groq or OpenAI.'
+    
     batch_run_info = {model_name : {} for model_name in models.keys()}
+
     for model_name, model_path in models.items():
         logger.info(f"Starting batch process for model: {model_name}")
         
-        batch_file = Path(__file__).parent.parent / 'inputs' / f'{model_name}_batch_{runs}runs.jsonl'
+        batch_file = Path(__file__).parent.parent / 'inputs' / f'batch_input_{model_name}_{runs}runs.jsonl'
         
         batch_input_file = upload_batch(client, batch_file)
         logger.info(f"Batch file uploaded for {model_name}: {batch_input_file}")
@@ -158,14 +93,9 @@ def start_batch_pipeline(models, client_name, runs):
 if __name__ == "__main__":
     # groq_models = {'deepseekr1_distill_llama_70b':'deepseek-r1-distill-llama-70b',
     #                 'llama4scout_17b16e_instruct': 'meta-llama/llama-4-scout-17b-16e-instruct'}
-    models = {'gpt41': 'gpt-4.1','deepseekr1_distill_llama_70b':'deepseek-r1-distill-llama-70b', 
-              'llama4scout_17b16e_instruct': 'meta-llama/llama-4-scout-17b-16e-instruct',
-              'llama31_8b_instant' : 'llama-3.1-8b-instant'}
-    runs = 20
+    models = {'gpt41': 'gpt-4.1'}
     # models = {'llama3_8b_instant' : 'llama-3.1-8b-instant'}
-    for model_name, model_path in models.items():
-        create_batch_file(model_name, model_path, runs=runs)
-    # start_batch_pipeline(models, 'groq', runs)
+    start_batch_pipeline(models, 'groq', 20)
 
 
     

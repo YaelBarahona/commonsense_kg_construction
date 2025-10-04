@@ -1,5 +1,5 @@
 from groq import Groq
-import instructor
+# import instructor
 from .base_client import LLMClient
 
 class GroqClient(LLMClient):
@@ -10,7 +10,8 @@ class GroqClient(LLMClient):
         self.response_model = response_model
 
         raw_client = Groq(api_key=api_key)
-        self.client = instructor.from_groq(raw_client, mode=instructor.Mode.JSON) if use_instructor else raw_client
+        self.client = raw_client #instructor.from_groq(raw_client, mode=instructor.Mode.JSON) if use_instructor else raw_client
+        # self.client = instructor.from_groq(raw_client, mode=instructor.Mode.JSON) if use_instructor else raw_client
 
     def generate(self, system_prompt: str, user_prompt: str) -> str:
         messages = [

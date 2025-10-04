@@ -31,7 +31,7 @@ class Runner:
 
         dimension_range = ""
         dimension_description = ""
-
+        rqm = 30 # Request per minute
         if "dimension_description" in kwargs:
             dimension_description = kwargs["dimension_description"]
    
@@ -56,6 +56,7 @@ class Runner:
                 response = None
                 for attempt in range(1, self.max_retries + 1):
                     try:
+                        time.sleep(60/rqm)
                         response = client.generate(
                             system_prompt=template_data.get("system_prompt", "You are a commonsense knowledge engineer. Return **ONLY** valid JSON."),
                             user_prompt=user_prompt
