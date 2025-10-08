@@ -10,3 +10,4 @@ instructor_env/
 commonsense_kg.egg-info/
 *.csv
 *.jsonl
+*.png

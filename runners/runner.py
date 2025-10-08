@@ -52,11 +52,16 @@ class Runner:
                     dimension_range = dimension_range
 
                 )
-
+                rqm = 30 # Request per minutes
                 response = None
                 for attempt in range(1, self.max_retries + 1):
                     try:
+<<<<<<< Updated upstream
                         time.sleep(60/rqm)
+=======
+                        time.sleep((60/rqm) + 1)
+                        print(f"[RUN {i}-{concept}-{dimension}]...Sending request...")
+>>>>>>> Stashed changes
                         response = client.generate(
                             system_prompt=template_data.get("system_prompt", "You are a commonsense knowledge engineer. Return **ONLY** valid JSON."),
                             user_prompt=user_prompt

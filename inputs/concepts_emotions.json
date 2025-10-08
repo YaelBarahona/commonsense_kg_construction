@@ -2,193 +2,193 @@
     "0": {
         "name": "Interest",
         "synset": "02678663",
-        "definition": "be of importance or consequence; \"This matters to me!\"\n",
+        "definition": "be of importance or consequence; \"This matters to me!\"",
         "SentiWordNetScore": 0.5
     },
     "1": {
         "name": "Serenity",
         "synset": "04904352",
-        "definition": "a disposition free from stress or emotion\n",
+        "definition": "a disposition free from stress or emotion",
         "SentiWordNetScore": 0.625
     },
     "2": {
         "name": "Acceptance",
         "synset": "04638175",
-        "definition": "a disposition to tolerate or accept people or situations; \"all people should practice toleration and live together in peace\"\n",
+        "definition": "a disposition to tolerate or accept people or situations; \"all people should practice toleration and live together in peace\"",
         "SentiWordNetScore": 0.0
     },
     "3": {
         "name": "Anticipation",
         "synset": "14486122",
-        "definition": "anticipating with confidence of fulfillment\n",
+        "definition": "anticipating with confidence of fulfillment",
         "SentiWordNetScore": 0.5
     },
     "4": {
         "name": "Optimism",
         "synset": "07541558",
-        "definition": "the optimistic feeling that all is going to turn out well\n",
+        "definition": "the optimistic feeling that all is going to turn out well",
         "SentiWordNetScore": 0.375
     },
     "5": {
         "name": "Joy",
         "synset": "01813884",
-        "definition": "feel happiness or joy\n",
+        "definition": "feel happiness or joy",
         "SentiWordNetScore": 0.5
     },
     "6": {
         "name": "Love",
         "synset": "01775164",
-        "definition": "have a great affection or liking for; \"I love French food\"; \"She loves her boss and works hard for him\"\n",
+        "definition": "have a great affection or liking for; \"I love French food\"; \"She loves her boss and works hard for him\"",
         "SentiWordNetScore": 0.5
     },
     "7": {
         "name": "Trust",
         "synset": "00688377",
-        "definition": "have confidence or faith in; \"We can trust in God\"; \"Rely on your friends\"; \"bank on your good education\"; \"I swear by my grandmother's recipes\"\n",
+        "definition": "have confidence or faith in; \"We can trust in God\"; \"Rely on your friends\"; \"bank on your good education\"; \"I swear by my grandmother's recipes\"",
         "SentiWordNetScore": 0.375
     },
     "8": {
         "name": "Aggressiveness",
         "synset": "01244846",
-        "definition": "characteristic of an enemy or one eager to fight; \"aggressive acts against another country\"; \"a belligerent tone\"\n",
+        "definition": "characteristic of an enemy or one eager to fight; \"aggressive acts against another country\"; \"a belligerent tone\"",
         "SentiWordNetScore": 0.0
     },
     "9": {
         "name": "Vigilance",
         "synset": "04664778",
-        "definition": "vigilant attentiveness; \"he keeps a weather eye open for trouble\"\n",
+        "definition": "vigilant attentiveness; \"he keeps a weather eye open for trouble\"",
         "SentiWordNetScore": 0.125
     },
     "10": {
         "name": "Ecstasy",
         "synset": "13986372",
-        "definition": "a state of being carried away by overwhelming emotion; \"listening to sweet music in a perfect rapture\"- Charles Dickens\n",
+        "definition": "a state of being carried away by overwhelming emotion; \"listening to sweet music in a perfect rapture\"- Charles Dickens",
         "SentiWordNetScore": 0.125
     },
     "11": {
         "name": "Admiration",
         "synset": "07500741",
-        "definition": "a feeling of delighted approval and liking\n",
+        "definition": "a feeling of delighted approval and liking",
         "SentiWordNetScore": 0.5
     },
     "12": {
         "name": "Submission",
         "synset": "07509325",
-        "definition": "the feeling of patient, submissive humbleness\n",
+        "definition": "the feeling of patient, submissive humbleness",
         "SentiWordNetScore": -0.125
     },
     "13": {
         "name": "Annoyance",
         "synset": "07518261",
-        "definition": "anger produced by some annoying irritation\n",
+        "definition": "anger produced by some annoying irritation",
         "SentiWordNetScore": -0.5
     },
     "14": {
         "name": "Anger",
         "synset": "14036539",
-        "definition": "the state of being angry\n",
+        "definition": "the state of being angry",
         "SentiWordNetScore": -1.0
     },
     "15": {
         "name": "Rage",
         "synset": "07516997",
-        "definition": "a feeling of intense anger; \"hell hath no fury like a woman scorned\"; \"his face turned red with rage\"\n",
+        "definition": "a feeling of intense anger; \"hell hath no fury like a woman scorned\"; \"his face turned red with rage\"",
         "SentiWordNetScore": -0.25
     },
     "16": {
         "name": "Terror",
         "synset": "07520612",
-        "definition": "an overwhelming feeling of fear and anxiety\n",
+        "definition": "an overwhelming feeling of fear and anxiety",
         "SentiWordNetScore": -0.5
     },
     "17": {
         "name": "Fear",
         "synset": "07519253",
-        "definition": "an emotion experienced in anticipation of some specific pain or danger (usually accompanied by a desire to flee or fight)\n",
+        "definition": "an emotion experienced in anticipation of some specific pain or danger (usually accompanied by a desire to flee or fight)",
         "SentiWordNetScore": -0.875
     },
     "18": {
         "name": "Apprehension",
         "synset": "07521674",
-        "definition": "fearful expectation or anticipation; \"the student looked around the examination room with apprehension\"\n",
+        "definition": "fearful expectation or anticipation; \"the student looked around the examination room with apprehension\"",
         "SentiWordNetScore": -0.125
     },
     "19": {
         "name": "Contempt",
         "synset": "07502980",
-        "definition": "lack of respect accompanied by a feeling of intense dislike; \"he was held in contempt\"; \"the despite in which outsiders were held is legendary\"\n",
+        "definition": "lack of respect accompanied by a feeling of intense dislike; \"he was held in contempt\"; \"the despite in which outsiders were held is legendary\"",
         "SentiWordNetScore": -0.625
     },
     "20": {
         "name": "Loathing",
         "synset": "07503430",
-        "definition": "hate coupled with disgust\n",
+        "definition": "hate coupled with disgust",
         "SentiWordNetScore": -0.375
     },
     "21": {
         "name": "Grief",
         "synset": "07535010",
-        "definition": "intense sorrow caused by loss of a loved one (especially by death)\n",
+        "definition": "intense sorrow caused by loss of a loved one (especially by death)",
         "SentiWordNetScore": -0.625
     },
     "22": {
         "name": "Amazement",
         "synset": "07509572",
-        "definition": "the feeling that accompanies something extremely surprising; \"he looked at me in astonishment\"\n",
+        "definition": "the feeling that accompanies something extremely surprising; \"he looked at me in astonishment\"",
         "SentiWordNetScore": -0.375
     },
     "23": {
         "name": "Awe",
         "synset": "07510184",
-        "definition": "an overwhelming feeling of wonder or admiration; \"he stared over the edge with a feeling of awe\"\n",
+        "definition": "an overwhelming feeling of wonder or admiration; \"he stared over the edge with a feeling of awe\"",
         "SentiWordNetScore": 0.25
     },
     "24": {
         "name": "Disgust",
         "synset": "07503260",
-        "definition": "strong feelings of dislike\n",
+        "definition": "strong feelings of dislike",
         "SentiWordNetScore": 0.0
     },
     "25": {
         "name": "Remorse",
         "synset": "07536074",
-        "definition": "a feeling of deep regret (usually for some misdeed)\n",
+        "definition": "a feeling of deep regret (usually for some misdeed)",
         "SentiWordNetScore": -0.5
     },
     "26": {
         "name": "Sadness",
         "synset": "07532440",
-        "definition": "emotions experienced when not in a state of well-being\n",
+        "definition": "emotions experienced when not in a state of well-being",
         "SentiWordNetScore": -0.75
     },
     "27": {
         "name": "Disappointment",
         "synset": "07540602",
-        "definition": "a feeling of dissatisfaction that results when your expectations are not realized; \"his hopes were so high he was doomed to disappointment\"\n",
+        "definition": "a feeling of dissatisfaction that results when your expectations are not realized; \"his hopes were so high he was doomed to disappointment\"",
         "SentiWordNetScore": -0.75
     },
     "28": {
         "name": "Surprise",
         "synset": "07510348",
-        "definition": "the astonishment you feel when something totally unexpected happens to you\n",
+        "definition": "the astonishment you feel when something totally unexpected happens to you",
         "SentiWordNetScore": 0.125
     },
     "29": {
         "name": "Boredom",
         "synset": "07539790",
-        "definition": "the feeling of being bored by something tedious\n",
+        "definition": "the feeling of being bored by something tedious",
         "SentiWordNetScore": -0.375
     },
     "30": {
         "name": "Pensiveness",
         "synset": "04660805",
-        "definition": "deep serious thoughtfulness\n",
+        "definition": "deep serious thoughtfulness",
         "SentiWordNetScore": 0.125
     },
     "31": {
         "name": "Distraction",
         "synset": "05684440",
-        "definition": "mental turmoil; \"he drives me to distraction\"\n",
+        "definition": "mental turmoil; \"he drives me to distraction\"",
         "SentiWordNetScore": -0.375
     }
 }

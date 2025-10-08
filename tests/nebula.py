@@ -13,7 +13,7 @@ def chat_with_model():
         'Content-Type': 'application/json'
     }
     data = {
-        "model": 'deepseek-r1:8b',
+        "model": 'gpt-oss:20b',
         "messages": [
             {
                 "role": "system",
@@ -26,6 +26,7 @@ def chat_with_model():
         ]
     }
     response = requests.post(url, headers=headers, json=data)
+    print(response)
     return response.json()['choices'][0]['message']['content']
 
 print(chat_with_model())

@@ -21,23 +21,32 @@ groq:
   #   model_path: mistral-saba-24b
   # - name: llama3_70b_8192
   #   model_path: llama3-70b-8192
+<<<<<<< Updated upstream
   - name: metallama4maverick_17b_instruct
     model_path: meta-llama/llama-4-maverick-17b-128e-instruct
+=======
+  # - name: metallama4maverick_17b_instruct
+  #   model_path: meta-llama/llama-4-maverick-17b-128e-instruct
+  - name: meta-llama-llama-4-scout-17b-16e-instruct
+    model_path: meta-llama/llama-4-scout-17b-16e-instruct
+>>>>>>> Stashed changes
   - name: openai-gpt-oss-120b
     model_path: openai/gpt-oss-120b
 
 nebula:
-  - name: llava_7b_standard
-    model_path: llava:7b
-  - name: llama32_11b_vision
-    model_path: llama3.2-vision:11b
-  - name: qwen25_7b_standard
-    model_path: qwen2.5:7b
-  - name: qwen25_1b_standard
-    model_path: qwen2.5:1.5b
-  - name: llama31_8b_standard
-    model_path: llama3.1:8b 
-  - name: deepseekr1_8b_standard
-    model_path: deepseek-r1:8b
-  - name: deepseekr1_1b_standard
-    model_path: deepseek-r1:1.5b
+  # - name: llava_7b_standard
+  #   model_path: llava:7b
+  # - name: qwen25_7b_standard
+  #   model_path: qwen2.5:7b
+  # - name: qwen25_1b_standard
+  #   model_path: qwen2.5:1.5b
+  # - name: llama31_8b_standard
+  #   model_path: llama3.1:8b 
+  # - name: deepseekr1_8b_standard
+  #   model_path: deepseek-r1:8b
+  # - name: deepseekr1_1b_standard
+  #   model_path: deepseek-r1:1.5b
+  - name: gptoss_20b_standard
+    model_path: mercury.gpt-oss:20b
+  - name: gemma3_12b_standard
+    model_path: mercury.gemma3:12b
