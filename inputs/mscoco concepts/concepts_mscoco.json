@@ -1,0 +1,402 @@
+{
+    "0": {
+        "name": "person",
+        "synset": "person.n.01",
+        "definition": "a human being"
+    },
+    "1": {
+        "name": "bicycle",
+        "synset": "bicycle.n.01",
+        "definition": "a wheeled vehicle that has two wheels and is moved by foot pedals"
+    },
+    "2": {
+        "name": "car",
+        "synset": "car.n.01",
+        "definition": "a motor vehicle with four wheels; usually propelled by an internal combustion engine"
+    },
+    "3": {
+        "name": "motorcycle",
+        "synset": "motorcycle.n.01",
+        "definition": "a motor vehicle with two wheels and a strong frame"
+    },
+    "4": {
+        "name": "airplane",
+        "synset": "airplane.n.01",
+        "definition": "an aircraft that has a fixed wing and is powered by propellers or jets"
+    },
+    "5": {
+        "name": "bus",
+        "synset": "bus.n.01",
+        "definition": "a vehicle carrying many passengers; used for public transport"
+    },
+    "6": {
+        "name": "train",
+        "synset": "train.n.01",
+        "definition": "public transport provided by a line of railway cars coupled together and drawn by a locomotive"
+    },
+    "7": {
+        "name": "truck",
+        "synset": "truck.n.01",
+        "definition": "an automotive vehicle suitable for hauling"
+    },
+    "8": {
+        "name": "boat",
+        "synset": "boat.n.01",
+        "definition": "a small vessel for travel on water"
+    },
+    "9": {
+        "name": "traffic light",
+        "synset": "traffic_light.n.01",
+        "definition": "a visual signal to control the flow of traffic at intersections"
+    },
+    "10": {
+        "name": "fire hydrant",
+        "synset": "fire_hydrant.n.01",
+        "definition": "an upright hydrant for drawing water to use in fighting a fire"
+    },
+    "11": {
+        "name": "stop sign",
+        "synset": "street_sign.n.01",
+        "definition": "a sign visible from the street"
+    },
+    "12": {
+        "name": "parking meter",
+        "synset": "parking_meter.n.01",
+        "definition": "a coin-operated timer located next to a parking space; depositing money into it entitles you to park your car there for a specified length of time"
+    },
+    "13": {
+        "name": "bench",
+        "synset": "bench.n.01",
+        "definition": "a long seat for more than one person"
+    },
+    "14": {
+        "name": "bird",
+        "synset": "bird.n.01",
+        "definition": "warm-blooded egg-laying vertebrates characterized by feathers and forelimbs modified as wings"
+    },
+    "15": {
+        "name": "cat",
+        "synset": "cat.n.01",
+        "definition": "feline mammal usually having thick soft fur and no ability to roar: domestic cats; wildcats"
+    },
+    "16": {
+        "name": "dog",
+        "synset": "dog.n.01",
+        "definition": "a member of the genus Canis (probably descended from the common wolf) that has been domesticated by man since prehistoric times; occurs in many breeds"
+    },
+    "17": {
+        "name": "horse",
+        "synset": "horse.n.01",
+        "definition": "solid-hoofed herbivorous quadruped domesticated since prehistoric times"
+    },
+    "18": {
+        "name": "sheep",
+        "synset": "sheep.n.01",
+        "definition": "woolly usually horned ruminant mammal related to the goat"
+    },
+    "19": {
+        "name": "cow",
+        "synset": "cow.n.01",
+        "definition": "female of domestic cattle:"
+    },
+    "20": {
+        "name": "elephant",
+        "synset": "elephant.n.01",
+        "definition": "five-toed pachyderm"
+    },
+    "21": {
+        "name": "bear",
+        "synset": "bear.n.01",
+        "definition": "massive plantigrade carnivorous or omnivorous mammals with long shaggy coats and strong claws"
+    },
+    "22": {
+        "name": "zebra",
+        "synset": "zebra.n.01",
+        "definition": "any of several fleet black-and-white striped African equines"
+    },
+    "23": {
+        "name": "giraffe",
+        "synset": "giraffe.n.01",
+        "definition": "tallest living quadruped; having a spotted coat and small horns and very long neck and legs; of savannahs of tropical Africa"
+    },
+    "24": {
+        "name": "backpack",
+        "synset": "backpack.n.01",
+        "definition": "a bag carried by a strap on your back or shoulder"
+    },
+    "25": {
+        "name": "umbrella",
+        "synset": "umbrella.n.01",
+        "definition": "a lightweight handheld collapsible canopy"
+    },
+    "26": {
+        "name": "handbag",
+        "synset": "handbag.n.01",
+        "definition": "a container used for carrying money and small personal items or accessories (especially by women)"
+    },
+    "27": {
+        "name": "tie",
+        "synset": "tie.n.01",
+        "definition": "neckwear consisting of a long narrow piece of material worn (mostly by men) under a collar and tied in knot at the front"
+    },
+    "28": {
+        "name": "suitcase",
+        "synset": "suitcase.n.01",
+        "definition": "a portable rectangular container for carrying clothes"
+    },
+    "29": {
+        "name": "frisbee",
+        "synset": "frisbee.n.01",
+        "definition": "a light, plastic disk about 10 inches in diameter; propelled with a flip of the wrist for recreation or competition"
+    },
+    "30": {
+        "name": "skis",
+        "synset": "ski.n.01",
+        "definition": "narrow wood or metal or plastic runners used in pairs for gliding over snow"
+    },
+    "31": {
+        "name": "snowboard",
+        "synset": "snowboard.n.01",
+        "definition": "a board that resembles a broad ski or a small surfboard; used in a standing position to slide down snow-covered slopes"
+    },
+    "32": {
+        "name": "sports ball",
+        "synset": "ball.n.01",
+        "definition": "round object that is hit or thrown or kicked in games"
+    },
+    "33": {
+        "name": "kite",
+        "synset": "kite.n.03",
+        "definition": "plaything consisting of a light frame covered with tissue paper; flown in wind at end of a string"
+    },
+    "34": {
+        "name": "baseball bat",
+        "synset": "baseball_bat.n.01",
+        "definition": "an implement used in baseball by the batter"
+    },
+    "35": {
+        "name": "baseball glove",
+        "synset": "baseball_glove.n.01",
+        "definition": "the handwear used by fielders in playing baseball"
+    },
+    "36": {
+        "name": "skateboard",
+        "synset": "skateboard.n.01",
+        "definition": "a board with wheels that is ridden in a standing or crouching position and propelled by foot"
+    },
+    "37": {
+        "name": "surfboard",
+        "synset": "surfboard.n.01",
+        "definition": "a narrow buoyant board for riding surf"
+    },
+    "38": {
+        "name": "tennis racket",
+        "synset": "tennis_racket.n.01",
+        "definition": "a racket used to play tennis"
+    },
+    "39": {
+        "name": "bottle",
+        "synset": "bottle.n.01",
+        "definition": "a glass or plastic vessel used for storing drinks or other liquids; typically cylindrical without handles and with a narrow neck that can be plugged or capped"
+    },
+    "40": {
+        "name": "wine glass",
+        "synset": "wineglass.n.01",
+        "definition": "a glass that has a stem and in which wine is served"
+    },
+    "41": {
+        "name": "cup",
+        "synset": "cup.n.01",
+        "definition": "a small open container usually used for drinking; usually has a handle"
+    },
+    "42": {
+        "name": "fork",
+        "synset": "fork.n.01",
+        "definition": "cutlery used for serving and eating food"
+    },
+    "43": {
+        "name": "knife",
+        "synset": "knife.n.01",
+        "definition": "edge tool used as a cutting instrument; has a pointed blade with a sharp edge and a handle"
+    },
+    "44": {
+        "name": "spoon",
+        "synset": "spoon.n.01",
+        "definition": "a piece of cutlery with a shallow bowl-shaped container and a handle; used to stir or serve or take up food"
+    },
+    "45": {
+        "name": "bowl",
+        "synset": "bowl.n.01",
+        "definition": "a round vessel that is open at the top; used chiefly for holding food or liquids"
+    },
+    "46": {
+        "name": "banana",
+        "synset": "banana.n.01",
+        "definition": "any of several tropical and subtropical treelike herbs of the genus Musa having a terminal crown of large entire leaves and usually bearing hanging clusters of elongated fruits"
+    },
+    "47": {
+        "name": "apple",
+        "synset": "apple.n.01",
+        "definition": "fruit with red or yellow or green skin and sweet to tart crisp whitish flesh"
+    },
+    "48": {
+        "name": "sandwich",
+        "synset": "sandwich.n.01",
+        "definition": "two (or more) slices of bread with a filling between them"
+    },
+    "49": {
+        "name": "orange",
+        "synset": "orange.n.01",
+        "definition": "round yellow to orange fruit of any of several citrus trees"
+    },
+    "50": {
+        "name": "broccoli",
+        "synset": "broccoli.n.01",
+        "definition": "plant with dense clusters of tight green flower buds"
+    },
+    "51": {
+        "name": "carrot",
+        "synset": "carrot.n.01",
+        "definition": "deep orange edible root of the cultivated carrot plant"
+    },
+    "52": {
+        "name": "hot dog",
+        "synset": "hotdog.n.02",
+        "definition": "a frankfurter served hot on a bun"
+    },
+    "53": {
+        "name": "pizza",
+        "synset": "pizza.n.01",
+        "definition": "Italian open pie made of thin bread dough spread with a spiced mixture of e.g. tomato sauce and cheese"
+    },
+    "54": {
+        "name": "donut",
+        "synset": "donut.n.01",
+        "definition": "a small ring-shaped friedcake"
+    },
+    "55": {
+        "name": "cake",
+        "synset": "cake.n.03",
+        "definition": "baked goods made from or based on a mixture of flour, sugar, eggs, and fat"
+    },
+    "56": {
+        "name": "chair",
+        "synset": "chair.n.01",
+        "definition": "a seat for one person, with a support for the back"
+    },
+    "57": {
+        "name": "couch",
+        "synset": "couch.n.01",
+        "definition": "an upholstered seat for more than one person"
+    },
+    "58": {
+        "name": "potted plant",
+        "synset": "pot_plant.n.01",
+        "definition": "a plant suitable for growing in a flowerpot (especially indoors)"
+    },
+    "59": {
+        "name": "bed",
+        "synset": "bed.n.01",
+        "definition": "a piece of furniture that provides a place to sleep"
+    },
+    "60": {
+        "name": "dining table",
+        "synset": "dining_table.n.01",
+        "definition": "a table at which meals are served"
+    },
+    "61": {
+        "name": "toilet",
+        "synset": "toilet.n.02",
+        "definition": "a plumbing fixture for defecation and urination"
+    },
+    "62": {
+        "name": "TV",
+        "synset": "television_receiver.n.01",
+        "definition": "an electronic device that receives television signals and displays them on a screen"
+    },
+    "63": {
+        "name": "laptop",
+        "synset": "laptop.n.01",
+        "definition": "a portable computer small enough to use in your lap"
+    },
+    "64": {
+        "name": "mouse",
+        "synset": "mouse.n.04",
+        "definition": "a hand-operated electronic device that controls the coordinates of a cursor on your computer screen as you move it around on a pad; on the bottom of the device is a ball that rolls on the surface of the pad"
+    },
+    "65": {
+        "name": "remote",
+        "synset": "remote.n.01",
+        "definition": "a device that can be used to control a machine or apparatus from a distance"
+    },
+    "66": {
+        "name": "keyboard",
+        "synset": "keyboard.n.01",
+        "definition": "device consisting of a set of keys on a piano or organ or typewriter or typesetting machine or computer or the like"
+    },
+    "67": {
+        "name": "cell phone",
+        "synset": "radiotelephone.n.01",
+        "definition": "telephony that uses transmission by radio rather than by wire"
+    },
+    "68": {
+        "name": "microwave",
+        "synset": "microwave.n.02",
+        "definition": "kitchen appliance that cooks food by passing an electromagnetic wave through it; heat results from the absorption of energy by the water molecules in the food"
+    },
+    "69": {
+        "name": "oven",
+        "synset": "oven.n.01",
+        "definition": "kitchen appliance used for baking or roasting"
+    },
+    "70": {
+        "name": "toaster",
+        "synset": "toaster.n.02",
+        "definition": "a kitchen appliance (usually electric) for toasting bread"
+    },
+    "71": {
+        "name": "sink",
+        "synset": "sink.n.01",
+        "definition": "plumbing fixture consisting of a water basin fixed to a wall or floor and having a drainpipe"
+    },
+    "72": {
+        "name": "refrigerator",
+        "synset": "refrigerator.n.01",
+        "definition": "white goods in which food can be stored at low temperatures"
+    },
+    "73": {
+        "name": "book",
+        "synset": "book.n.01",
+        "definition": "a written work or composition that has been published (printed on pages bound together)"
+    },
+    "74": {
+        "name": "clock",
+        "synset": "clock.n.01",
+        "definition": "a timepiece that shows the time of day"
+    },
+    "75": {
+        "name": "vase",
+        "synset": "vase.n.01",
+        "definition": "an open jar of glass or porcelain used as an ornament or to hold flowers"
+    },
+    "76": {
+        "name": "scissors",
+        "synset": "scissors.n.01",
+        "definition": "an edge tool having two crossed pivoting blades"
+    },
+    "77": {
+        "name": "teddy bear",
+        "synset": "teddy_bear.n.01",
+        "definition": "plaything consisting of a child's toy bear (usually plush and stuffed with soft materials)"
+    },
+    "78": {
+        "name": "hair drier",
+        "synset": "hair_dryer.n.01",
+        "definition": "a hand-held electric blower that can blow warm air onto the hair; used for styling hair"
+    },
+    "79": {
+        "name": "toothbrush",
+        "synset": "toothbrush.n.01",
+        "definition": "small brush; has long handle; used to clean teeth"
+    }
+}

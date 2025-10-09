@@ -1,0 +1,46 @@
+categorical:
+  - colour
+  - shape
+  - location
+  - texture
+  - material
+  - scenario
+  - pattern
+  - context
+  - disposition
+  - function
+
+measurable:
+  size:
+    quality_dimensions:
+      - length
+      - width
+      - height
+    units:
+      - meters
+      - centimeters
+      - millimeters
+      - inches
+      - feet  
+  weight:
+    quality_dimensions:
+      - weight
+    units:
+      - kilograms
+      - grams
+      - pounds
+      - ounces
+  temperature:
+    quality_dimensions:
+      - temperature
+    units:
+      - celsius
+      - fahrenheit
+      - kelvin
+  value:
+    quality_dimensions:
+      - monetary_value
+    units:
+      - US dollars
+      - euros
+      - pounds

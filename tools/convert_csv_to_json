@@ -1,0 +1,57 @@
+import pandas as pd, json, logging, chardet
+from pathlib import Path
+
+# --- Setup logging ---
+logging.basicConfig(level=logging.INFO, format="%(levelname)s | %(message)s")
+
+# --- Define paths ---
+INPUT_FOLDER = Path(__file__).parent.parent / "inputs" / "emotions"
+csv_path = INPUT_FOLDER / "emotions_fixed.csv"
+output_path = INPUT_FOLDER / "emotions.json"
+logging.info(f"Loading CSV from {csv_path}")
+
+# --- Detect encoding (handles LibreOffice quirks) ---
+with open(csv_path, "rb") as f: enc = chardet.detect(f.read())["encoding"] or "utf-8"
+logging.info(f"Detected encoding: {enc}")
+
+# --- Try multiple delimiters automatically ---
+for sep in ["\t", ";", ","]:
+    try:
+        df = pd.read_csv(csv_path, sep=sep, encoding=enc, dtype=str).fillna("-")
+        df.columns = [c.strip().replace("\ufeff", "") for c in df.columns]
+        if "Emotion" in df.columns:
+            logging.info(f"Detected delimiter: {repr(sep)}")
+            break
+    except Exception as e:
+        logging.warning(f"Failed reading with {repr(sep)}: {e}")
+else:
+    raise ValueError("Could not detect valid CSV separator or 'Emotion' column")
+
+logging.info(f"Loaded {len(df)} rows | Columns: {list(df.columns)}")
+
+# --- Convert rows to target dict ---
+out = {}
+for i, (_, row) in enumerate(df.iterrows()):
+    name = row.get("Emotion", "").strip()
+    synset = str(row.get("SentiWordNetID", "")).zfill(8)
+    defs = {
+        "SentiWordNet": row.get("Definition_SentiWordNet", "-").strip(),
+        "APA": row.get("Definition_APA_Dictionary", "-").strip(),
+        "Cambridge": row.get("Definition_Cambridge_Dictionary", "-").strip()
+    }
+    sources = {
+        "APA": row.get("Definition_Source_APA_Dictionary", "-").strip(),
+        "Cambridge": row.get("Definition_Source_Cambridge_Dictionary", "-").strip()
+    }
+    out[str(i)] = {
+        "name": name,
+        "synset": synset,
+        "definitions": defs,
+        "sources": sources
+    }
+    logging.info(f"Processed {name or 'UNKNOWN'} ({synset})")
+
+# --- Export JSON ---
+with open(output_path, "w", encoding="utf-8") as f:
+    json.dump(out, f, indent=4, ensure_ascii=False)
+logging.info(f"Saved {len(out)} entries to {output_path}")

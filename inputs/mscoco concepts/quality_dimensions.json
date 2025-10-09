@@ -1,0 +1,89 @@
+{
+    "domains": [
+      {
+        "domain": "size",
+        "quality_dimensions": [
+          "length",
+          "width", 
+          "height"
+        ],
+        "measured_in": [
+          "centimeters",
+          "inches"
+        ]
+      },
+      {
+        "domain": "material",
+        "quality_dimensions": [
+          "material_name"
+        ]
+      },
+      {
+        "domain": "value",
+        "quality_dimensions": [
+          "monetary_worth"
+        ],
+        "measured_in": [
+          "dollars",
+          "euros"
+        ]
+      },
+      {
+        "domain": "speed",
+        "quality_dimensions": [
+          "speed"
+        ],
+        "measured_in": [
+          "meters_per_second",
+          "kilometers_per_hour",
+          "miles_per_hour"
+        ]
+      },
+      {
+        "domain": "colour_hsv",
+        "quality_dimensions": [
+          "hue",
+          "saturation",
+          "brightness"
+        ],
+        "measured_in": [
+          "hex_codes"
+        ]
+      },
+      {
+        "domain": "colour",
+        "quality_dimensions": [
+          "colour"
+        ]
+      },
+      {
+        "domain": "texture",
+        "quality_dimensions": [
+          "roughness"
+        ]
+      },
+      {
+        "domain": "temperature",
+        "quality_dimensions": [
+          "heat_level"
+        ],
+        "measured_in": [
+          "celsius",
+          "fahrenheit",
+          "kelvin"
+        ]
+      },
+      {
+        "domain": "weight",
+        "quality_dimensions": [
+          "mass"
+        ],
+        "measured_in": [
+          "grams",
+          "kilograms",
+          "pounds",
+          "ounces"
+        ]
+      }
+    ]
+  }

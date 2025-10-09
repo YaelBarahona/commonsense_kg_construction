@@ -1,0 +1,418 @@
+{
+    "0": {
+        "name": "Interest",
+        "synset": "02678663",
+        "definitions": {
+            "SentiWordNet": "be of importance or consequence; \\\"This matters to me!\\\"\\n",
+            "APA": "attitude characterized by a need or desire to give selective attention to something that is significant to the individual, such as an activity, goal, or research area.",
+            "Cambridge": "the feeling of wanting to give your attention to something or of wanting to be involved with and to discover more about something"
+        },
+        "sources": {
+            "APA": "-",
+            "Cambridge": "https://dictionary.cambridge.org/dictionary/english/interest"
+        }
+    },
+    "1": {
+        "name": "Serenity",
+        "synset": "04904352",
+        "definitions": {
+            "SentiWordNet": "a disposition free from stress or emotion\\n",
+            "APA": "-",
+            "Cambridge": "the quality of being peaceful and calm"
+        },
+        "sources": {
+            "APA": "-",
+            "Cambridge": "https://dictionary.cambridge.org/dictionary/english/serenity"
+        }
+    },
+    "2": {
+        "name": "Acceptance",
+        "synset": "04638175",
+        "definitions": {
+            "SentiWordNet": "a disposition to tolerate or accept people or situations; \\\"all people should practice toleration and live together in peace\\\"\\n",
+            "APA": "a favorable attitude toward an idea, situation, person, or group. In the context of psychotherapy and counseling, it is the receptive, nonjudgmental attitude of therapists or counselors, which conveys an implicit respect and regard for their clients as individuals.",
+            "Cambridge": "general agreement that something is satisfactory or right, or that someone should be included in a group"
+        },
+        "sources": {
+            "APA": "-",
+            "Cambridge": "-"
+        }
+    },
+    "3": {
+        "name": "Anticipation",
+        "synset": "14486122",
+        "definitions": {
+            "SentiWordNet": "anticipating with confidence of fulfillment\\n",
+            "APA": "looking forward to a future event or state, sometimes with an affective component (e.g., pleasure, anxiety)",
+            "Cambridge": "a feeling of excitement about something that is going to happen in the near future"
+        },
+        "sources": {
+            "APA": "-",
+            "Cambridge": "https://dictionary.cambridge.org/dictionary/english/anticipation"
+        }
+    },
+    "4": {
+        "name": "Optimism",
+        "synset": "07541558",
+        "definitions": {
+            "SentiWordNet": "the optimistic feeling that all is going to turn out well\\n",
+            "APA": "hopefulness: the attitude that good things will happen and that peopleâ€™s wishes or aims will ultimately be fulfilled",
+            "Cambridge": "the quality of being full of hope and emphasizing the good parts of a situation, or a belief that something good will happen"
+        },
+        "sources": {
+            "APA": "https://dictionary.apa.org/optimism",
+            "Cambridge": "https://dictionary.cambridge.org/dictionary/english/optimism"
+        }
+    },
+    "5": {
+        "name": "Joy",
+        "synset": "01813884",
+        "definitions": {
+            "SentiWordNet": "feel happiness or joy",
+            "APA": "a feeling of extreme gladness, delight, or exultation of the spirit arising from a sense of well-being or satisfaction.",
+            "Cambridge": "great happiness"
+        },
+        "sources": {
+            "APA": "https://dictionary.apa.org/joy",
+            "Cambridge": "https://dictionary.cambridge.org/dictionary/english/joy"
+        }
+    },
+    "6": {
+        "name": "Love",
+        "synset": "01775164",
+        "definitions": {
+            "SentiWordNet": "have a great affection or liking for; \\\"I love French food\\\"; \\\"She loves her boss and works hard for him\\\"",
+            "APA": "a complex emotion involving strong feelings of affection and tenderness for the love object, pleasurable sensations in their presence, devotion to their well-being, and sensitivity to their reactions to oneself.",
+            "Cambridge": "to like something very much"
+        },
+        "sources": {
+            "APA": "https://dictionary.apa.org/love",
+            "Cambridge": "https://dictionary.cambridge.org/dictionary/english/love"
+        }
+    },
+    "7": {
+        "name": "Trust",
+        "synset": "00688377",
+        "definitions": {
+            "SentiWordNet": "have confidence or faith in; \\\"We can trust in God\\\"; \\\"Rely on your friends\\\"; \\\"bank on your good education\\\"; \\\"I swear by my grandmother's recipes\\\"",
+            "APA": "reliance on or confidence in the dependability of someone or something",
+            "Cambridge": "to believe that someone is good and honest and will not harm you, or that something is safe and reliable"
+        },
+        "sources": {
+            "APA": "https://dictionary.apa.org/trust",
+            "Cambridge": "https://dictionary.cambridge.org/dictionary/english/trust"
+        }
+    },
+    "8": {
+        "name": "Aggressiveness",
+        "synset": "01244846",
+        "definitions": {
+            "SentiWordNet": "characteristic of an enemy or one eager to fight; \\\"aggressive acts against another country\\\"; \\\"a belligerent tone\\\"",
+            "APA": "a tendency toward social dominance, threatening behavior, and hostility. It may occur sporadically or be a characteristic trait of an individual",
+            "Cambridge": "the quality of being likely to attack other people or animals, or to behave in a violent or angry way towards them"
+        },
+        "sources": {
+            "APA": "https://dictionary.apa.org/aggressiveness",
+            "Cambridge": "https://dictionary.cambridge.org/dictionary/english/aggressiveness"
+        }
+    },
+    "9": {
+        "name": "Vigilance",
+        "synset": "04664778",
+        "definitions": {
+            "SentiWordNet": "vigilant attentiveness; \\\"he keeps a weather eye open for trouble\\\"\"",
+            "APA": "a state of extreme awareness and watchfulness directed by one or more members of a group toward the environment, often toward potential threats (e.g., predators, intruders, enemy forces in combat).",
+            "Cambridge": "more careful attention, especially in order to notice possible danger"
+        },
+        "sources": {
+            "APA": "https://dictionary.apa.org/vigilance",
+            "Cambridge": "https://dictionary.cambridge.org/dictionary/english/vigilance"
+        }
+    },
+    "10": {
+        "name": "Ecstasy",
+        "synset": "13986372",
+        "definitions": {
+            "SentiWordNet": "a state of being carried away by overwhelming emotion; \\\"listening to sweet music in a perfect rapture\\\"- Charles Dickens\"",
+            "APA": "a feeling of intense pleasure and elation, including that experienced in some mystical states, during orgasm, with aesthetic reveries, and in drug-induced states.",
+            "Cambridge": "a state of extreme happiness, especially when feeling pleasure"
+        },
+        "sources": {
+            "APA": "https://dictionary.apa.org/ecstasy",
+            "Cambridge": "https://dictionary.cambridge.org/dictionary/english/ecstasy"
+        }
+    },
+    "11": {
+        "name": "Admiration",
+        "synset": "07500741",
+        "definitions": {
+            "SentiWordNet": "a feeling of delighted approval and liking",
+            "APA": "-",
+            "Cambridge": "the feeling of admiring someone or something"
+        },
+        "sources": {
+            "APA": "-",
+            "Cambridge": "https://dictionary.cambridge.org/dictionary/english/admiration"
+        }
+    },
+    "12": {
+        "name": "Submission",
+        "synset": "07509325",
+        "definitions": {
+            "SentiWordNet": "the feeling of patient, submissive humbleness",
+            "APA": "compliance with or surrender to the requests, demands, or will of others.",
+            "Cambridge": "a willingness to allow control by other people or animals, or behaviour that shows this"
+        },
+        "sources": {
+            "APA": "https://dictionary.apa.org/submission",
+            "Cambridge": "https://dictionary.cambridge.org/dictionary/english/submissiveness"
+        }
+    },
+    "13": {
+        "name": "Annoyance",
+        "synset": "07518261",
+        "definitions": {
+            "SentiWordNet": "anger produced by some annoying irritation",
+            "APA": "-",
+            "Cambridge": "the feeling or state of being annoyed"
+        },
+        "sources": {
+            "APA": "-",
+            "Cambridge": "https://dictionary.cambridge.org/dictionary/english/annoyance"
+        }
+    },
+    "14": {
+        "name": "Anger",
+        "synset": "14036539",
+        "definitions": {
+            "SentiWordNet": "the state of being angry",
+            "APA": "an emotion characterized by tension and hostility arising from frustration, real or imagined injury by another, or perceived injustice. It can manifest itself in behaviors designed to remove the object of the anger (e.g., determined action) or behaviors designed merely to express the emotion (e.g., swearing).",
+            "Cambridge": "a strong feeling that makes you want to hurt someone or be unpleasant because of something unfair or unkind that has happened"
+        },
+        "sources": {
+            "APA": "https://dictionary.apa.org/anger",
+            "Cambridge": "https://dictionary.cambridge.org/dictionary/english/anger"
+        }
+    },
+    "15": {
+        "name": "Rage",
+        "synset": "07516997",
+        "definitions": {
+            "SentiWordNet": "a feeling of intense anger; \\\"hell hath no fury like a woman scorned\\\"; \\\"his face turned red with rage\\\"",
+            "APA": "intense, typically uncontrolled anger",
+            "Cambridge": "(a period of) extreme or violent anger"
+        },
+        "sources": {
+            "APA": "https://dictionary.apa.org/rage",
+            "Cambridge": "https://dictionary.cambridge.org/dictionary/english/rage"
+        }
+    },
+    "16": {
+        "name": "Terror",
+        "synset": "07520612",
+        "definitions": {
+            "SentiWordNet": "an overwhelming feeling of fear and anxiety",
+            "APA": "intense and overwhelming fear",
+            "Cambridge": "extreme fear"
+        },
+        "sources": {
+            "APA": "https://dictionary.apa.org/terror",
+            "Cambridge": "https://dictionary.cambridge.org/dictionary/english/terror"
+        }
+    },
+    "17": {
+        "name": "Fear",
+        "synset": "07519253",
+        "definitions": {
+            "SentiWordNet": "an emotion experienced in anticipation of some specific pain or danger (usually accompanied by a desire to flee or fight)",
+            "APA": "a basic, intense emotion aroused by the detection of imminent threat, involving an immediate alarm reaction that mobilizes the organism by triggering a set of physiological changes",
+            "Cambridge": "an unpleasant emotion or thought that you have when you are frightened or worried by something dangerous, painful, or bad that is happening or might happen"
+        },
+        "sources": {
+            "APA": "https://dictionary.apa.org/fear",
+            "Cambridge": "https://dictionary.cambridge.org/dictionary/english/fear"
+        }
+    },
+    "18": {
+        "name": "Apprehension",
+        "synset": "07521674",
+        "definitions": {
+            "SentiWordNet": "fearful expectation or anticipation; \\\"the student looked around the examination room with apprehension\\\"",
+            "APA": "uneasiness or dread about an upcoming event or the future generally",
+            "Cambridge": "worry about the future, or a fear that something unpleasant is going to happen"
+        },
+        "sources": {
+            "APA": "https://dictionary.apa.org/apprehension",
+            "Cambridge": "https://dictionary.cambridge.org/dictionary/english/apprehension"
+        }
+    },
+    "19": {
+        "name": "Contempt",
+        "synset": "07502980",
+        "definitions": {
+            "SentiWordNet": "lack of respect accompanied by a feeling of intense dislike; \\\"he was held in contempt\\\"; \\\"the despite in which outsiders were held is legendary\\\"",
+            "APA": "an emotion characterized by negative regard for anything or anybody considered to be inferior, vile, or worthless",
+            "Cambridge": "a strong feeling of disliking and having no respect for someone or something"
+        },
+        "sources": {
+            "APA": "https://dictionary.apa.org/contempt",
+            "Cambridge": "https://dictionary.cambridge.org/dictionary/english/contempt"
+        }
+    },
+    "20": {
+        "name": "Loathing",
+        "synset": "07503430",
+        "definitions": {
+            "SentiWordNet": "hate coupled with disgust",
+            "APA": "-",
+            "Cambridge": "a strong feeling of hating someone or something"
+        },
+        "sources": {
+            "APA": "-",
+            "Cambridge": "https://dictionary.cambridge.org/dictionary/english/loathing"
+        }
+    },
+    "21": {
+        "name": "Grief",
+        "synset": "07535010",
+        "definitions": {
+            "SentiWordNet": "intense sorrow caused by loss of a loved one (especially by death)",
+            "APA": "the anguish experienced after significant loss, usually the death of a beloved person.",
+            "Cambridge": "very great sadness, especially at the death of someone"
+        },
+        "sources": {
+            "APA": "https://dictionary.apa.org/grief",
+            "Cambridge": "https://dictionary.cambridge.org/dictionary/english/grief"
+        }
+    },
+    "22": {
+        "name": "Amazement",
+        "synset": "07509572",
+        "definitions": {
+            "SentiWordNet": "the feeling that accompanies something extremely surprising; \\\"he looked at me in astonishment\\\"",
+            "APA": "-",
+            "Cambridge": "extreme surprise"
+        },
+        "sources": {
+            "APA": "-",
+            "Cambridge": "https://dictionary.cambridge.org/dictionary/english/amazement"
+        }
+    },
+    "23": {
+        "name": "Awe",
+        "synset": "07510184",
+        "definitions": {
+            "SentiWordNet": "an overwhelming feeling of wonder or admiration; \\\"he stared over the edge with a feeling of awe\\\"",
+            "APA": "the experience of admiration and elevation in response to physical beauty, displays of exceptional ability, or moral goodness.",
+            "Cambridge": "a feeling of great respect sometimes mixed with fear or surprise"
+        },
+        "sources": {
+            "APA": "https://dictionary.apa.org/awe",
+            "Cambridge": "https://dictionary.cambridge.org/dictionary/english/awe"
+        }
+    },
+    "24": {
+        "name": "Disgust",
+        "synset": "07503260",
+        "definitions": {
+            "SentiWordNet": "strong feelings of dislike",
+            "APA": "a strong aversion, for example, to the taste, smell, or touch of something deemed revolting, or toward a person or behavior deemed morally repugnant",
+            "Cambridge": "a strong feeling of disapproval and dislike at a situation, person's behaviour, etc."
+        },
+        "sources": {
+            "APA": "https://dictionary.apa.org/disgust",
+            "Cambridge": "https://dictionary.cambridge.org/dictionary/english/disgust"
+        }
+    },
+    "25": {
+        "name": "Remorse",
+        "synset": "07536074",
+        "definitions": {
+            "SentiWordNet": "a feeling of deep regret (usually for some misdeed)",
+            "APA": "a strong sense of guilt and regret for a past action",
+            "Cambridge": "a feeling of sadness and being sorry for something you have done"
+        },
+        "sources": {
+            "APA": "https://dictionary.apa.org/remorse",
+            "Cambridge": "https://dictionary.cambridge.org/dictionary/english/remorse"
+        }
+    },
+    "26": {
+        "name": "Sadness",
+        "synset": "07532440",
+        "definitions": {
+            "SentiWordNet": "emotions experienced when not in a state of well-being",
+            "APA": "an emotional state of unhappiness, ranging in intensity from mild to extreme and usually aroused by the loss of something that is highly valued (e.g., by the rupture of a relationship).",
+            "Cambridge": "the feeling of being unhappy, especially because something bad has happened"
+        },
+        "sources": {
+            "APA": "https://dictionary.apa.org/sadness",
+            "Cambridge": "https://dictionary.cambridge.org/dictionary/english/sadness"
+        }
+    },
+    "27": {
+        "name": "Disappointment",
+        "synset": "07540602",
+        "definitions": {
+            "SentiWordNet": "a feeling of dissatisfaction that results when your expectations are not realized; \\\"his hopes were so high he was doomed to disappointment\\\"",
+            "APA": "-",
+            "Cambridge": "the feeling of being disappointed"
+        },
+        "sources": {
+            "APA": "-",
+            "Cambridge": "https://dictionary.cambridge.org/dictionary/english/disappointment"
+        }
+    },
+    "28": {
+        "name": "Surprise",
+        "synset": "07510348",
+        "definitions": {
+            "SentiWordNet": "the astonishment you feel when something totally unexpected happens to you",
+            "APA": "an emotion typically resulting from the violation of an expectation or the detection of novelty in the environment.",
+            "Cambridge": "the feeling caused by something unexpected happening"
+        },
+        "sources": {
+            "APA": "https://dictionary.apa.org/surprise",
+            "Cambridge": "https://dictionary.cambridge.org/dictionary/english/surprise"
+        }
+    },
+    "29": {
+        "name": "Boredom",
+        "synset": "07539790",
+        "definitions": {
+            "SentiWordNet": "the feeling of being bored by something tedious",
+            "APA": "a state of weariness or ennui resulting from a lack of engagement with stimuli in the environment.",
+            "Cambridge": "the state of being bored"
+        },
+        "sources": {
+            "APA": "https://dictionary.apa.org/boredom",
+            "Cambridge": "https://dictionary.cambridge.org/dictionary/english/boredom"
+        }
+    },
+    "30": {
+        "name": "Pensiveness",
+        "synset": "04660805",
+        "definitions": {
+            "SentiWordNet": "deep serious thoughtfulness",
+            "APA": "-",
+            "Cambridge": "thinking in a quiet way, often with a serious expression on your face"
+        },
+        "sources": {
+            "APA": "-",
+            "Cambridge": "https://dictionary.cambridge.org/dictionary/english/pensive"
+        }
+    },
+    "31": {
+        "name": "Distraction",
+        "synset": "05684440",
+        "definitions": {
+            "SentiWordNet": "mental turmoil; \\\"he drives me to distraction\\\"",
+            "APA": "difficulty in maintaining attention or a tendency to be easily diverted from the matter at hand",
+            "Cambridge": "the state of being very bored or annoyed"
+        },
+        "sources": {
+            "APA": "dictionary.apa.org/distractibility",
+            "Cambridge": "https://dictionary.cambridge.org/dictionary/english/distraction"
+        }
+    }
+}
