@@ -21,15 +21,10 @@ groq:
   #   model_path: mistral-saba-24b
   # - name: llama3_70b_8192
   #   model_path: llama3-70b-8192
-<<<<<<< Updated upstream
-  - name: metallama4maverick_17b_instruct
-    model_path: meta-llama/llama-4-maverick-17b-128e-instruct
-=======
   # - name: metallama4maverick_17b_instruct
   #   model_path: meta-llama/llama-4-maverick-17b-128e-instruct
   - name: meta-llama-llama-4-scout-17b-16e-instruct
     model_path: meta-llama/llama-4-scout-17b-16e-instruct
->>>>>>> Stashed changes
   - name: openai-gpt-oss-120b
     model_path: openai/gpt-oss-120b
 

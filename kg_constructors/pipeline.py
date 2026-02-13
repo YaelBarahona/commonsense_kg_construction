@@ -13,13 +13,14 @@ from pathlib import Path
 class ConstructionPipeline:
     """A class to handle the construction pipeline for concepts and properties."""
 
-    def __init__(self, concept, prompt_template_name, property=None ,model_name=None, model_path=None, ontology_path=None, **kwargs):
+    def __init__(self, concept, prompt_template_name, property=None ,model_name=None, model_path=None, ontology_path=None, api_key=None, **kwargs):
         self.concept = concept
         self.property = property
         self.prompt_template_name = prompt_template_name
         self.model_name = model_name
         self.model_path = model_path
         self.ontology_path = ontology_path
+        self.api_key = api_key
         self.kwargs = kwargs
         self.logger = setup_logger(level="DEBUG")
         self.logger.info(f"Initialized ConstructionPipeline for concept: {self.concept}, model: {self.model_name}")
@@ -37,15 +38,17 @@ class ConstructionPipeline:
     def load_model(self, model_name, model_path):
         models = load_model_config()
         for types, model_names in models.items():
+            if model_names is None: continue
             for model in model_names:
                 if model["name"] == model_name:
                     model_path = model["model_path"]
                     if types == "local":
                         return LocalClient(model_path=model_path, **self.kwargs)
                     elif types == "groq":
-                        return GroqClient(model_path=model_path, **self.kwargs)
+                         # Pass api_key if available
+                        return GroqClient(api_key=self.api_key, model_name=model_path, **self.kwargs)
                     elif types == "nebula":
-                        return NebulaClient(model_path=model_path, **self.kwargs)
+                        return NebulaClient(api_key=self.api_key, model_name=model_name, model_path=model_path)
         raise ValueError(f"Model {model_name} not found in configuration.")
 
     def process_output(self, raw_results):
@@ -53,14 +56,26 @@ class ConstructionPipeline:
 
     def update_ontology(self, results):
         # Find concept in ontology
-        property_values = results.get(self.property, None)
-        if not property_values:
-            self.logger.warning(f"Concept mismatch: {self.property} not in {results}")
-            return None
-        self.logger.info(f"\t\t...Updating ontology with concept {self.concept} and property {self.property}: {property_values}")
-        # Find predicate in ontology
-
-        # Add results to ontology
+        # property_values = results.get(self.property, None)
+        # if not property_values:
+        #     self.logger.warning(f"Concept mismatch: {self.property} not in {results}")
+        #     return None
+        
+        self.logger.info(f"\t\t...Updating ontology with results: {results}")
+        
+        import json
+        
+        # Simple JSONL appending for now, as a placeholder for full ontology manipulation
+        output_entry = {
+            "concept": self.concept,
+            "property": self.property,
+            "model": self.model_name,
+            "results": results
+        }
+        
+        with open(self.ontology_path, "a") as f:
+            f.write(json.dumps(output_entry) + "\n")
+            
         return True
 
 
@@ -92,9 +107,3 @@ class ConstructionPipeline:
         self.logger.info(f"\t...Ontology updated with results.")
 
         pass
-
-
-if __name__ == "__main__":
-    pipeline = ConstructionPipeline('apple', 'ranges', property='size', model_name='mistral_7b_instruct', ontology_path='ontology.owl')
-    pipeline.run()
-    print("Knowledge graph construction completed successfully.")
