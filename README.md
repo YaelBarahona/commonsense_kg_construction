@@ -7,7 +7,6 @@ The experiments focus on the 80 object categories from the MS COCO dataset and g
 
 The repository includes scripts for knowledge generation, knowledge base construction, coverage analysis, error analysis, and comparison with existing knowledge sources.
 
-The raw data used for the K-CAP submission is available [here](https://zenodo.org/records/16743477)
 ![High-level overview of the system](docs/cskg-overview.png "Overview")
 
 ## Repository Structure
