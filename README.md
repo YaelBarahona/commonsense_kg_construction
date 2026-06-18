@@ -55,36 +55,41 @@ pip install -r requirements.txt
 ### 3. Prepare Input Data
 
 - Place your concepts and property definitions in the `inputs/` directory.
-- In the paper the files used: `concepts_mscoco.json`, `exp_properties.yaml`.
+- In the paper the files used: `concepts_mscoco.json`, `exp_properties.yaml`,`properties.csv` .
 
-### 4. Run the Knowledge Extraction Pipeline
+### 4. Run the Knowledge Generation Pipeline
 
-You can run the main pipeline using:
-
-```sh
-python kg_constructors/main.py
-```
-
-Or, to run batch experiments (e.g., for MS COCO):
+Knowledge generation for the 80 MS COCO object concepts can be performed using:
 
 ```sh
 python experiments/exp_mscoco.py
 ```
 
-### 5. Analyze Results
+This script queries the configured Large Language Model for each concept-property pair and stores the generated outputs as JSON files.
 
-Processed outputs and analysis scripts are located in the `analysis/` directory. For example, to preprocess and analyze results:
+### 5. Analyse Results
+
+The generated outputs can be validated and processed using:
 
 ```sh
-python analysis/preprocessing.py
 python analysis/main_analysis.py
+python analysis/build_final_kb.py
+python analysis/error_count.py
+python analysis/find_weird_values.py
 ```
 
 ### 6. Visualize Results
 
 Visualization scripts are available in `analysis/visualisations/`.
 
----
+Visualisation scripts are available in the `analysis/` directory.
+
+```sh
+python analysis/property_coverage.py
+python scripts/existing_knowledge.py
+```
+
+Generated figures are stored in the `graphs/` directory.
 
 **Note:**  
 - You may need API keys for LLM providers (e.g., OpenAI, Groq, Nebula). Set these in a `.env` file in the project root.
