@@ -1,0 +1,1406 @@
+{
+  "semantic_groups": [
+    {
+      "semantic_group": "food_activity",
+      "available_objects": [
+        "apple",
+        "backpack",
+        "banana",
+        "bottle",
+        "bowl",
+        "broccoli",
+        "cake",
+        "carrot",
+        "cup",
+        "donut",
+        "handbag",
+        "hot dog",
+        "microwave",
+        "orange",
+        "oven",
+        "pizza",
+        "refrigerator",
+        "sandwich",
+        "suitcase",
+        "vase",
+        "wine glass"
+      ],
+      "available_frames": [
+        "Food",
+        "Cooking_creation",
+        "Attempt_obtain_food_scenario",
+        "Containing",
+        "Arranging"
+      ],
+      "scenarios": [
+        {
+          "name": "Salad Preparation",
+          "relevant_objects": [
+            "bowl",
+            "broccoli",
+            "carrot",
+            "apple"
+          ],
+          "collaborating_frames": [
+            "Cooking_creation",
+            "Containing",
+            "Arranging"
+          ],
+          "subframes": [
+            {
+              "step": 1,
+              "name": "Select Ingredients",
+              "relevant_objects": [
+                "broccoli",
+                "carrot",
+                "apple"
+              ],
+              "collaborating_frames": [
+                "Attempt_obtain_food_scenario"
+              ],
+              "description": "Choosing the necessary food items from storage."
+            },
+            {
+              "step": 2,
+              "name": "Assemble Ingredients",
+              "relevant_objects": [
+                "bowl"
+              ],
+              "collaborating_frames": [
+                "Containing"
+              ],
+              "description": "Placing the selected food items into a bowl."
+            },
+            {
+              "step": 3,
+              "name": "Arrange Ingredients",
+              "relevant_objects": [
+                "broccoli",
+                "carrot",
+                "apple"
+              ],
+              "collaborating_frames": [
+                "Arranging"
+              ],
+              "description": "Organising the food items within the bowl for preparation."
+            },
+            {
+              "step": 4,
+              "name": "Combine Ingredients",
+              "relevant_objects": [
+                "bowl"
+              ],
+              "collaborating_frames": [
+                "Cooking_creation"
+              ],
+              "description": "Mixing the food items together to form the salad."
+            }
+          ]
+        },
+        {
+          "name": "Microwave Meal Preparation",
+          "relevant_objects": [
+            "microwave",
+            "bowl",
+            "sandwich"
+          ],
+          "collaborating_frames": [
+            "Cooking_creation"
+          ],
+          "subframes": [
+            {
+              "step": 1,
+              "name": "Place Food in Microwave",
+              "relevant_objects": [
+                "microwave",
+                "bowl",
+                "sandwich"
+              ],
+              "collaborating_frames": [
+                "Containing"
+              ],
+              "description": "Putting the food item into the microwave appliance."
+            },
+            {
+              "step": 2,
+              "name": "Heat Food",
+              "relevant_objects": [
+                "microwave"
+              ],
+              "collaborating_frames": [
+                "Cooking_creation"
+              ],
+              "description": "Applying heat to prepare the food item using the microwave."
+            },
+            {
+              "step": 3,
+              "name": "Remove Food",
+              "relevant_objects": [
+                "bowl",
+                "sandwich"
+              ],
+              "collaborating_frames": [
+                "Attempt_obtain_food_scenario"
+              ],
+              "description": "Taking the heated food item out of the microwave appliance."
+            }
+          ]
+        },
+        {
+          "name": "Food Storage in Fridge",
+          "relevant_objects": [
+            "refrigerator",
+            "apple",
+            "bottle"
+          ],
+          "collaborating_frames": [
+            "Containing"
+          ],
+          "subframes": [
+            {
+              "step": 1,
+              "name": "Place Items in Fridge",
+              "relevant_objects": [
+                "refrigerator",
+                "apple",
+                "bottle"
+              ],
+              "collaborating_frames": [
+                "Containing"
+              ],
+              "description": "Storing the food and drink items inside the refrigerator."
+            },
+            {
+              "step": 2,
+              "name": "Retrieve Items from Fridge",
+              "relevant_objects": [
+                "refrigerator",
+                "apple",
+                "bottle"
+              ],
+              "collaborating_frames": [
+                "Attempt_obtain_food_scenario"
+              ],
+              "description": "Taking the stored food and drink items out of the refrigerator."
+            }
+          ]
+        },
+        {
+          "name": "Baking in Oven",
+          "relevant_objects": [
+            "oven",
+            "cake",
+            "donut"
+          ],
+          "collaborating_frames": [
+            "Cooking_creation"
+          ],
+          "subframes": [
+            {
+              "step": 1,
+              "name": "Preheat Oven",
+              "relevant_objects": [
+                "oven"
+              ],
+              "collaborating_frames": [
+                "Cooking_creation"
+              ],
+              "description": "Setting the oven to the required temperature for baking."
+            },
+            {
+              "step": 2,
+              "name": "Place Baked Goods in Oven",
+              "relevant_objects": [
+                "oven",
+                "cake",
+                "donut"
+              ],
+              "collaborating_frames": [
+                "Containing"
+              ],
+              "description": "Putting the baked goods into the preheated oven appliance."
+            },
+            {
+              "step": 3,
+              "name": "Bake Food",
+              "relevant_objects": [
+                "oven",
+                "cake",
+                "donut"
+              ],
+              "collaborating_frames": [
+                "Cooking_creation"
+              ],
+              "description": "Allowing the food items to cook inside the oven."
+            },
+            {
+              "step": 4,
+              "name": "Remove Baked Goods",
+              "relevant_objects": [
+                "oven",
+                "cake",
+                "donut"
+              ],
+              "collaborating_frames": [
+                "Attempt_obtain_food_scenario"
+              ],
+              "description": "Taking the cooked food items out of the oven."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semantic_group": "transport_activity",
+      "available_objects": [
+        "airplane",
+        "bicycle",
+        "boat",
+        "bus",
+        "car",
+        "motorcycle",
+        "skateboard",
+        "skis",
+        "surfboard",
+        "train",
+        "truck"
+      ],
+      "available_frames": [
+        "Vehicle",
+        "Use_vehicle",
+        "Transportation_status",
+        "Locative_relation"
+      ],
+      "scenarios": [
+        {
+          "name": "Commuting by Car",
+          "relevant_objects": [
+            "car",
+            "commuter"
+          ],
+          "collaborating_frames": [
+            "Use_vehicle",
+            "Transportation_status"
+          ],
+          "subframes": [
+            {
+              "step": 1,
+              "name": "Use_vehicle (car)",
+              "relevant_objects": [
+                "car"
+              ],
+              "collaborating_frames": [
+                "Transportation_status"
+              ],
+              "description": "The commuter boards the car, ready to travel to work."
+            },
+            {
+              "step": 2,
+              "name": "Checking Transportation Status",
+              "relevant_objects": [
+                "car"
+              ],
+              "collaborating_frames": [
+                "Locative_relation"
+              ],
+              "description": "The driver checks the traffic conditions via the car's navigation system."
+            }
+          ]
+        },
+        {
+          "name": "Long-Distance Travel",
+          "relevant_objects": [
+            "airplane",
+            "train"
+          ],
+          "collaborating_frames": [
+            "Vehicle",
+            "Use_vehicle"
+          ],
+          "subframes": [
+            {
+              "step": 1,
+              "name": "Use_vehicle (airplane)",
+              "relevant_objects": [
+                "airplane"
+              ],
+              "collaborating_frames": [
+                "Transportation_status"
+              ],
+              "description": "The passenger boards the airplane for a flight to another city."
+            },
+            {
+              "step": 2,
+              "name": "Use_vehicle (train)",
+              "relevant_objects": [
+                "train"
+              ],
+              "collaborating_frames": [
+                "Locative_relation"
+              ],
+              "description": "The passenger arrives at the destination station by train."
+            }
+          ]
+        },
+        {
+          "name": "Recreational Transport",
+          "relevant_objects": [
+            "skateboard",
+            "bicycle"
+          ],
+          "collaborating_frames": [
+            "Use_vehicle",
+            "Locative_relation"
+          ],
+          "subframes": [
+            {
+              "step": 1,
+              "name": "Use_vehicle (skateboard)",
+              "relevant_objects": [
+                "skateboard"
+              ],
+              "collaborating_frames": [
+                "Transportation_status"
+              ],
+              "description": "The teenager uses a skateboard to travel along the pavement."
+            },
+            {
+              "step": 2,
+              "name": "Use_vehicle (bicycle)",
+              "relevant_objects": [
+                "bicycle"
+              ],
+              "collaborating_frames": [
+                "Locative_relation"
+              ],
+              "description": "The cyclist navigates the route on their bicycle, heading towards a park."
+            }
+          ]
+        },
+        {
+          "name": "Public Transport Journey",
+          "relevant_objects": [
+            "bus",
+            "train"
+          ],
+          "collaborating_frames": [
+            "Transportation_status",
+            "Locative_relation"
+          ],
+          "subframes": [
+            {
+              "step": 1,
+              "name": "Checking Transportation Status",
+              "relevant_objects": [
+                "bus"
+              ],
+              "collaborating_frames": [
+                "Transportation_status"
+              ],
+              "description": "The passenger checks the bus arrival time at the bus stop."
+            },
+            {
+              "step": 2,
+              "name": "Use_vehicle (train)",
+              "relevant_objects": [
+                "train"
+              ],
+              "collaborating_frames": [
+                "Locative_relation"
+              ],
+              "description": "The passenger boards the train at the station to continue their journey."
+            }
+          ]
+        },
+        {
+          "name": "Checking Transportation Status",
+          "relevant_objects": [
+            "bus_stop",
+            "train_station"
+          ],
+          "collaborating_frames": [
+            "Transportation_status",
+            "Locative_relation"
+          ],
+          "subframes": [
+            {
+              "step": 1,
+              "name": "Checking Transportation Status",
+              "relevant_objects": [],
+              "collaborating_frames": [
+                "Transportation_status"
+              ],
+              "description": "A person checks the bus schedule at the bus stop."
+            },
+            {
+              "step": 2,
+              "name": "Locative_relation (train_station)",
+              "relevant_objects": [],
+              "collaborating_frames": [
+                "Transportation_status"
+              ],
+              "description": "The individual observes the queue at the train station waiting for departure."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semantic_group": "animal_interaction",
+      "available_objects": [
+        "TV",
+        "airplane",
+        "backpack",
+        "baseball bat",
+        "baseball glove",
+        "bear",
+        "bed",
+        "bench",
+        "bird",
+        "boat",
+        "book",
+        "bottle",
+        "bowl",
+        "cat",
+        "cell phone",
+        "chair",
+        "clock",
+        "couch",
+        "cow",
+        "dining table",
+        "dog",
+        "elephant",
+        "fire hydrant",
+        "fork",
+        "frisbee",
+        "giraffe",
+        "hair drier",
+        "handbag",
+        "horse",
+        "keyboard",
+        "kite",
+        "laptop",
+        "microwave",
+        "mouse",
+        "oven",
+        "parking meter",
+        "person",
+        "refrigerator",
+        "remote",
+        "scissors",
+        "sheep",
+        "sink",
+        "skateboard",
+        "skis",
+        "snowboard",
+        "spoon",
+        "sports ball",
+        "stop sign",
+        "suitcase",
+        "surfboard",
+        "teddy bear",
+        "tennis racket",
+        "tie",
+        "toaster",
+        "toilet",
+        "toothbrush",
+        "traffic light",
+        "train",
+        "truck",
+        "umbrella",
+        "vase",
+        "wine glass",
+        "zebra"
+      ],
+      "available_frames": [
+        "Animals",
+        "Locative_relation",
+        "Function"
+      ],
+      "scenarios": [
+        {
+          "name": "Wildlife Observation",
+          "relevant_objects": [
+            "bird",
+            "window"
+          ],
+          "collaborating_frames": [
+            "Locative_relation",
+            "Function"
+          ],
+          "subframes": [
+            {
+              "step": 1,
+              "name": "Perception",
+              "relevant_objects": [
+                "bird"
+              ],
+              "collaborating_frames": [
+                "Animals",
+                "Locative_relation"
+              ],
+              "description": "The bird outside the window perceives the light coming through the glass."
+            },
+            {
+              "step": 2,
+              "name": "Interaction",
+              "relevant_objects": [
+                "bird"
+              ],
+              "collaborating_frames": [
+                "Animals",
+                "Locative_relation"
+              ],
+              "description": "The bird interacts with the glass surface of the window."
+            }
+          ]
+        },
+        {
+          "name": "Pet Play",
+          "relevant_objects": [
+            "cat",
+            "laser pointer",
+            "couch"
+          ],
+          "collaborating_frames": [
+            "Animals",
+            "Function"
+          ],
+          "subframes": [
+            {
+              "step": 1,
+              "name": "Initiation",
+              "relevant_objects": [
+                "cat"
+              ],
+              "collaborating_frames": [
+                "Animals",
+                "Function"
+              ],
+              "description": "The cat is drawn to the moving light of the laser pointer."
+            },
+            {
+              "step": 2,
+              "name": "Chasing",
+              "relevant_objects": [
+                "cat"
+              ],
+              "collaborating_frames": [
+                "Animals",
+                "Function"
+              ],
+              "description": "The cat chases the laser pointer across the room."
+            },
+            {
+              "step": 3,
+              "name": "Resting",
+              "relevant_objects": [
+                "cat",
+                "couch"
+              ],
+              "collaborating_frames": [
+                "Animals",
+                "Function"
+              ],
+              "description": "The cat rests on the couch after the play session."
+            }
+          ]
+        },
+        {
+          "name": "Wildlife Feeding",
+          "relevant_objects": [
+            "person",
+            "horse",
+            "diner"
+          ],
+          "collaborating_frames": [
+            "Animals",
+            "Locative_relation"
+          ],
+          "subframes": [
+            {
+              "step": 1,
+              "name": "Approach",
+              "relevant_objects": [
+                "horse",
+                "person"
+              ],
+              "collaborating_frames": [
+                "Animals",
+                "Locative_relation"
+              ],
+              "description": "A horse approaches the person at the diner."
+            },
+            {
+              "step": 2,
+              "name": "Interaction",
+              "relevant_objects": [
+                "horse",
+                "person"
+              ],
+              "collaborating_frames": [
+                "Animals",
+                "Function"
+              ],
+              "description": "The person offers food to the horse."
+            }
+          ]
+        },
+        {
+          "name": "Fetch Game",
+          "relevant_objects": [
+            "dog",
+            "frisbee",
+            "lawn"
+          ],
+          "collaborating_frames": [
+            "Animals",
+            "Locative_relation"
+          ],
+          "subframes": [
+            {
+              "step": 1,
+              "name": "Throwing",
+              "relevant_objects": [
+                "frisbee"
+              ],
+              "collaborating_frames": [
+                "Locative_relation"
+              ],
+              "description": "The frisbee is thrown onto the lawn."
+            },
+            {
+              "step": 2,
+              "name": "Retrieval",
+              "relevant_objects": [
+                "dog",
+                "frisbee"
+              ],
+              "collaborating_frames": [
+                "Animals",
+                "Function"
+              ],
+              "description": "The dog retrieves the frisbee from the lawn."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semantic_group": "plant_activity",
+      "available_objects": [
+        "apple",
+        "banana",
+        "broccoli",
+        "cake",
+        "carrot",
+        "donut",
+        "hot dog",
+        "orange",
+        "pizza",
+        "potted plant",
+        "sandwich"
+      ],
+      "available_frames": [
+        "Plants",
+        "Food",
+        "Locative_relation"
+      ],
+      "scenarios": [
+        {
+          "name": "Consuming fruit from a potted plant",
+          "relevant_objects": [
+            "apple",
+            "banana",
+            "potted plant"
+          ],
+          "collaborating_frames": [
+            "Plants",
+            "Food"
+          ],
+          "subframes": [
+            {
+              "step": 1,
+              "name": "Selecting fruit",
+              "relevant_objects": [
+                "apple",
+                "banana"
+              ],
+              "collaborating_frames": [
+                "Plants"
+              ],
+              "description": "A person picks an apple or banana directly from the branches of a potted plant."
+            },
+            {
+              "step": 2,
+              "name": "Consuming fruit",
+              "relevant_objects": [
+                "apple",
+                "banana"
+              ],
+              "collaborating_frames": [
+                "Food"
+              ],
+              "description": "The selected apple or banana is eaten directly, often with a spoon or fingers."
+            },
+            {
+              "step": 3,
+              "name": "Storing fruit",
+              "relevant_objects": [
+                "apple",
+                "banana"
+              ],
+              "collaborating_frames": [
+                "Food"
+              ],
+              "description": "Any uneaten fruit is placed in a fruit bowl or refrigerator for later consumption."
+            }
+          ]
+        },
+        {
+          "name": "Preparing vegetables from a potted plant",
+          "relevant_objects": [
+            "broccoli",
+            "carrot",
+            "potted plant"
+          ],
+          "collaborating_frames": [
+            "Plants",
+            "Food"
+          ],
+          "subframes": [
+            {
+              "step": 1,
+              "name": "Harvesting vegetables",
+              "relevant_objects": [
+                "broccoli",
+                "carrot"
+              ],
+              "collaborating_frames": [
+                "Plants"
+              ],
+              "description": "A person picks fresh broccoli or carrot directly from their potted plant."
+            },
+            {
+              "step": 2,
+              "name": "Washing vegetables",
+              "relevant_objects": [
+                "broccoli",
+                "carrot"
+              ],
+              "collaborating_frames": [
+                "Food"
+              ],
+              "description": "The freshly harvested broccoli and carrot are washed thoroughly under running water."
+            },
+            {
+              "step": 3,
+              "name": "Chopping vegetables",
+              "relevant_objects": [
+                "broccoli",
+                "carrot"
+              ],
+              "collaborating_frames": [
+                "Food"
+              ],
+              "description": "The washed broccoli and carrot are cut into small pieces using a knife and cutting board."
+            }
+          ]
+        },
+        {
+          "name": "Using a potted plant as a location for food",
+          "relevant_objects": [
+            "potted plant",
+            "sandwich",
+            "cake"
+          ],
+          "collaborating_frames": [
+            "Locative_relation",
+            "Food"
+          ],
+          "subframes": [
+            {
+              "step": 1,
+              "name": "Placing food near the plant",
+              "relevant_objects": [
+                "sandwich",
+                "cake"
+              ],
+              "collaborating_frames": [
+                "Locative_relation"
+              ],
+              "description": "A sandwich or cake is placed on a surface next to or directly under a potted plant."
+            },
+            {
+              "step": 2,
+              "name": "Eating food at the location",
+              "relevant_objects": [
+                "sandwich",
+                "cake"
+              ],
+              "collaborating_frames": [
+                "Food"
+              ],
+              "description": "A person eats their sandwich or cake while sitting near the potted plant."
+            },
+            {
+              "step": 3,
+              "name": "Clearing the location",
+              "relevant_objects": [
+                "sandwich",
+                "cake"
+              ],
+              "collaborating_frames": [
+                "Locative_relation"
+              ],
+              "description": "The uneaten parts of the sandwich or cake are moved away from the potted plant to clean the area."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semantic_group": "object_containment",
+      "available_objects": [
+        "TV",
+        "airplane",
+        "backpack",
+        "baseball bat",
+        "baseball glove",
+        "bear",
+        "bed",
+        "bench",
+        "boat",
+        "book",
+        "bottle",
+        "bowl",
+        "cell phone",
+        "chair",
+        "clock",
+        "couch",
+        "cup",
+        "dining table",
+        "fire hydrant",
+        "fork",
+        "frisbee",
+        "hair drier",
+        "handbag",
+        "keyboard",
+        "kite",
+        "laptop",
+        "microwave",
+        "mouse",
+        "oven",
+        "parking meter",
+        "person",
+        "refrigerator",
+        "remote",
+        "scissors",
+        "sink",
+        "skateboard",
+        "skis",
+        "snowboard",
+        "spoon",
+        "sports ball",
+        "stop sign",
+        "suitcase",
+        "surfboard",
+        "teddy bear",
+        "tennis racket",
+        "tie",
+        "toaster",
+        "toilet",
+        "toothbrush",
+        "traffic light",
+        "train",
+        "truck",
+        "umbrella",
+        "vase",
+        "wine glass"
+      ],
+      "available_frames": [
+        "Containing",
+        "Arranging",
+        "Function"
+      ],
+      "scenarios": [
+        {
+          "name": "Personal item storage",
+          "relevant_objects": [
+            "backpack",
+            "laptop",
+            "book"
+          ],
+          "collaborating_frames": [
+            "Containing",
+            "Function"
+          ],
+          "subframes": [
+            {
+              "step": 1,
+              "name": "Packing items",
+              "relevant_objects": [
+                "backpack",
+                "laptop",
+                "book"
+              ],
+              "collaborating_frames": [
+                "Containing"
+              ],
+              "description": "The backpack contains the laptop and book for transport."
+            },
+            {
+              "step": 2,
+              "name": "Structure holding items",
+              "relevant_objects": [
+                "backpack",
+                "laptop",
+                "book"
+              ],
+              "collaborating_frames": [
+                "Containing"
+              ],
+              "description": "The structure of the backpack allows for the organisation of its contents."
+            },
+            {
+              "step": 3,
+              "name": "Function of container",
+              "relevant_objects": [
+                "backpack"
+              ],
+              "collaborating_frames": [
+                "Function"
+              ],
+              "description": "The backpack is designed to contain various personal items for carrying."
+            }
+          ]
+        },
+        {
+          "name": "Kitchen appliance usage",
+          "relevant_objects": [
+            "microwave",
+            "oven",
+            "food"
+          ],
+          "collaborating_frames": [
+            "Containing",
+            "Function"
+          ],
+          "subframes": [
+            {
+              "step": 1,
+              "name": "Heating food",
+              "relevant_objects": [
+                "microwave"
+              ],
+              "collaborating_frames": [
+                "Containing",
+                "Function"
+              ],
+              "description": "The microwave contains the food and functions to heat it."
+            },
+            {
+              "step": 2,
+              "name": "Baking preparation",
+              "relevant_objects": [
+                "oven"
+              ],
+              "collaborating_frames": [
+                "Containing",
+                "Function"
+              ],
+              "description": "The oven contains the food and functions to bake it."
+            }
+          ]
+        },
+        {
+          "name": "Bedroom arrangement",
+          "relevant_objects": [
+            "bed",
+            "lamp"
+          ],
+          "collaborating_frames": [
+            "Containing",
+            "Arranging"
+          ],
+          "subframes": [
+            {
+              "step": 1,
+              "name": "Sleeping surface",
+              "relevant_objects": [
+                "bed"
+              ],
+              "collaborating_frames": [
+                "Containing"
+              ],
+              "description": "The bed contains a person for rest."
+            },
+            {
+              "step": 2,
+              "name": "Light source placement",
+              "relevant_objects": [],
+              "collaborating_frames": [
+                "Arranging"
+              ],
+              "description": "The lamp is arranged upon the bedside table, providing light."
+            }
+          ]
+        },
+        {
+          "name": "Living room entertainment",
+          "relevant_objects": [
+            "TV",
+            "remote"
+          ],
+          "collaborating_frames": [
+            "Containing",
+            "Function"
+          ],
+          "subframes": [
+            {
+              "step": 1,
+              "name": "Displaying device",
+              "relevant_objects": [
+                "TV"
+              ],
+              "collaborating_frames": [
+                "Containing"
+              ],
+              "description": "The TV contains an image for viewing."
+            },
+            {
+              "step": 2,
+              "name": "Control mechanism",
+              "relevant_objects": [
+                "remote"
+              ],
+              "collaborating_frames": [
+                "Function"
+              ],
+              "description": "The remote functions to control the TV."
+            }
+          ]
+        },
+        {
+          "name": "Bathroom sink usage",
+          "relevant_objects": [
+            "sink",
+            "toothbrush"
+          ],
+          "collaborating_frames": [
+            "Containing"
+          ],
+          "subframes": [
+            {
+              "step": 1,
+              "name": "Water basin",
+              "relevant_objects": [
+                "sink"
+              ],
+              "collaborating_frames": [
+                "Containing"
+              ],
+              "description": "The sink contains water for various uses."
+            },
+            {
+              "step": 2,
+              "name": "Oral hygiene tool",
+              "relevant_objects": [
+                "toothbrush"
+              ],
+              "collaborating_frames": [
+                "Containing"
+              ],
+              "description": "The toothbrush is contained within the bathroom for personal grooming."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "semantic_group": "tool_and_device_use",
+      "available_objects": [
+        "TV",
+        "airplane",
+        "backpack",
+        "baseball bat",
+        "baseball glove",
+        "bear",
+        "bed",
+        "bench",
+        "boat",
+        "book",
+        "bottle",
+        "bowl",
+        "cell phone",
+        "chair",
+        "clock",
+        "couch",
+        "dining table",
+        "fire hydrant",
+        "fork",
+        "frisbee",
+        "hair drier",
+        "handbag",
+        "keyboard",
+        "kite",
+        "laptop",
+        "microwave",
+        "mouse",
+        "oven",
+        "parking meter",
+        "person",
+        "refrigerator",
+        "remote",
+        "scissors",
+        "sink",
+        "skateboard",
+        "skis",
+        "snowboard",
+        "spoon",
+        "sports ball",
+        "stop sign",
+        "suitcase",
+        "surfboard",
+        "teddy bear",
+        "tennis racket",
+        "tie",
+        "toaster",
+        "toilet",
+        "toothbrush",
+        "traffic light",
+        "train",
+        "truck",
+        "umbrella",
+        "vase",
+        "wine glass"
+      ],
+      "available_frames": [
+        "Function",
+        "Arranging",
+        "Locative_relation"
+      ],
+      "scenarios": [
+        {
+          "name": "Using a Laptop",
+          "relevant_objects": [
+            "laptop",
+            "keyboard",
+            "person",
+            "dining table"
+          ],
+          "collaborating_frames": [
+            "Function",
+            "Arranging",
+            "Locative_relation"
+          ],
+          "subframes": [
+            {
+              "step": 1,
+              "name": "Function",
+              "relevant_objects": [
+                "laptop",
+                "keyboard",
+                "person"
+              ],
+              "collaborating_frames": [
+                "Arranging",
+                "Locative_relation"
+              ],
+              "description": "Person uses the laptop for work or entertainment."
+            },
+            {
+              "step": 2,
+              "name": "Arranging",
+              "relevant_objects": [
+                "laptop",
+                "keyboard"
+              ],
+              "collaborating_frames": [
+                "Function",
+                "Locative_relation"
+              ],
+              "description": "Person arranges the keyboard and laptop on the desk."
+            },
+            {
+              "step": 3,
+              "name": "Locative_relation",
+              "relevant_objects": [
+                "laptop",
+                "dining table"
+              ],
+              "collaborating_frames": [
+                "Function",
+                "Arranging"
+              ],
+              "description": "Person places the laptop on the dining table for better access."
+            }
+          ]
+        },
+        {
+          "name": "Cooking Food",
+          "relevant_objects": [
+            "microwave",
+            "oven",
+            "sink",
+            "person"
+          ],
+          "collaborating_frames": [
+            "Function",
+            "Arranging",
+            "Locative_relation"
+          ],
+          "subframes": [
+            {
+              "step": 1,
+              "name": "Function",
+              "relevant_objects": [
+                "microwave",
+                "oven",
+                "person"
+              ],
+              "collaborating_frames": [
+                "Arranging",
+                "Locative_relation"
+              ],
+              "description": "Person uses the microwave and oven to cook food."
+            },
+            {
+              "step": 2,
+              "name": "Arranging",
+              "relevant_objects": [
+                "microwave",
+                "oven",
+                "person"
+              ],
+              "collaborating_frames": [
+                "Function",
+                "Locative_relation"
+              ],
+              "description": "Person arranges ingredients in the microwave."
+            },
+            {
+              "step": 3,
+              "name": "Locative_relation",
+              "relevant_objects": [
+                "microwave",
+                "oven",
+                "sink"
+              ],
+              "collaborating_frames": [
+                "Function",
+                "Arranging"
+              ],
+              "description": "Person places the microwave and oven near the sink."
+            }
+          ]
+        },
+        {
+          "name": "Watching Television",
+          "relevant_objects": [
+            "TV",
+            "remote",
+            "person",
+            "bench"
+          ],
+          "collaborating_frames": [
+            "Function",
+            "Arranging",
+            "Locative_relation"
+          ],
+          "subframes": [
+            {
+              "step": 1,
+              "name": "Function",
+              "relevant_objects": [
+                "TV",
+                "remote",
+                "person"
+              ],
+              "collaborating_frames": [
+                "Arranging",
+                "Locative_relation"
+              ],
+              "description": "Person watches television using the remote."
+            },
+            {
+              "step": 2,
+              "name": "Arranging",
+              "relevant_objects": [
+                "remote",
+                "person"
+              ],
+              "collaborating_frames": [
+                "Function",
+                "Locative_relation"
+              ],
+              "description": "Person arranges the remote control on the table."
+            },
+            {
+              "step": 3,
+              "name": "Locative_relation",
+              "relevant_objects": [
+                "TV",
+                "bench"
+              ],
+              "collaborating_frames": [
+                "Function",
+                "Arranging"
+              ],
+              "description": "Person places the television on the bench."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "coverage": {
+    "total_objects": 80,
+    "used_objects": 46,
+    "unused_objects": [
+      "baseball bat",
+      "baseball glove",
+      "bear",
+      "boat",
+      "cell phone",
+      "chair",
+      "clock",
+      "cow",
+      "cup",
+      "elephant",
+      "fire hydrant",
+      "fork",
+      "giraffe",
+      "hair drier",
+      "handbag",
+      "hot dog",
+      "kite",
+      "knife",
+      "motorcycle",
+      "mouse",
+      "orange",
+      "parking meter",
+      "pizza",
+      "scissors",
+      "sheep",
+      "skis",
+      "snowboard",
+      "spoon",
+      "sports ball",
+      "stop sign",
+      "suitcase",
+      "surfboard",
+      "teddy bear",
+      "tennis racket",
+      "tie",
+      "toaster",
+      "toilet",
+      "traffic light",
+      "truck",
+      "umbrella",
+      "vase",
+      "wine glass",
+      "zebra"
+    ]
+  }
+}

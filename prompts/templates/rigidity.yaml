@@ -1,0 +1,7 @@
+name: rigidity
+type: string
+template: |
+  Given the concept of {concept} {description_clause},
+  classify the object's typical rigidity as exactly one of: rigid, flexible, soft.
+  Return only JSON with key:
+    - rigidity (string)

@@ -1,0 +1,603 @@
+{
+  "scenario_subframes": [
+    {
+      "high_level_scenario": "having breakfast",
+      "domain": "food and eating",
+      "available_objects": [
+        "person",
+        "banana",
+        "apple",
+        "bowl",
+        "cup",
+        "spoon",
+        "dining table",
+        "refrigerator"
+      ],
+      "available_frames": [
+        "Food",
+        "Containing",
+        "Getting_scenario",
+        "Arranging",
+        "Locative_relation"
+      ],
+      "subframes": [
+        {
+          "step": 1,
+          "name": "Getting Scenario",
+          "relevant_objects": [
+            "person",
+            "banana",
+            "apple",
+            "refrigerator"
+          ],
+          "collaborating_frames": [
+            "Getting_scenario",
+            "Food",
+            "Containing"
+          ],
+          "description": "The person retrieves breakfast items from the refrigerator.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "step": 2,
+          "name": "Arranging",
+          "relevant_objects": [
+            "banana",
+            "apple",
+            "bowl",
+            "spoon"
+          ],
+          "collaborating_frames": [
+            "Arranging",
+            "Containing",
+            "Food"
+          ],
+          "description": "The person arranges the retrieved food items into a bowl.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "step": 3,
+          "name": "Locative_relation",
+          "relevant_objects": [
+            "person",
+            "bowl",
+            "spoon",
+            "cup",
+            "dining table"
+          ],
+          "collaborating_frames": [
+            "Food",
+            "Containing",
+            "Locative_relation"
+          ],
+          "description": "The person consumes the arranged food items at the dining table.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        }
+      ],
+      "invalid_subframes_removed": []
+    },
+    {
+      "high_level_scenario": "preparing a meal",
+      "domain": "food preparation",
+      "available_objects": [
+        "person",
+        "bowl",
+        "fork",
+        "knife",
+        "spoon",
+        "microwave",
+        "oven",
+        "refrigerator",
+        "pizza",
+        "hot dog",
+        "sandwich",
+        "carrot",
+        "broccoli"
+      ],
+      "available_frames": [
+        "Cooking_creation",
+        "Food",
+        "Containing",
+        "Function",
+        "Arranging"
+      ],
+      "subframes": [
+        {
+          "step": 1,
+          "name": "Accessing ingredients",
+          "relevant_objects": [
+            "person",
+            "refrigerator",
+            "carrot",
+            "broccoli"
+          ],
+          "collaborating_frames": [
+            "Containing",
+            "Function"
+          ],
+          "description": "The person retrieves carrots and broccoli from the refrigerator to prepare the meal.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "step": 2,
+          "name": "Cooking pizza",
+          "relevant_objects": [
+            "person",
+            "oven",
+            "pizza"
+          ],
+          "collaborating_frames": [
+            "Cooking_creation",
+            "Function"
+          ],
+          "description": "The person cooks the pizza in the oven as part of meal preparation.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "step": 3,
+          "name": "Cooking hot dog",
+          "relevant_objects": [
+            "person",
+            "microwave",
+            "hot dog"
+          ],
+          "collaborating_frames": [
+            "Cooking_creation",
+            "Function"
+          ],
+          "description": "The person cooks the hot dog in the microwave to complete the meal preparation.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "step": 4,
+          "name": "Assembling the meal",
+          "relevant_objects": [
+            "bowl",
+            "fork",
+            "spoon",
+            "pizza",
+            "hot dog",
+            "sandwich"
+          ],
+          "collaborating_frames": [
+            "Arranging",
+            "Function"
+          ],
+          "description": "The person assembles the meal in a bowl, using utensils to present the food.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        }
+      ],
+      "invalid_subframes_removed": []
+    },
+    {
+      "high_level_scenario": "packing for travel",
+      "domain": "travel and packing",
+      "available_objects": [
+        "person",
+        "backpack",
+        "suitcase",
+        "book",
+        "laptop",
+        "toothbrush"
+      ],
+      "available_frames": [
+        "Containing",
+        "Arranging",
+        "Function"
+      ],
+      "subframes": [
+        {
+          "step": 1,
+          "name": "Choosing travel container",
+          "relevant_objects": [
+            "person",
+            "backpack",
+            "suitcase"
+          ],
+          "collaborating_frames": [
+            "Arranging"
+          ],
+          "description": "The person selects between a backpack or suitcase to carry belongings.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "step": 2,
+          "name": "Packing essentials",
+          "relevant_objects": [
+            "person",
+            "backpack",
+            "suitcase",
+            "toothbrush"
+          ],
+          "collaborating_frames": [
+            "Containing",
+            "Arranging"
+          ],
+          "description": "The person puts toiletries and daily necessities into the chosen container.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "step": 3,
+          "name": "Packing electronics",
+          "relevant_objects": [
+            "person",
+            "backpack",
+            "suitcase",
+            "laptop"
+          ],
+          "collaborating_frames": [
+            "Containing",
+            "Function"
+          ],
+          "description": "The person places electronic devices like a laptop into the container for utility.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "step": 4,
+          "name": "Packing leisure items",
+          "relevant_objects": [
+            "person",
+            "backpack",
+            "suitcase",
+            "book"
+          ],
+          "collaborating_frames": [
+            "Containing",
+            "Function"
+          ],
+          "description": "The person adds reading materials and other personal items with specific uses.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "step": 5,
+          "name": "Checking functionality",
+          "relevant_objects": [
+            "person",
+            "laptop",
+            "book"
+          ],
+          "collaborating_frames": [
+            "Function"
+          ],
+          "description": "The person ensures packed items like electronics are operational for the trip.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        }
+      ],
+      "invalid_subframes_removed": []
+    },
+    {
+      "high_level_scenario": "travelling through traffic",
+      "domain": "transportation",
+      "available_objects": [
+        "person",
+        "car",
+        "bus",
+        "truck",
+        "motorcycle",
+        "bicycle",
+        "train",
+        "airplane",
+        "traffic light",
+        "stop sign",
+        "parking meter"
+      ],
+      "available_frames": [
+        "Vehicle",
+        "Use_vehicle",
+        "Transportation_status",
+        "Locative_relation",
+        "Function"
+      ],
+      "subframes": [
+        {
+          "step": 1,
+          "name": "Approaching_traffic_light",
+          "relevant_objects": [
+            "car",
+            "traffic light"
+          ],
+          "collaborating_frames": [
+            "Use_vehicle",
+            "Locative_relation",
+            "Transportation_status"
+          ],
+          "description": "A car approaches a traffic light.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "step": 2,
+          "name": "Stopping_at_stop_sign",
+          "relevant_objects": [
+            "car",
+            "stop sign"
+          ],
+          "collaborating_frames": [
+            "Use_vehicle",
+            "Locative_relation",
+            "Function"
+          ],
+          "description": "A car stops at a stop sign.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "step": 3,
+          "name": "Encountering_stationary_truck",
+          "relevant_objects": [
+            "car",
+            "truck"
+          ],
+          "collaborating_frames": [
+            "Use_vehicle",
+            "Transportation_status",
+            "Function"
+          ],
+          "description": "A car passes a stationary truck.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "step": 4,
+          "name": "Proceeding_after_stop",
+          "relevant_objects": [
+            "car",
+            "bus"
+          ],
+          "collaborating_frames": [
+            "Use_vehicle",
+            "Locative_relation",
+            "Transportation_status"
+          ],
+          "description": "A car proceeds after a bus stops.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "step": 5,
+          "name": "Adjusting_for_bicycle",
+          "relevant_objects": [
+            "car",
+            "bicycle"
+          ],
+          "collaborating_frames": [
+            "Use_vehicle",
+            "Locative_relation",
+            "Transportation_status"
+          ],
+          "description": "A car adjusts speed for a bicycle.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        }
+      ],
+      "invalid_subframes_removed": []
+    },
+    {
+      "high_level_scenario": "organising a workspace",
+      "domain": "workspace organisation",
+      "available_objects": [
+        "person",
+        "laptop",
+        "keyboard",
+        "mouse",
+        "book",
+        "chair",
+        "dining table"
+      ],
+      "available_frames": [
+        "Arranging",
+        "Function",
+        "Locative_relation"
+      ],
+      "subframes": [],
+      "invalid_subframes_removed": []
+    },
+    {
+      "high_level_scenario": "doing a leisure activity",
+      "domain": "leisure",
+      "available_objects": [
+        "person",
+        "sports ball",
+        "baseball bat",
+        "baseball glove",
+        "tennis racket",
+        "frisbee",
+        "skateboard",
+        "TV",
+        "remote",
+        "book",
+        "couch",
+        "laptop"
+      ],
+      "available_frames": [
+        "Function",
+        "Locative_relation",
+        "Arranging"
+      ],
+      "subframes": [
+        {
+          "step": 1,
+          "name": "arranging_equipment",
+          "relevant_objects": [
+            "person",
+            "frisbee",
+            "skateboard"
+          ],
+          "collaborating_frames": [
+            "Arranging",
+            "Function"
+          ],
+          "description": "The person gathers equipment for an outdoor game.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "step": 2,
+          "name": "playing_game",
+          "relevant_objects": [
+            "person",
+            "frisbee",
+            "skateboard",
+            "sports ball"
+          ],
+          "collaborating_frames": [
+            "Function"
+          ],
+          "description": "The person engages in a game using the equipment.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "step": 3,
+          "name": "changing_location",
+          "relevant_objects": [
+            "person",
+            "TV",
+            "remote"
+          ],
+          "collaborating_frames": [
+            "Locative_relation"
+          ],
+          "description": "The person moves from the outdoor area to the living space.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "step": 4,
+          "name": "relaxing_afterwards",
+          "relevant_objects": [
+            "person",
+            "couch",
+            "book"
+          ],
+          "collaborating_frames": [
+            "Locative_relation"
+          ],
+          "description": "The person settles on the couch to relax.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        }
+      ],
+      "invalid_subframes_removed": []
+    },
+    {
+      "high_level_scenario": "doing personal hygiene",
+      "domain": "personal hygiene",
+      "available_objects": [
+        "person",
+        "toothbrush",
+        "sink",
+        "hair drier",
+        "toilet",
+        "scissors"
+      ],
+      "available_frames": [
+        "Function",
+        "Locative_relation",
+        "Arranging"
+      ],
+      "subframes": [],
+      "invalid_subframes_removed": []
+    },
+    {
+      "high_level_scenario": "observing animals",
+      "domain": "animals and wildlife",
+      "available_objects": [
+        "person",
+        "dog",
+        "cat",
+        "horse",
+        "bird",
+        "elephant",
+        "zebra",
+        "giraffe",
+        "bear",
+        "sheep",
+        "cow"
+      ],
+      "available_frames": [
+        "Animals",
+        "Locative_relation"
+      ],
+      "subframes": [
+        {
+          "step": 1,
+          "name": "Initial observation",
+          "relevant_objects": [
+            "person",
+            "dog",
+            "cat",
+            "horse"
+          ],
+          "collaborating_frames": [
+            "Animals",
+            "Locative_relation"
+          ],
+          "description": "Person observes dog, cat and horse in the field.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "step": 2,
+          "name": "Animal movement",
+          "relevant_objects": [
+            "bird",
+            "bear"
+          ],
+          "collaborating_frames": [
+            "Animals",
+            "Locative_relation"
+          ],
+          "description": "Bird flies east while bear roars nearby.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "step": 3,
+          "name": "Location change",
+          "relevant_objects": [
+            "giraffe",
+            "sheep",
+            "cow"
+          ],
+          "collaborating_frames": [
+            "Animals",
+            "Locative_relation"
+          ],
+          "description": "Giraffe, sheep and cow move towards the stream.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "step": 4,
+          "name": "Further observation",
+          "relevant_objects": [
+            "person",
+            "cat",
+            "dog"
+          ],
+          "collaborating_frames": [
+            "Animals",
+            "Locative_relation"
+          ],
+          "description": "Person notes cat and dog playing near the fence.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        }
+      ],
+      "invalid_subframes_removed": []
+    }
+  ]
+}

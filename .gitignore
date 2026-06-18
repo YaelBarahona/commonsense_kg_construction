@@ -5,6 +5,7 @@ outputs_debug/
 output/
 data/
 .venv/
+venv/
 *.pyc
 instructor_env/
 commonsense_kg.egg-info/

@@ -1,0 +1,259 @@
+[
+  {
+    "goal": "have breakfast",
+    "model_output": {
+      "goal": "have breakfast",
+      "relevant_objects": [
+        "person",
+        "banana",
+        "bowl",
+        "dining table",
+        "refrigerator"
+      ],
+      "frames": [
+        {
+          "frame": "Attempt_obtain_food_scenario",
+          "assignments": [
+            {
+              "role": "Seeker",
+              "object": "person"
+            },
+            {
+              "role": "Food",
+              "object": "banana"
+            },
+            {
+              "role": "Ground",
+              "object": "refrigerator"
+            }
+          ]
+        },
+        {
+          "frame": "Getting_scenario",
+          "assignments": [
+            {
+              "role": "Recipient",
+              "object": "person"
+            },
+            {
+              "role": "Theme",
+              "object": "banana"
+            },
+            {
+              "role": "Source",
+              "object": "refrigerator"
+            }
+          ]
+        },
+        {
+          "frame": "Arranging",
+          "assignments": [
+            {
+              "role": "Agent",
+              "object": "person"
+            },
+            {
+              "role": "Theme",
+              "object": "banana"
+            }
+          ]
+        },
+        {
+          "frame": "Locative_relation",
+          "assignments": [
+            {
+              "role": "Figure",
+              "object": "banana"
+            },
+            {
+              "role": "Ground",
+              "object": "bowl"
+            }
+          ]
+        },
+        {
+          "frame": "Locative_relation",
+          "assignments": [
+            {
+              "role": "Figure",
+              "object": "bowl"
+            },
+            {
+              "role": "Ground",
+              "object": "dining table"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "goal": "prepare a snack",
+    "model_output": {
+      "goal": "prepare a snack",
+      "relevant_objects": [
+        "person",
+        "apple",
+        "bowl",
+        "refrigerator"
+      ],
+      "frames": [
+        {
+          "frame": "Attempt_obtain_food_scenario",
+          "assignments": [
+            {
+              "role": "Seeker",
+              "object": "person"
+            },
+            {
+              "role": "Food",
+              "object": "apple"
+            },
+            {
+              "role": "Ground",
+              "object": "refrigerator"
+            }
+          ]
+        },
+        {
+          "frame": "Arranging",
+          "assignments": [
+            {
+              "role": "Agent",
+              "object": "person"
+            },
+            {
+              "role": "Theme",
+              "object": "apple"
+            }
+          ]
+        },
+        {
+          "frame": "Locative_relation",
+          "assignments": [
+            {
+              "role": "Figure",
+              "object": "apple"
+            },
+            {
+              "role": "Ground",
+              "object": "bowl"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "goal": "set up food on the table",
+    "model_output": {
+      "error": "Could not parse model output as JSON",
+      "raw_output": ""
+    }
+  },
+  {
+    "goal": "store groceries",
+    "model_output": {
+      "goal": "store groceries",
+      "relevant_objects": [
+        "person",
+        "apple",
+        "refrigerator"
+      ],
+      "frames": [
+        {
+          "frame": "Arranging",
+          "assignments": [
+            {
+              "role": "Agent",
+              "object": "person"
+            },
+            {
+              "role": "Theme",
+              "object": "apple"
+            }
+          ]
+        },
+        {
+          "frame": "Locative_relation",
+          "assignments": [
+            {
+              "role": "Figure",
+              "object": "apple"
+            },
+            {
+              "role": "Ground",
+              "object": "refrigerator"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "goal": "pack a bag",
+    "model_output": {
+      "error": "Could not parse model output as JSON",
+      "raw_output": "It appears there was an error or confusion in the initial instruction. The user's message contained a list of irrelevant text, and there was no clear question or request to answer. As a helpful AI assistant, I am unable to provide a specific response because the query is not clear or does not contain a well-defined question.\n\nIf you have a specific question or need assistance with a particular topic, please provide more details, and I will do my best to help."
+    }
+  },
+  {
+    "goal": "organize a workspace",
+    "model_output": {
+      "frames": [
+        {
+          "frame_name": "Arranging",
+          "assignments": [
+            {
+              "role": "Agent",
+              "object": "person"
+            },
+            {
+              "role": "Theme",
+              "object": "book"
+            }
+          ]
+        },
+        {
+          "frame_name": "Locative_relation",
+          "assignments": [
+            {
+              "role": "Figure",
+              "object": "book"
+            },
+            {
+              "role": "Ground",
+              "object": "dining table"
+            }
+          ]
+        },
+        {
+          "frame_name": "Locative_relation",
+          "assignments": [
+            {
+              "role": "Figure",
+              "object": "laptop"
+            },
+            {
+              "role": "Ground",
+              "object": "dining table"
+            }
+          ]
+        },
+        {
+          "frame_name": "Locative_relation",
+          "assignments": [
+            {
+              "role": "Figure",
+              "object": "keyboard"
+            },
+            {
+              "role": "Ground",
+              "object": "dining table"
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

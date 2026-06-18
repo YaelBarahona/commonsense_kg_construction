@@ -1,0 +1,3255 @@
+{
+  "TV": {
+    "concept": "TV",
+    "properties": {
+      "shape": [
+        "rectangle"
+      ],
+      "colour": [
+        "black",
+        "grey",
+        "silver",
+        "white"
+      ],
+      "material": [
+        "aluminium",
+        "glass",
+        "metal",
+        "plastic"
+      ],
+      "fragility": "fragile",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.6849,
+        "length_m": 1.2175,
+        "width_m": 1.218
+      },
+      "weight_kg": 15.0
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      }
+    ]
+  },
+  "airplane": {
+    "concept": "airplane",
+    "properties": {
+      "shape": [
+        "delta"
+      ],
+      "colour": [
+        "blue",
+        "green",
+        "grey",
+        "red",
+        "silver",
+        "white",
+        "yellow"
+      ],
+      "material": [
+        "aluminium",
+        "fiber",
+        "steel"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 11.5,
+        "length_m": 35.0,
+        "width_m": 4.0
+      },
+      "weight_kg": 50000.0
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      }
+    ]
+  },
+  "apple": {
+    "concept": "apple",
+    "properties": {
+      "shape": [
+        "oblong",
+        "pear-shaped",
+        "round"
+      ],
+      "colour": [
+        "green",
+        "red",
+        "yellow"
+      ],
+      "material": [
+        "flesh",
+        "skin"
+      ],
+      "fragility": "fragile",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.075,
+        "length_m": 0.075,
+        "width_m": 0.075
+      },
+      "weight_kg": 0.15
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Theme"
+      }
+    ]
+  },
+  "backpack": {
+    "concept": "backpack",
+    "properties": {
+      "shape": [
+        "rectangle"
+      ],
+      "colour": [
+        "black",
+        "blue",
+        "green",
+        "grey",
+        "red",
+        "seal brown"
+      ],
+      "material": [
+        "leather",
+        "nylon",
+        "polyester"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "flexible",
+      "size": {
+        "height_m": 0.45,
+        "length_m": 0.45,
+        "width_m": 0.3
+      },
+      "weight_kg": 1.0
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Source"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Source"
+      }
+    ]
+  },
+  "banana": {
+    "concept": "banana",
+    "properties": {
+      "shape": [],
+      "colour": [
+        "green",
+        "red",
+        "seal brown",
+        "yellow"
+      ],
+      "material": [
+        "fiber"
+      ],
+      "fragility": "fragile",
+      "rigidity": "soft",
+      "size": {
+        "height_m": 5.0,
+        "length_m": 0.15,
+        "width_m": 0.05
+      },
+      "weight_kg": 0.12
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Theme"
+      }
+    ]
+  },
+  "baseball bat": {
+    "concept": "baseball bat",
+    "properties": {
+      "shape": [
+        "cylindrical",
+        "round"
+      ],
+      "colour": [
+        "black",
+        "grey",
+        "seal brown",
+        "silver"
+      ],
+      "material": [
+        "aluminium",
+        "wood"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.8636,
+        "length_m": 0.8636,
+        "width_m": 0.07
+      },
+      "weight_kg": 0.907
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Theme"
+      }
+    ]
+  },
+  "baseball glove": {
+    "concept": "baseball glove",
+    "properties": {
+      "shape": [
+        "oval",
+        "rectangular cuboid"
+      ],
+      "colour": [
+        "black",
+        "blue",
+        "red",
+        "seal brown",
+        "white"
+      ],
+      "material": [
+        "leather"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "flexible",
+      "size": {
+        "height_m": 0.2921,
+        "length_m": 0.3048,
+        "width_m": 0.2921
+      },
+      "weight_kg": 0.3544
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Theme"
+      }
+    ]
+  },
+  "bear": {
+    "concept": "bear",
+    "properties": {
+      "shape": [
+        "oval"
+      ],
+      "colour": [
+        "black",
+        "seal brown",
+        "white"
+      ],
+      "material": [
+        "bone",
+        "fur"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 1.5,
+        "length_m": 2.0,
+        "width_m": 0.7
+      },
+      "weight_kg": 180.0
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      }
+    ]
+  },
+  "bed": {
+    "concept": "bed",
+    "properties": {
+      "shape": [
+        "oval",
+        "rectangle"
+      ],
+      "colour": [
+        "black",
+        "blue",
+        "green",
+        "grey",
+        "red",
+        "seal brown",
+        "white"
+      ],
+      "material": [
+        "fabric",
+        "metal",
+        "plastic",
+        "wood"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "soft",
+      "size": {
+        "height_m": 0.5,
+        "length_m": 1.905,
+        "width_m": 1.5
+      },
+      "weight_kg": 25.0
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      }
+    ]
+  },
+  "bench": {
+    "concept": "bench",
+    "properties": {
+      "shape": [
+        "rectangle"
+      ],
+      "colour": [
+        "black",
+        "blue",
+        "green",
+        "grey",
+        "red",
+        "seal brown"
+      ],
+      "material": [
+        "concrete",
+        "metal",
+        "plastic",
+        "stone",
+        "wood"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.45,
+        "length_m": 2.0,
+        "width_m": 0.725
+      },
+      "weight_kg": 20.0
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      }
+    ]
+  },
+  "bicycle": {
+    "concept": "bicycle",
+    "properties": {
+      "shape": [],
+      "colour": [
+        "black",
+        "blue",
+        "green",
+        "red",
+        "silver",
+        "white",
+        "yellow"
+      ],
+      "material": [
+        "aluminium",
+        "fiber",
+        "steel"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 1.0,
+        "length_m": 2.0,
+        "width_m": 0.6
+      },
+      "weight_kg": 15.0
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Theme"
+      }
+    ]
+  },
+  "bird": {
+    "concept": "bird",
+    "properties": {
+      "shape": [
+        "oval",
+        "round"
+      ],
+      "colour": [
+        "black",
+        "blue",
+        "green",
+        "red",
+        "seal brown",
+        "white",
+        "yellow"
+      ],
+      "material": [],
+      "fragility": "fragile",
+      "rigidity": "flexible",
+      "size": {
+        "height_m": 0.3,
+        "length_m": 0.25,
+        "width_m": 0.15
+      },
+      "weight_kg": 0.1
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      }
+    ]
+  },
+  "boat": {
+    "concept": "boat",
+    "properties": {
+      "shape": [],
+      "colour": [
+        "black",
+        "blue",
+        "green",
+        "grey",
+        "red",
+        "white",
+        "yellow"
+      ],
+      "material": [
+        "aluminium",
+        "fiberglass",
+        "plastic",
+        "steel",
+        "wood"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 3.0,
+        "length_m": 6.0,
+        "width_m": 3.0
+      },
+      "weight_kg": 200.0
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      }
+    ]
+  },
+  "book": {
+    "concept": "book",
+    "properties": {
+      "shape": [
+        "oblong",
+        "rectangle",
+        "square"
+      ],
+      "colour": [
+        "black",
+        "blue",
+        "green",
+        "red",
+        "white",
+        "yellow"
+      ],
+      "material": [
+        "cardboard",
+        "cloth",
+        "paper"
+      ],
+      "fragility": "fragile",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.2175,
+        "length_m": 0.22,
+        "width_m": 0.15
+      },
+      "weight_kg": 0.425
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Theme"
+      }
+    ]
+  },
+  "bottle": {
+    "concept": "bottle",
+    "properties": {
+      "shape": [
+        "cylindrical",
+        "rectangle"
+      ],
+      "colour": [
+        "blue",
+        "green",
+        "red",
+        "seal brown",
+        "transparent"
+      ],
+      "material": [
+        "glass",
+        "plastic"
+      ],
+      "fragility": "fragile",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.25,
+        "length_m": 0.25,
+        "width_m": 0.07
+      },
+      "weight_kg": 0.3
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Source"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Source"
+      }
+    ]
+  },
+  "bowl": {
+    "concept": "bowl",
+    "properties": {
+      "shape": [
+        "oval",
+        "rectangle",
+        "round",
+        "square"
+      ],
+      "colour": [
+        "black",
+        "blue",
+        "green",
+        "red",
+        "transparent",
+        "white",
+        "yellow"
+      ],
+      "material": [
+        "ceramic",
+        "glass",
+        "metal",
+        "plastic",
+        "porcelain",
+        "wood"
+      ],
+      "fragility": "fragile",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.1,
+        "length_m": 0.24,
+        "width_m": 0.25
+      },
+      "weight_kg": 0.5
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Source"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Source"
+      }
+    ]
+  },
+  "broccoli": {
+    "concept": "broccoli",
+    "properties": {
+      "shape": [
+        "conical"
+      ],
+      "colour": [
+        "green"
+      ],
+      "material": [],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.625,
+        "length_m": 0.15,
+        "width_m": 0.1
+      },
+      "weight_kg": 0.35
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Theme"
+      }
+    ]
+  },
+  "bus": {
+    "concept": "bus",
+    "properties": {
+      "shape": [
+        "rectangle"
+      ],
+      "colour": [
+        "blue",
+        "green",
+        "red",
+        "white",
+        "yellow"
+      ],
+      "material": [
+        "aluminium",
+        "glass",
+        "plastic",
+        "rubber",
+        "steel"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 3.75,
+        "length_m": 12.0,
+        "width_m": 2.7
+      },
+      "weight_kg": 15000.0
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      }
+    ]
+  },
+  "cake": {
+    "concept": "cake",
+    "properties": {
+      "shape": [
+        "heart",
+        "rectangle",
+        "round",
+        "square",
+        "star"
+      ],
+      "colour": [
+        "pink",
+        "red",
+        "seal brown",
+        "white",
+        "yellow"
+      ],
+      "material": [],
+      "fragility": "fragile",
+      "rigidity": "soft",
+      "size": {
+        "height_m": 0.1,
+        "length_m": 0.25,
+        "width_m": 0.2286
+      },
+      "weight_kg": 1.0
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Theme"
+      }
+    ]
+  },
+  "car": {
+    "concept": "car",
+    "properties": {
+      "shape": [],
+      "colour": [
+        "black",
+        "blue",
+        "green",
+        "grey",
+        "red",
+        "silver",
+        "white",
+        "yellow"
+      ],
+      "material": [
+        "aluminium",
+        "glass",
+        "plastic",
+        "rubber",
+        "steel"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 1.5,
+        "length_m": 4.55,
+        "width_m": 1.8
+      },
+      "weight_kg": 1500.0
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Theme"
+      }
+    ]
+  },
+  "carrot": {
+    "concept": "carrot",
+    "properties": {
+      "shape": [],
+      "colour": [
+        "orange",
+        "purple",
+        "red",
+        "white"
+      ],
+      "material": [
+        "water"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.15,
+        "length_m": 0.15,
+        "width_m": 0.025
+      },
+      "weight_kg": 0.1
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Theme"
+      }
+    ]
+  },
+  "cat": {
+    "concept": "cat",
+    "properties": {
+      "shape": [
+        "oval"
+      ],
+      "colour": [
+        "black",
+        "grey",
+        "orange",
+        "white"
+      ],
+      "material": [
+        "fur",
+        "skin"
+      ],
+      "fragility": "fragile",
+      "rigidity": "flexible",
+      "size": {
+        "height_m": 0.25,
+        "length_m": 0.48,
+        "width_m": 0.15
+      },
+      "weight_kg": 4.5
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      }
+    ]
+  },
+  "cell phone": {
+    "concept": "cell phone",
+    "properties": {
+      "shape": [
+        "rectangle"
+      ],
+      "colour": [
+        "black",
+        "blue",
+        "green",
+        "grey",
+        "or",
+        "red",
+        "silver",
+        "white"
+      ],
+      "material": [
+        "glass",
+        "metal",
+        "plastic"
+      ],
+      "fragility": "fragile",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.15,
+        "length_m": 0.15,
+        "width_m": 0.07
+      },
+      "weight_kg": 0.15
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Theme"
+      }
+    ]
+  },
+  "chair": {
+    "concept": "chair",
+    "properties": {
+      "shape": [
+        "oval",
+        "rectangle"
+      ],
+      "colour": [
+        "beige",
+        "black",
+        "blue",
+        "green",
+        "grey",
+        "red",
+        "seal brown",
+        "white"
+      ],
+      "material": [
+        "fabric",
+        "leather",
+        "metal",
+        "plastic",
+        "wood"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.45,
+        "length_m": 0.475,
+        "width_m": 0.5
+      },
+      "weight_kg": 7.0
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Theme"
+      }
+    ]
+  },
+  "clock": {
+    "concept": "clock",
+    "properties": {
+      "shape": [
+        "oval",
+        "rectangle",
+        "round",
+        "square"
+      ],
+      "colour": [
+        "black",
+        "blue",
+        "or",
+        "red",
+        "silver",
+        "white"
+      ],
+      "material": [
+        "glass",
+        "leather",
+        "metal",
+        "plastic",
+        "wood"
+      ],
+      "fragility": "fragile",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.3,
+        "length_m": 0.3,
+        "width_m": 0.3
+      },
+      "weight_kg": 1.0
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Theme"
+      }
+    ]
+  },
+  "couch": {
+    "concept": "couch",
+    "properties": {
+      "shape": [
+        "l-shaped",
+        "oval",
+        "rectangle"
+      ],
+      "colour": [
+        "beige",
+        "black",
+        "blue",
+        "cream",
+        "green",
+        "grey",
+        "navy blue",
+        "red",
+        "seal brown",
+        "white"
+      ],
+      "material": [
+        "cotton",
+        "leather",
+        "polyester",
+        "wool"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "soft",
+      "size": {
+        "height_m": 0.4,
+        "length_m": 2.032,
+        "width_m": 2.032
+      },
+      "weight_kg": 72.5
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      }
+    ]
+  },
+  "cow": {
+    "concept": "cow",
+    "properties": {
+      "shape": [
+        "circle",
+        "oval"
+      ],
+      "colour": [
+        "black",
+        "red",
+        "seal brown",
+        "white"
+      ],
+      "material": [
+        "bone",
+        "horn",
+        "leather"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "flexible",
+      "size": {
+        "height_m": 1.5,
+        "length_m": 2.0,
+        "width_m": 0.75
+      },
+      "weight_kg": 500.0
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      }
+    ]
+  },
+  "cup": {
+    "concept": "cup",
+    "properties": {
+      "shape": [
+        "cone",
+        "cylinder",
+        "oval"
+      ],
+      "colour": [
+        "black",
+        "blue",
+        "green",
+        "red",
+        "transparent",
+        "white",
+        "yellow"
+      ],
+      "material": [
+        "ceramic",
+        "glass",
+        "metal",
+        "plastic"
+      ],
+      "fragility": "fragile",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.1,
+        "length_m": 0.1,
+        "width_m": 0.08
+      },
+      "weight_kg": 0.25
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Source"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Source"
+      }
+    ]
+  },
+  "dining table": {
+    "concept": "dining table",
+    "properties": {
+      "shape": [
+        "oval",
+        "rectangle",
+        "round",
+        "square"
+      ],
+      "colour": [
+        "beige",
+        "black",
+        "grey",
+        "seal brown",
+        "white"
+      ],
+      "material": [
+        "glass",
+        "metal",
+        "plastic",
+        "wood"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.75,
+        "length_m": 1.8288,
+        "width_m": 0.889
+      },
+      "weight_kg": 40.0
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      }
+    ]
+  },
+  "dog": {
+    "concept": "dog",
+    "properties": {
+      "shape": [],
+      "colour": [
+        "black",
+        "grey",
+        "red",
+        "seal brown",
+        "white",
+        "yellow"
+      ],
+      "material": [
+        "bone",
+        "fur",
+        "leather",
+        "skin"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "flexible",
+      "size": {
+        "height_m": 0.5,
+        "length_m": 0.55,
+        "width_m": 0.4
+      },
+      "weight_kg": 15.0
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      }
+    ]
+  },
+  "donut": {
+    "concept": "donut",
+    "properties": {
+      "shape": [
+        "ball",
+        "ring"
+      ],
+      "colour": [
+        "gold",
+        "pink",
+        "seal brown",
+        "white"
+      ],
+      "material": [],
+      "fragility": "fragile",
+      "rigidity": "soft",
+      "size": {
+        "height_m": 0.025,
+        "length_m": 0.0762,
+        "width_m": 0.0762
+      },
+      "weight_kg": 0.07
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Theme"
+      }
+    ]
+  },
+  "elephant": {
+    "concept": "elephant",
+    "properties": {
+      "shape": [
+        "cylindrical",
+        "oval"
+      ],
+      "colour": [
+        "grey"
+      ],
+      "material": [
+        "leather"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 3.0,
+        "length_m": 6.5,
+        "width_m": 1.8
+      },
+      "weight_kg": 5000.0
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      }
+    ]
+  },
+  "fire hydrant": {
+    "concept": "fire hydrant",
+    "properties": {
+      "shape": [
+        "cylindrical"
+      ],
+      "colour": [
+        "red"
+      ],
+      "material": [
+        "steel"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 1.5,
+        "length_m": 1.5,
+        "width_m": 0.2
+      },
+      "weight_kg": 50.0
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      }
+    ]
+  },
+  "fork": {
+    "concept": "fork",
+    "properties": {
+      "shape": [],
+      "colour": [
+        "black",
+        "or",
+        "silver"
+      ],
+      "material": [
+        "plastic",
+        "steel",
+        "wood"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.2,
+        "length_m": 0.2,
+        "width_m": 0.02
+      },
+      "weight_kg": 0.055
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Theme"
+      }
+    ]
+  },
+  "frisbee": {
+    "concept": "frisbee",
+    "properties": {
+      "shape": [
+        "circle"
+      ],
+      "colour": [
+        "blue",
+        "green",
+        "orange",
+        "purple",
+        "red",
+        "yellow"
+      ],
+      "material": [
+        "plastic"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.254,
+        "length_m": 0.254,
+        "width_m": 0.254
+      },
+      "weight_kg": 0.15
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Theme"
+      }
+    ]
+  },
+  "giraffe": {
+    "concept": "giraffe",
+    "properties": {
+      "shape": [],
+      "colour": [
+        "black",
+        "seal brown",
+        "yellow"
+      ],
+      "material": [
+        "fur",
+        "horn",
+        "skin"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "flexible",
+      "size": {
+        "height_m": 5.0,
+        "length_m": 3.5,
+        "width_m": 1.0
+      },
+      "weight_kg": 1000.0
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      }
+    ]
+  },
+  "hair drier": {
+    "concept": "hair drier",
+    "properties": {
+      "shape": [
+        "cylindrical"
+      ],
+      "colour": [
+        "black",
+        "red",
+        "silver",
+        "white"
+      ],
+      "material": [
+        "ceramic",
+        "metal",
+        "plastic",
+        "rubber"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.25,
+        "length_m": 0.25,
+        "width_m": 0.0725
+      },
+      "weight_kg": 0.5
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Theme"
+      }
+    ]
+  },
+  "handbag": {
+    "concept": "handbag",
+    "properties": {
+      "shape": [
+        "oval",
+        "rectangle"
+      ],
+      "colour": [
+        "beige",
+        "black",
+        "navy blue",
+        "pink",
+        "red",
+        "seal brown",
+        "white"
+      ],
+      "material": [
+        "leather",
+        "nylon",
+        "polyester"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "soft",
+      "size": {
+        "height_m": 0.25,
+        "length_m": 0.35,
+        "width_m": 0.25
+      },
+      "weight_kg": 0.8
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Source"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Source"
+      }
+    ]
+  },
+  "horse": {
+    "concept": "horse",
+    "properties": {
+      "shape": [],
+      "colour": [
+        "bay",
+        "black",
+        "chestnut",
+        "grey",
+        "seal brown",
+        "white"
+      ],
+      "material": [
+        "leather",
+        "metal",
+        "wood"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 1.5443,
+        "length_m": 2.4,
+        "width_m": 0.6
+      },
+      "weight_kg": 500.0
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      }
+    ]
+  },
+  "hot dog": {
+    "concept": "hot dog",
+    "properties": {
+      "shape": [
+        "cylinder"
+      ],
+      "colour": [
+        "red",
+        "seal brown",
+        "white"
+      ],
+      "material": [
+        "water"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "soft",
+      "size": {
+        "height_m": 0.15,
+        "length_m": 0.1524,
+        "width_m": 0.025
+      },
+      "weight_kg": 0.1
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Theme"
+      }
+    ]
+  },
+  "keyboard": {
+    "concept": "keyboard",
+    "properties": {
+      "shape": [
+        "rectangle"
+      ],
+      "colour": [
+        "black",
+        "blue",
+        "grey",
+        "red",
+        "white"
+      ],
+      "material": [
+        "fabric",
+        "metal",
+        "plastic",
+        "rubber",
+        "wood"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.25,
+        "length_m": 0.45,
+        "width_m": 0.4
+      },
+      "weight_kg": 1.0
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Theme"
+      }
+    ]
+  },
+  "kite": {
+    "concept": "kite",
+    "properties": {
+      "shape": [
+        "rhombus",
+        "triangle"
+      ],
+      "colour": [
+        "blue",
+        "green",
+        "orange",
+        "pink",
+        "purple",
+        "red",
+        "yellow"
+      ],
+      "material": [
+        "nylon",
+        "paper",
+        "plastic"
+      ],
+      "fragility": "fragile",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.5,
+        "length_m": 0.5,
+        "width_m": 0.5
+      },
+      "weight_kg": 0.1
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Theme"
+      }
+    ]
+  },
+  "knife": {
+    "concept": "knife",
+    "properties": {
+      "shape": [],
+      "colour": [
+        "black",
+        "grey",
+        "red",
+        "seal brown",
+        "silver"
+      ],
+      "material": [
+        "ceramic",
+        "plastic",
+        "steel",
+        "wood"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.2,
+        "length_m": 0.2,
+        "width_m": 0.05
+      },
+      "weight_kg": 0.5
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Theme"
+      }
+    ]
+  },
+  "laptop": {
+    "concept": "laptop",
+    "properties": {
+      "shape": [
+        "rectangle"
+      ],
+      "colour": [
+        "black",
+        "blue",
+        "grey",
+        "silver",
+        "white"
+      ],
+      "material": [
+        "aluminium",
+        "fiber",
+        "glass",
+        "plastic"
+      ],
+      "fragility": "fragile",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.22,
+        "length_m": 0.345,
+        "width_m": 0.33
+      },
+      "weight_kg": 2.2
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Theme"
+      }
+    ]
+  },
+  "microwave": {
+    "concept": "microwave",
+    "properties": {
+      "shape": [
+        "rectangle"
+      ],
+      "colour": [
+        "black",
+        "grey",
+        "silver",
+        "white"
+      ],
+      "material": [
+        "ceramic",
+        "glass",
+        "metal",
+        "plastic"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.4,
+        "length_m": 0.5,
+        "width_m": 0.35
+      },
+      "weight_kg": 15.0
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Source"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Source"
+      }
+    ]
+  },
+  "motorcycle": {
+    "concept": "motorcycle",
+    "properties": {
+      "shape": [],
+      "colour": [
+        "black",
+        "blue",
+        "green",
+        "red",
+        "silver",
+        "white",
+        "yellow"
+      ],
+      "material": [
+        "aluminium",
+        "plastic",
+        "rubber",
+        "steel"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 1.25,
+        "length_m": 2.0,
+        "width_m": 0.75
+      },
+      "weight_kg": 200.0
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Theme"
+      }
+    ]
+  },
+  "mouse": {
+    "concept": "mouse",
+    "properties": {
+      "shape": [
+        "rectangle"
+      ],
+      "colour": [
+        "black",
+        "blue",
+        "grey",
+        "seal brown",
+        "silver",
+        "white"
+      ],
+      "material": [
+        "metal",
+        "plastic",
+        "rubber"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.04,
+        "length_m": 0.12,
+        "width_m": 0.07
+      },
+      "weight_kg": 0.12
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Theme"
+      }
+    ]
+  },
+  "orange": {
+    "concept": "orange",
+    "properties": {
+      "shape": [
+        "round"
+      ],
+      "colour": [
+        "orange",
+        "yellow"
+      ],
+      "material": [],
+      "fragility": "fragile",
+      "rigidity": "soft",
+      "size": {
+        "height_m": 0.0675,
+        "length_m": 0.075,
+        "width_m": 0.07
+      },
+      "weight_kg": 0.15
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Theme"
+      }
+    ]
+  },
+  "oven": {
+    "concept": "oven",
+    "properties": {
+      "shape": [
+        "rectangle",
+        "round",
+        "square"
+      ],
+      "colour": [
+        "black",
+        "grey",
+        "silver",
+        "white"
+      ],
+      "material": [
+        "aluminium",
+        "ceramic",
+        "glass",
+        "steel"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.65,
+        "length_m": 0.6,
+        "width_m": 0.6
+      },
+      "weight_kg": 35.0
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Source"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Source"
+      }
+    ]
+  },
+  "parking meter": {
+    "concept": "parking meter",
+    "properties": {
+      "shape": [
+        "rectangle"
+      ],
+      "colour": [
+        "blue",
+        "green",
+        "grey",
+        "red",
+        "white"
+      ],
+      "material": [
+        "concrete",
+        "glass",
+        "metal",
+        "plastic"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 1.5,
+        "length_m": 0.75,
+        "width_m": 0.425
+      },
+      "weight_kg": 15.0
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      }
+    ]
+  },
+  "person": {
+    "concept": "person",
+    "properties": {
+      "shape": [
+        "circle",
+        "oval",
+        "rectangle"
+      ],
+      "colour": [
+        "black",
+        "blue",
+        "green",
+        "red",
+        "seal brown",
+        "white"
+      ],
+      "material": [
+        "bone",
+        "flesh",
+        "hair",
+        "skin"
+      ],
+      "fragility": "fragile",
+      "rigidity": "flexible",
+      "size": {
+        "height_m": 1.7,
+        "length_m": 1.7,
+        "width_m": 0.45
+      },
+      "weight_kg": 70.0
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Agent"
+      },
+      {
+        "frame": "Getting",
+        "role": "Recipient"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Recipient"
+      },
+      {
+        "frame": "Body_movement",
+        "role": "Agent"
+      }
+    ]
+  },
+  "pizza": {
+    "concept": "pizza",
+    "properties": {
+      "shape": [
+        "rectangle",
+        "round",
+        "square"
+      ],
+      "colour": [
+        "green",
+        "red",
+        "seal brown",
+        "white"
+      ],
+      "material": [],
+      "fragility": "fragile",
+      "rigidity": "flexible",
+      "size": {
+        "height_m": 0.0065,
+        "length_m": 0.3048,
+        "width_m": 0.3048
+      },
+      "weight_kg": 0.475
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Theme"
+      }
+    ]
+  },
+  "potted plant": {
+    "concept": "potted plant",
+    "properties": {
+      "shape": [],
+      "colour": [
+        "green",
+        "purple",
+        "red",
+        "white",
+        "yellow"
+      ],
+      "material": [
+        "ceramic",
+        "concrete",
+        "fiberglass",
+        "metal",
+        "plastic",
+        "wood"
+      ],
+      "fragility": "fragile",
+      "rigidity": "flexible",
+      "size": {
+        "height_m": 0.5,
+        "length_m": 0.5,
+        "width_m": 0.25
+      },
+      "weight_kg": 1.5
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Theme"
+      }
+    ]
+  },
+  "refrigerator": {
+    "concept": "refrigerator",
+    "properties": {
+      "shape": [
+        "rectangle"
+      ],
+      "colour": [
+        "black",
+        "grey",
+        "silver",
+        "white"
+      ],
+      "material": [
+        "aluminium",
+        "glass",
+        "plastic",
+        "steel"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 1.75,
+        "length_m": 1.524,
+        "width_m": 0.65
+      },
+      "weight_kg": 75.0
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Source"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Source"
+      }
+    ]
+  },
+  "remote": {
+    "concept": "remote",
+    "properties": {
+      "shape": [
+        "rectangle"
+      ],
+      "colour": [
+        "black",
+        "grey",
+        "silver",
+        "white"
+      ],
+      "material": [
+        "metal",
+        "plastic",
+        "rubber"
+      ],
+      "fragility": "fragile",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.126,
+        "length_m": 0.13,
+        "width_m": 0.12
+      },
+      "weight_kg": 0.15
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Theme"
+      }
+    ]
+  },
+  "sandwich": {
+    "concept": "sandwich",
+    "properties": {
+      "shape": [
+        "circle",
+        "oval",
+        "rectangle",
+        "square",
+        "triangle"
+      ],
+      "colour": [
+        "green",
+        "red",
+        "seal brown",
+        "white",
+        "yellow"
+      ],
+      "material": [],
+      "fragility": "fragile",
+      "rigidity": "soft",
+      "size": {
+        "height_m": 0.045,
+        "length_m": 0.15,
+        "width_m": 0.1
+      },
+      "weight_kg": 0.12
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Theme"
+      }
+    ]
+  },
+  "scissors": {
+    "concept": "scissors",
+    "properties": {
+      "shape": [],
+      "colour": [
+        "black",
+        "blue",
+        "green",
+        "red",
+        "silver"
+      ],
+      "material": [
+        "plastic",
+        "steel"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.15,
+        "length_m": 0.15,
+        "width_m": 0.035
+      },
+      "weight_kg": 0.075
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Theme"
+      }
+    ]
+  },
+  "sheep": {
+    "concept": "sheep",
+    "properties": {
+      "shape": [
+        "oval"
+      ],
+      "colour": [
+        "black",
+        "grey",
+        "seal brown",
+        "white"
+      ],
+      "material": [
+        "leather",
+        "wool"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "soft",
+      "size": {
+        "height_m": 1.0,
+        "length_m": 1.3,
+        "width_m": 0.6
+      },
+      "weight_kg": 100.0
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      }
+    ]
+  },
+  "sink": {
+    "concept": "sink",
+    "properties": {
+      "shape": [
+        "oval",
+        "rectangle",
+        "round",
+        "square"
+      ],
+      "colour": [
+        "black",
+        "or",
+        "white"
+      ],
+      "material": [
+        "ceramic",
+        "plastic",
+        "porcelain",
+        "steel"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.8064,
+        "length_m": 0.55,
+        "width_m": 0.55
+      },
+      "weight_kg": 12.0
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Theme"
+      }
+    ]
+  },
+  "skateboard": {
+    "concept": "skateboard",
+    "properties": {
+      "shape": [
+        "rectangle"
+      ],
+      "colour": [
+        "black",
+        "blue",
+        "green",
+        "red",
+        "white"
+      ],
+      "material": [
+        "aluminium",
+        "steel",
+        "wood"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.016,
+        "length_m": 0.8,
+        "width_m": 0.2032
+      },
+      "weight_kg": 2.5
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Theme"
+      }
+    ]
+  },
+  "skis": {
+    "concept": "skis",
+    "properties": {
+      "shape": [],
+      "colour": [
+        "black",
+        "blue",
+        "green",
+        "red",
+        "white"
+      ],
+      "material": [
+        "fiber",
+        "fiberglass",
+        "metal",
+        "plastic",
+        "wood"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 1.8,
+        "length_m": 1.8,
+        "width_m": 0.09
+      },
+      "weight_kg": 2.5
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Theme"
+      }
+    ]
+  },
+  "snowboard": {
+    "concept": "snowboard",
+    "properties": {
+      "shape": [],
+      "colour": [
+        "black",
+        "blue",
+        "green",
+        "red",
+        "white",
+        "yellow"
+      ],
+      "material": [
+        "fiberglass",
+        "plastic",
+        "wood"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 1.6,
+        "length_m": 1.6,
+        "width_m": 0.255
+      },
+      "weight_kg": 2.25
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Theme"
+      }
+    ]
+  },
+  "spoon": {
+    "concept": "spoon",
+    "properties": {
+      "shape": [
+        "oval",
+        "round"
+      ],
+      "colour": [
+        "black",
+        "or",
+        "silver"
+      ],
+      "material": [
+        "plastic",
+        "steel",
+        "wood"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.075,
+        "length_m": 0.15,
+        "width_m": 0.04
+      },
+      "weight_kg": 0.01
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Theme"
+      }
+    ]
+  },
+  "sports ball": {
+    "concept": "sports ball",
+    "properties": {
+      "shape": [
+        "prolate spheroid",
+        "sphere"
+      ],
+      "colour": [
+        "blue",
+        "green",
+        "orange",
+        "red",
+        "white",
+        "yellow"
+      ],
+      "material": [
+        "leather",
+        "rubber"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "flexible",
+      "size": {
+        "height_m": 0.22,
+        "length_m": 0.22,
+        "width_m": 0.22
+      },
+      "weight_kg": 0.43
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Theme"
+      }
+    ]
+  },
+  "stop sign": {
+    "concept": "stop sign",
+    "properties": {
+      "shape": [
+        "octagon"
+      ],
+      "colour": [
+        "red",
+        "white"
+      ],
+      "material": [
+        "aluminium",
+        "plastic"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 1.016,
+        "length_m": 0.762,
+        "width_m": 0.762
+      },
+      "weight_kg": 1.5
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      }
+    ]
+  },
+  "suitcase": {
+    "concept": "suitcase",
+    "properties": {
+      "shape": [
+        "rectangle"
+      ],
+      "colour": [
+        "black",
+        "blue",
+        "grey",
+        "seal brown",
+        "silver",
+        "white"
+      ],
+      "material": [
+        "leather",
+        "nylon",
+        "plastic",
+        "polyester"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.55,
+        "length_m": 0.6,
+        "width_m": 0.55
+      },
+      "weight_kg": 4.0
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Source"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Source"
+      }
+    ]
+  },
+  "surfboard": {
+    "concept": "surfboard",
+    "properties": {
+      "shape": [
+        "fish"
+      ],
+      "colour": [
+        "black",
+        "blue",
+        "green",
+        "red",
+        "white",
+        "yellow"
+      ],
+      "material": [
+        "fiberglass"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 1.9812,
+        "length_m": 1.9812,
+        "width_m": 0.5657
+      },
+      "weight_kg": 9.25
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Theme"
+      }
+    ]
+  },
+  "teddy bear": {
+    "concept": "teddy bear",
+    "properties": {
+      "shape": [
+        "bear"
+      ],
+      "colour": [
+        "black",
+        "blue",
+        "pink",
+        "seal brown",
+        "white"
+      ],
+      "material": [
+        "cotton",
+        "polyester"
+      ],
+      "fragility": "fragile",
+      "rigidity": "soft",
+      "size": {
+        "height_m": 0.3,
+        "length_m": 0.25,
+        "width_m": 0.2
+      },
+      "weight_kg": 0.65
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Theme"
+      }
+    ]
+  },
+  "tennis racket": {
+    "concept": "tennis racket",
+    "properties": {
+      "shape": [
+        "oval",
+        "rectangle"
+      ],
+      "colour": [
+        "black",
+        "blue",
+        "green",
+        "red",
+        "white",
+        "yellow"
+      ],
+      "material": [
+        "aluminium",
+        "fiber"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.69,
+        "length_m": 0.685,
+        "width_m": 0.3
+      },
+      "weight_kg": 0.325
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Theme"
+      }
+    ]
+  },
+  "tie": {
+    "concept": "tie",
+    "properties": {
+      "shape": [],
+      "colour": [
+        "black",
+        "blue",
+        "green",
+        "navy blue",
+        "red",
+        "white",
+        "yellow"
+      ],
+      "material": [
+        "cotton",
+        "nylon",
+        "polyester",
+        "silk",
+        "wool"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "flexible",
+      "size": {
+        "height_m": 1.5,
+        "length_m": 1.4732,
+        "width_m": 0.075
+      },
+      "weight_kg": 0.06
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Theme"
+      }
+    ]
+  },
+  "toaster": {
+    "concept": "toaster",
+    "properties": {
+      "shape": [
+        "rectangle"
+      ],
+      "colour": [
+        "black",
+        "silver",
+        "white"
+      ],
+      "material": [
+        "aluminium",
+        "ceramic",
+        "glass",
+        "plastic",
+        "steel"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.25,
+        "length_m": 0.35,
+        "width_m": 0.33
+      },
+      "weight_kg": 1.75
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Theme"
+      }
+    ]
+  },
+  "toilet": {
+    "concept": "toilet",
+    "properties": {
+      "shape": [
+        "oval",
+        "rectangle",
+        "round"
+      ],
+      "colour": [
+        "black",
+        "grey",
+        "white"
+      ],
+      "material": [
+        "plastic",
+        "porcelain",
+        "steel"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.762,
+        "length_m": 0.762,
+        "width_m": 0.762
+      },
+      "weight_kg": 45.0
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      }
+    ]
+  },
+  "toothbrush": {
+    "concept": "toothbrush",
+    "properties": {
+      "shape": [
+        "oval",
+        "rectangle"
+      ],
+      "colour": [
+        "blue",
+        "green",
+        "pink",
+        "red",
+        "white"
+      ],
+      "material": [
+        "nylon",
+        "plastic",
+        "rubber"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.15,
+        "length_m": 0.1,
+        "width_m": 0.015
+      },
+      "weight_kg": 0.05
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Theme"
+      }
+    ]
+  },
+  "traffic light": {
+    "concept": "traffic light",
+    "properties": {
+      "shape": [
+        "circle",
+        "rectangle"
+      ],
+      "colour": [
+        "green",
+        "red",
+        "yellow"
+      ],
+      "material": [
+        "aluminium",
+        "glass",
+        "plastic"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 2.0,
+        "length_m": 1.2,
+        "width_m": 1.0
+      },
+      "weight_kg": 15.0
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      }
+    ]
+  },
+  "train": {
+    "concept": "train",
+    "properties": {
+      "shape": [],
+      "colour": [
+        "black",
+        "blue",
+        "green",
+        "red",
+        "silver"
+      ],
+      "material": [
+        "aluminium",
+        "steel",
+        "wood"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 4.0,
+        "length_m": 150.0,
+        "width_m": 3.0
+      },
+      "weight_kg": 500000.0
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      }
+    ]
+  },
+  "truck": {
+    "concept": "truck",
+    "properties": {
+      "shape": [
+        "rectangle",
+        "rectangular cuboid"
+      ],
+      "colour": [
+        "black",
+        "blue",
+        "green",
+        "grey",
+        "red",
+        "silver",
+        "white"
+      ],
+      "material": [
+        "aluminium",
+        "plastic",
+        "rubber",
+        "steel"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 2.5,
+        "length_m": 6.0,
+        "width_m": 2.2
+      },
+      "weight_kg": 5000.0
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      }
+    ]
+  },
+  "umbrella": {
+    "concept": "umbrella",
+    "properties": {
+      "shape": [
+        "oval",
+        "round"
+      ],
+      "colour": [
+        "black",
+        "blue",
+        "green",
+        "pink",
+        "red",
+        "white",
+        "yellow"
+      ],
+      "material": [
+        "aluminium",
+        "nylon",
+        "plastic",
+        "polyester"
+      ],
+      "fragility": "fragile",
+      "rigidity": "flexible",
+      "size": {
+        "height_m": 0.75,
+        "length_m": 0.7,
+        "width_m": 0.7
+      },
+      "weight_kg": 0.375
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Theme"
+      }
+    ]
+  },
+  "vase": {
+    "concept": "vase",
+    "properties": {
+      "shape": [
+        "bell-shaped",
+        "cylinder"
+      ],
+      "colour": [
+        "black",
+        "blue",
+        "green",
+        "pink",
+        "purple",
+        "red",
+        "transparent",
+        "white",
+        "yellow"
+      ],
+      "material": [
+        "ceramic",
+        "glass",
+        "metal",
+        "plastic",
+        "porcelain",
+        "wood"
+      ],
+      "fragility": "fragile",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.3,
+        "length_m": 0.29,
+        "width_m": 0.15
+      },
+      "weight_kg": 0.75
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Theme"
+      }
+    ]
+  },
+  "wine glass": {
+    "concept": "wine glass",
+    "properties": {
+      "shape": [],
+      "colour": [
+        "transparent",
+        "white"
+      ],
+      "material": [
+        "glass",
+        "plastic"
+      ],
+      "fragility": "fragile",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.13,
+        "length_m": 0.13,
+        "width_m": 0.075
+      },
+      "weight_kg": 0.2
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Theme"
+      },
+      {
+        "frame": "Getting",
+        "role": "Source"
+      },
+      {
+        "frame": "Getting_scenario",
+        "role": "Source"
+      }
+    ]
+  },
+  "zebra": {
+    "concept": "zebra",
+    "properties": {
+      "shape": [],
+      "colour": [
+        "black",
+        "white"
+      ],
+      "material": [
+        "fur",
+        "hair",
+        "leather"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "flexible",
+      "size": {
+        "height_m": 1.3,
+        "length_m": 2.5,
+        "width_m": 0.725
+      },
+      "weight_kg": 275.0
+    },
+    "frames": [
+      {
+        "frame": "Arranging",
+        "role": "Theme"
+      }
+    ]
+  }
+}

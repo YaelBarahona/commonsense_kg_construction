@@ -1,0 +1,956 @@
+{
+  "scenario_clusters": [
+    {
+      "seed_domain": "food and eating",
+      "available_objects": [
+        "person",
+        "banana",
+        "apple",
+        "bowl",
+        "cup",
+        "spoon",
+        "dining table",
+        "refrigerator"
+      ],
+      "available_frames": [
+        "Food",
+        "Containing",
+        "Getting_scenario",
+        "Arranging",
+        "Locative_relation"
+      ],
+      "subscenarios": [
+        {
+          "name": "Making a snack",
+          "relevant_objects": [
+            "person",
+            "banana",
+            "apple",
+            "bowl",
+            "spoon"
+          ],
+          "collaborating_frames": [
+            "Food",
+            "Containing"
+          ],
+          "description": "A person places a banana and apple into a bowl and uses a spoon to eat.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "name": "Clearing the table",
+          "relevant_objects": [
+            "person",
+            "bowl",
+            "cup",
+            "spoon",
+            "dining table"
+          ],
+          "collaborating_frames": [
+            "Containing",
+            "Locative_relation"
+          ],
+          "description": "A person moves a bowl, cup, and spoon from a dining table.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "name": "Storing food",
+          "relevant_objects": [
+            "person",
+            "bowl",
+            "refrigerator"
+          ],
+          "collaborating_frames": [
+            "Containing"
+          ],
+          "description": "A person places a bowl containing food into a refrigerator.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        }
+      ],
+      "invalid_subscenarios_removed": []
+    },
+    {
+      "seed_domain": "food preparation",
+      "available_objects": [
+        "person",
+        "bowl",
+        "fork",
+        "knife",
+        "spoon",
+        "microwave",
+        "oven",
+        "refrigerator"
+      ],
+      "available_frames": [
+        "Cooking_creation",
+        "Food",
+        "Containing",
+        "Function",
+        "Arranging"
+      ],
+      "subscenarios": [
+        {
+          "name": "Reheating Food",
+          "relevant_objects": [
+            "person",
+            "bowl",
+            "microwave",
+            "fork"
+          ],
+          "collaborating_frames": [
+            "Function",
+            "Containing"
+          ],
+          "description": "A person reheats food in a bowl using a microwave, then uses a fork.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "name": "Baking a Cake",
+          "relevant_objects": [
+            "person",
+            "bowl",
+            "oven",
+            "knife"
+          ],
+          "collaborating_frames": [
+            "Cooking_creation",
+            "Containing"
+          ],
+          "description": "A person prepares cake batter in a bowl and bakes it in an oven, then uses a knife.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "name": "Assembling a Meal",
+          "relevant_objects": [
+            "person",
+            "bowl",
+            "spoon",
+            "knife"
+          ],
+          "collaborating_frames": [
+            "Function",
+            "Arranging"
+          ],
+          "description": "A person arranges ingredients in a bowl using a spoon and knife for a meal.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        }
+      ],
+      "invalid_subscenarios_removed": []
+    },
+    {
+      "seed_domain": "snacks and desserts",
+      "available_objects": [
+        "person",
+        "pizza",
+        "hot dog",
+        "donut",
+        "cake",
+        "sandwich",
+        "orange",
+        "carrot",
+        "broccoli",
+        "bowl"
+      ],
+      "available_frames": [
+        "Food",
+        "Containing",
+        "Getting_scenario",
+        "Arranging",
+        "Cooking_creation"
+      ],
+      "subscenarios": [
+        {
+          "name": "Person eats snacks",
+          "relevant_objects": [
+            "person",
+            "pizza",
+            "hot dog"
+          ],
+          "collaborating_frames": [
+            "Food",
+            "Getting_scenario"
+          ],
+          "description": "Person obtains and consumes pizza and hot dog.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "name": "Pizza preparation",
+          "relevant_objects": [
+            "person",
+            "pizza",
+            "bowl"
+          ],
+          "collaborating_frames": [
+            "Cooking_creation",
+            "Arranging",
+            "Containing",
+            "Food"
+          ],
+          "description": "Person prepares pizza by cooking, arranging, containing in a bowl, and eating.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "name": "Donut and cake",
+          "relevant_objects": [
+            "person",
+            "donut",
+            "cake"
+          ],
+          "collaborating_frames": [
+            "Getting_scenario",
+            "Food"
+          ],
+          "description": "Person acquires and eats donut and cake.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "name": "Sandwich assembly",
+          "relevant_objects": [
+            "person",
+            "sandwich",
+            "bowl"
+          ],
+          "collaborating_frames": [
+            "Cooking_creation",
+            "Arranging",
+            "Containing",
+            "Food"
+          ],
+          "description": "Person creates, arranges, contains, and eats a sandwich.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        }
+      ],
+      "invalid_subscenarios_removed": []
+    },
+    {
+      "seed_domain": "dining and drinking",
+      "available_objects": [
+        "person",
+        "dining table",
+        "cup",
+        "wine glass",
+        "bottle",
+        "bowl",
+        "fork",
+        "knife",
+        "spoon"
+      ],
+      "available_frames": [
+        "Containing",
+        "Function",
+        "Arranging",
+        "Locative_relation"
+      ],
+      "subscenarios": [
+        {
+          "name": "Setting the Table",
+          "relevant_objects": [
+            "dining table",
+            "fork",
+            "knife",
+            "spoon",
+            "cup",
+            "wine glass"
+          ],
+          "collaborating_frames": [
+            "Arranging",
+            "Locative_relation"
+          ],
+          "description": "A person arranges cutlery and glasses on a dining table.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "name": "Pouring Wine",
+          "relevant_objects": [
+            "person",
+            "bottle",
+            "wine glass"
+          ],
+          "collaborating_frames": [
+            "Containing",
+            "Function"
+          ],
+          "description": "A person pours wine from a bottle into a glass.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "name": "Eating with Bowl",
+          "relevant_objects": [
+            "person",
+            "dining table",
+            "bowl",
+            "spoon"
+          ],
+          "collaborating_frames": [
+            "Function",
+            "Locative_relation"
+          ],
+          "description": "A person uses a spoon with a bowl at a dining table.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        }
+      ],
+      "invalid_subscenarios_removed": []
+    },
+    {
+      "seed_domain": "kitchen appliances",
+      "available_objects": [
+        "person",
+        "microwave",
+        "oven",
+        "toaster",
+        "refrigerator",
+        "bowl",
+        "cup",
+        "bottle"
+      ],
+      "available_frames": [
+        "Cooking_creation",
+        "Function",
+        "Containing",
+        "Food",
+        "Locative_relation"
+      ],
+      "subscenarios": [
+        {
+          "name": "Microwave Meal Prep",
+          "relevant_objects": [
+            "person",
+            "microwave",
+            "bowl"
+          ],
+          "collaborating_frames": [
+            "Cooking_creation",
+            "Function",
+            "Containing"
+          ],
+          "description": "Heating food in the microwave.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "name": "Refrigerator Use",
+          "relevant_objects": [
+            "person",
+            "refrigerator",
+            "bowl"
+          ],
+          "collaborating_frames": [
+            "Containing",
+            "Function"
+          ],
+          "description": "Taking food from the refrigerator.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "name": "Oven Cooking",
+          "relevant_objects": [
+            "person",
+            "oven",
+            "bowl"
+          ],
+          "collaborating_frames": [
+            "Cooking_creation",
+            "Function",
+            "Containing"
+          ],
+          "description": "Baking in the oven.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "name": "Microwave Bottle",
+          "relevant_objects": [
+            "person",
+            "microwave",
+            "bottle"
+          ],
+          "collaborating_frames": [
+            "Function",
+            "Containing"
+          ],
+          "description": "Heating a bottle in the microwave.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        }
+      ],
+      "invalid_subscenarios_removed": []
+    },
+    {
+      "seed_domain": "travel and packing",
+      "available_objects": [
+        "person",
+        "backpack",
+        "suitcase",
+        "book",
+        "laptop",
+        "toothbrush",
+        "car",
+        "bus",
+        "train",
+        "airplane",
+        "bicycle"
+      ],
+      "available_frames": [
+        "Containing",
+        "Arranging",
+        "Function",
+        "Vehicle",
+        "Use_vehicle",
+        "Transportation_status"
+      ],
+      "subscenarios": [],
+      "invalid_subscenarios_removed": []
+    },
+    {
+      "seed_domain": "street and traffic",
+      "available_objects": [
+        "person",
+        "car",
+        "bus",
+        "truck",
+        "motorcycle",
+        "bicycle",
+        "traffic light",
+        "stop sign",
+        "parking meter",
+        "fire hydrant"
+      ],
+      "available_frames": [
+        "Vehicle",
+        "Use_vehicle",
+        "Transportation_status",
+        "Locative_relation",
+        "Function"
+      ],
+      "subscenarios": [
+        {
+          "name": "Person waiting for traffic light",
+          "relevant_objects": [
+            "person",
+            "traffic light"
+          ],
+          "collaborating_frames": [
+            "Function",
+            "Locative_relation"
+          ],
+          "description": "A person waits for the traffic light to change.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "name": "Bus stopping at stop sign",
+          "relevant_objects": [
+            "bus",
+            "stop sign"
+          ],
+          "collaborating_frames": [
+            "Use_vehicle",
+            "Transportation_status"
+          ],
+          "description": "A bus stops because of a stop sign.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "name": "Car stopping at parking metre",
+          "relevant_objects": [
+            "car"
+          ],
+          "collaborating_frames": [
+            "Use_vehicle",
+            "Function"
+          ],
+          "description": "A car stops to pay the parking metre.",
+          "removed_invalid_objects": [
+            "parking metre"
+          ],
+          "removed_invalid_frames": []
+        },
+        {
+          "name": "Bicycle checking fire hydrant",
+          "relevant_objects": [
+            "bicycle",
+            "fire hydrant"
+          ],
+          "collaborating_frames": [
+            "Use_vehicle",
+            "Function"
+          ],
+          "description": "A cyclist checks the water pressure at a fire hydrant.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        }
+      ],
+      "invalid_subscenarios_removed": []
+    },
+    {
+      "seed_domain": "workspace organisation",
+      "available_objects": [
+        "person",
+        "laptop",
+        "keyboard",
+        "mouse",
+        "book",
+        "chair",
+        "dining table"
+      ],
+      "available_frames": [
+        "Arranging",
+        "Function",
+        "Locative_relation"
+      ],
+      "subscenarios": [
+        {
+          "name": "Desk Organisation",
+          "relevant_objects": [
+            "person",
+            "chair",
+            "laptop",
+            "keyboard"
+          ],
+          "collaborating_frames": [
+            "Arranging",
+            "Locative_relation"
+          ],
+          "description": "A person arranges a laptop and keyboard on their chair for work.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "name": "Equipment Use",
+          "relevant_objects": [
+            "laptop",
+            "keyboard",
+            "mouse",
+            "book"
+          ],
+          "collaborating_frames": [
+            "Function"
+          ],
+          "description": "A person uses a laptop, keyboard and mouse with a book for reference.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "name": "Item Placement",
+          "relevant_objects": [
+            "chair",
+            "dining table",
+            "book",
+            "laptop"
+          ],
+          "collaborating_frames": [
+            "Locative_relation"
+          ],
+          "description": "A dining table holds a book and laptop near the chair.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        }
+      ],
+      "invalid_subscenarios_removed": []
+    },
+    {
+      "seed_domain": "sports and leisure",
+      "available_objects": [
+        "person",
+        "sports ball",
+        "baseball bat",
+        "baseball glove",
+        "tennis racket",
+        "frisbee",
+        "skateboard",
+        "TV",
+        "remote",
+        "book",
+        "couch",
+        "laptop"
+      ],
+      "available_frames": [
+        "Function",
+        "Locative_relation",
+        "Arranging"
+      ],
+      "subscenarios": [
+        {
+          "name": "Baseball practice",
+          "relevant_objects": [
+            "person",
+            "sports ball",
+            "baseball bat",
+            "baseball glove"
+          ],
+          "collaborating_frames": [
+            "Function",
+            "Locative_relation"
+          ],
+          "description": "A person uses a baseball bat and glove to practice hitting a ball.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "name": "TV session",
+          "relevant_objects": [
+            "person",
+            "TV",
+            "remote",
+            "couch"
+          ],
+          "collaborating_frames": [
+            "Function",
+            "Locative_relation"
+          ],
+          "description": "A person sits on a couch and uses a remote to control the TV.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "name": "Skate activity",
+          "relevant_objects": [
+            "person",
+            "skateboard"
+          ],
+          "collaborating_frames": [
+            "Function",
+            "Locative_relation"
+          ],
+          "description": "A person rides a skateboard for leisure.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        }
+      ],
+      "invalid_subscenarios_removed": []
+    },
+    {
+      "seed_domain": "personal hygiene",
+      "available_objects": [
+        "person",
+        "toothbrush",
+        "sink",
+        "hair drier"
+      ],
+      "available_frames": [
+        "Function",
+        "Locative_relation"
+      ],
+      "subscenarios": [
+        {
+          "name": "Brushing Teeth",
+          "relevant_objects": [
+            "person",
+            "toothbrush",
+            "sink"
+          ],
+          "collaborating_frames": [
+            "Function",
+            "Locative_relation"
+          ],
+          "description": "The person uses the toothbrush to clean their teeth at the sink.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "name": "Drying Hair",
+          "relevant_objects": [
+            "person"
+          ],
+          "collaborating_frames": [
+            "Function",
+            "Locative_relation"
+          ],
+          "description": "The person uses the hair dryer to dry their hair near their head.",
+          "removed_invalid_objects": [
+            "hair dryer"
+          ],
+          "removed_invalid_frames": []
+        },
+        {
+          "name": "Washing Hands",
+          "relevant_objects": [
+            "person",
+            "sink"
+          ],
+          "collaborating_frames": [
+            "Function",
+            "Locative_relation"
+          ],
+          "description": "The person washes their hands at the sink.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        }
+      ],
+      "invalid_subscenarios_removed": []
+    },
+    {
+      "seed_domain": "bathroom and personal care",
+      "available_objects": [
+        "person",
+        "toothbrush",
+        "hair drier",
+        "sink",
+        "toilet",
+        "scissors"
+      ],
+      "available_frames": [
+        "Function",
+        "Locative_relation",
+        "Arranging"
+      ],
+      "subscenarios": [
+        {
+          "name": "Toothbrush and sink",
+          "relevant_objects": [
+            "person",
+            "toothbrush",
+            "sink"
+          ],
+          "collaborating_frames": [
+            "Function",
+            "Locative_relation",
+            "Arranging"
+          ],
+          "description": "Person brushes teeth using a toothbrush at the sink.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "name": "Hair drier and sink",
+          "relevant_objects": [
+            "person",
+            "hair drier",
+            "sink"
+          ],
+          "collaborating_frames": [
+            "Function",
+            "Locative_relation",
+            "Arranging"
+          ],
+          "description": "Person uses hair drier near the sink and arranges it afterwards.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "name": "Toilet and sink",
+          "relevant_objects": [
+            "person",
+            "toilet",
+            "sink"
+          ],
+          "collaborating_frames": [
+            "Function",
+            "Locative_relation",
+            "Arranging"
+          ],
+          "description": "Person uses the toilet and arranges themselves near the sink afterwards.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "name": "Scissors and sink",
+          "relevant_objects": [
+            "person",
+            "scissors",
+            "sink"
+          ],
+          "collaborating_frames": [
+            "Function",
+            "Locative_relation",
+            "Arranging"
+          ],
+          "description": "Person uses scissors at the sink and arranges them after use.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        }
+      ],
+      "invalid_subscenarios_removed": []
+    },
+    {
+      "seed_domain": "animal-related activities",
+      "available_objects": [
+        "person",
+        "dog",
+        "cat",
+        "horse",
+        "bird",
+        "bowl",
+        "banana",
+        "apple"
+      ],
+      "available_frames": [
+        "Animals",
+        "Food",
+        "Containing",
+        "Getting_scenario",
+        "Locative_relation"
+      ],
+      "subscenarios": [
+        {
+          "name": "Person feeds dog",
+          "relevant_objects": [
+            "person",
+            "dog",
+            "bowl",
+            "banana"
+          ],
+          "collaborating_frames": [
+            "Animals",
+            "Food",
+            "Containing",
+            "Getting_scenario"
+          ],
+          "description": "A person gives a banana to a dog in a bowl.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "name": "Bird gets banana",
+          "relevant_objects": [
+            "bird",
+            "banana",
+            "bowl"
+          ],
+          "collaborating_frames": [
+            "Animals",
+            "Food",
+            "Getting_scenario"
+          ],
+          "description": "A bird acquires a banana from a bowl.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "name": "Cat plays with apple",
+          "relevant_objects": [
+            "cat",
+            "apple"
+          ],
+          "collaborating_frames": [
+            "Animals",
+            "Food"
+          ],
+          "description": "A cat interacts with an apple.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "name": "Horse and bowl",
+          "relevant_objects": [
+            "horse",
+            "bowl"
+          ],
+          "collaborating_frames": [
+            "Animals",
+            "Containing"
+          ],
+          "description": "A horse is located near a bowl.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        }
+      ],
+      "invalid_subscenarios_removed": []
+    },
+    {
+      "seed_domain": "zoo and wildlife",
+      "available_objects": [
+        "person",
+        "elephant",
+        "zebra",
+        "giraffe",
+        "bear",
+        "bird",
+        "horse",
+        "sheep",
+        "cow"
+      ],
+      "available_frames": [
+        "Animals",
+        "Locative_relation",
+        "Getting_scenario"
+      ],
+      "subscenarios": [
+        {
+          "name": "Elephant and Giraffe",
+          "relevant_objects": [
+            "elephant",
+            "giraffe"
+          ],
+          "collaborating_frames": [
+            "Animals",
+            "Getting_scenario"
+          ],
+          "description": "An elephant and a giraffe in a zoo enclosure.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "name": "Zebra and Giraffe",
+          "relevant_objects": [
+            "zebra",
+            "giraffe"
+          ],
+          "collaborating_frames": [
+            "Animals",
+            "Getting_scenario"
+          ],
+          "description": "A zebra and a giraffe in a wildlife reserve.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "name": "Bird near Giraffe",
+          "relevant_objects": [
+            "bird",
+            "giraffe"
+          ],
+          "collaborating_frames": [
+            "Animals",
+            "Getting_scenario"
+          ],
+          "description": "A bird near a giraffe in a savannah.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "name": "Horse and Sheep",
+          "relevant_objects": [
+            "horse",
+            "sheep"
+          ],
+          "collaborating_frames": [
+            "Animals"
+          ],
+          "description": "A horse and a sheep on a farm.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "name": "Cow and Elephant",
+          "relevant_objects": [
+            "cow",
+            "elephant"
+          ],
+          "collaborating_frames": [
+            "Animals",
+            "Locative_relation"
+          ],
+          "description": "A cow and an elephant in a zoo.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        }
+      ],
+      "invalid_subscenarios_removed": []
+    }
+  ]
+}

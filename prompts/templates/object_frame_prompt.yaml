@@ -1,0 +1,80 @@
+name: object_frame_reasoning
+version: 1.0
+description: >
+  Assign FrameNet frames and roles to a single object.
+
+input_variables:
+  - object_name
+  - object_summary
+  - allowed_frames
+  - examples
+
+prompt: |
+  You are a semantic reasoning system using FrameNet.
+
+  You MUST follow the output format exactly.
+  If you do not follow the format, the answer is invalid.
+
+  DO NOT:
+  - write normal sentences outside the JSON
+  - invent objects
+  - invent frames
+  - change field names
+  - return anything except valid JSON
+
+  Object:
+  {object_name}
+
+  Object property summary:
+  {object_summary}
+
+  Allowed FrameNet frames and roles:
+  {allowed_frames}
+
+  Instructions:
+  1. Assign all applicable frames to this object.
+  2. Use only the frames listed above.
+  3. Use only valid roles from those frames.
+  4. If a frame does not apply, leave it out.
+  5. Be realistic and consistent.
+
+  Output ONLY valid JSON in this format:
+
+  {{
+    "object": "...",
+    "frames": [
+      {{
+        "frame": "...",
+        "assignments": [
+          {{"role": "...", "object": "..."}}
+        ]
+      }}
+    ]
+  }}
+
+  {examples}
+
+examples: |
+  Example:
+
+  Object:
+  banana
+
+  Output:
+  {{
+    "object": "banana",
+    "frames": [
+      {{
+        "frame": "Getting",
+        "assignments": [
+          {{"role": "Theme", "object": "banana"}}
+        ]
+      }},
+      {{
+        "frame": "Attempt_obtain_food_scenario",
+        "assignments": [
+          {{"role": "Food", "object": "banana"}}
+        ]
+      }}
+    ]
+  }}

@@ -1,0 +1,751 @@
+{
+  "high_level_scenarios": [
+    "having breakfast",
+    "preparing food",
+    "storing groceries",
+    "packing a bag",
+    "organising a workspace",
+    "setting the table",
+    "travelling by vehicle",
+    "using kitchen utensils",
+    "placing objects in containers",
+    "playing a sport",
+    "doing a leisure activity",
+    "taking care of personal hygiene",
+    "interacting with animals"
+  ],
+  "scenario_subframes": [
+    {
+      "high_level_scenario": "having breakfast",
+      "subframes": [
+        {
+          "step": 1,
+          "name": "Obtaining food",
+          "relevant_objects": [
+            "refrigerator"
+          ],
+          "collaborating_frames": [
+            "Getting_scenario"
+          ],
+          "description": "Using the refrigerator to retrieve cereal and toast.",
+          "removed_invalid_objects": [
+            "cereal",
+            "toast"
+          ],
+          "removed_invalid_frames": []
+        },
+        {
+          "step": 2,
+          "name": "Preparing food",
+          "relevant_objects": [
+            "microwave",
+            "bowl"
+          ],
+          "collaborating_frames": [
+            "Cooking_creation"
+          ],
+          "description": "Heating cereal and toast in the microwave and placing them in a bowl.",
+          "removed_invalid_objects": [
+            "cereal",
+            "toast"
+          ],
+          "removed_invalid_frames": []
+        },
+        {
+          "step": 3,
+          "name": "Eating breakfast",
+          "relevant_objects": [
+            "dining table",
+            "bowl",
+            "spoon"
+          ],
+          "collaborating_frames": [
+            "Function"
+          ],
+          "description": "Arranging food on the table and consuming it with a spoon.",
+          "removed_invalid_objects": [
+            "cereal",
+            "toast"
+          ],
+          "removed_invalid_frames": []
+        }
+      ],
+      "invalid_subframes_removed": []
+    },
+    {
+      "high_level_scenario": "preparing food",
+      "subframes": [
+        {
+          "step": 1,
+          "name": "Getting out ingredients",
+          "relevant_objects": [
+            "apple",
+            "banana",
+            "broccoli",
+            "refrigerator"
+          ],
+          "collaborating_frames": [
+            "Food",
+            "Containing"
+          ],
+          "description": "Selecting food items from the fridge.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "step": 2,
+          "name": "Cooking food",
+          "relevant_objects": [
+            "cake",
+            "pizza",
+            "microwave",
+            "oven"
+          ],
+          "collaborating_frames": [
+            "Cooking_creation",
+            "Food"
+          ],
+          "description": "Heating prepared food items.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        }
+      ],
+      "invalid_subframes_removed": [
+        {
+          "subframe": {
+            "step": 3,
+            "name": "Using a utensil",
+            "relevant_objects": [
+              "spoon"
+            ],
+            "collaborating_frames": [
+              "Function/Activity",
+              "Function/Entity"
+            ],
+            "description": "Serving the cooked food."
+          },
+          "reason": "No valid objects or frames remained after validation.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": [
+            "Function/Activity",
+            "Function/Entity"
+          ]
+        },
+        {
+          "subframe": {
+            "step": 4,
+            "name": "Eating",
+            "relevant_objects": [
+              "fork"
+            ],
+            "collaborating_frames": [
+              "Function/Activity",
+              "Function/Entity"
+            ],
+            "description": "Consuming the prepared meal."
+          },
+          "reason": "No valid objects or frames remained after validation.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": [
+            "Function/Activity",
+            "Function/Entity"
+          ]
+        }
+      ]
+    },
+    {
+      "high_level_scenario": "storing groceries",
+      "subframes": [
+        {
+          "step": 1,
+          "name": "gathering groceries",
+          "relevant_objects": [
+            "apple",
+            "banana",
+            "bottle",
+            "backpack"
+          ],
+          "collaborating_frames": [
+            "Containing",
+            "Function"
+          ],
+          "description": "collecting food items into a container",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "step": 2,
+          "name": "transporting groceries",
+          "relevant_objects": [
+            "backpack",
+            "refrigerator"
+          ],
+          "collaborating_frames": [
+            "Function",
+            "Containing"
+          ],
+          "description": "moving the container to a storage location",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "step": 3,
+          "name": "storing groceries",
+          "relevant_objects": [
+            "backpack",
+            "refrigerator"
+          ],
+          "collaborating_frames": [
+            "Function",
+            "Containing"
+          ],
+          "description": "placing items into the storage container",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "step": 4,
+          "name": "organizing groceries",
+          "relevant_objects": [
+            "apple",
+            "banana",
+            "bottle",
+            "refrigerator"
+          ],
+          "collaborating_frames": [
+            "Arranging"
+          ],
+          "description": "arranging items within the container",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        }
+      ],
+      "invalid_subframes_removed": []
+    },
+    {
+      "high_level_scenario": "packing a bag",
+      "subframes": [
+        {
+          "step": 3,
+          "name": "finalizing_packing",
+          "relevant_objects": [
+            "suitcase",
+            "apple"
+          ],
+          "collaborating_frames": [
+            "Use_vehicle"
+          ],
+          "description": "Ensuring all necessary items are in the suitcase before departure.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": [
+            "Function/Entity"
+          ]
+        }
+      ],
+      "invalid_subframes_removed": [
+        {
+          "subframe": {
+            "step": 1,
+            "name": "selecting_items",
+            "relevant_objects": [
+              "suitcase",
+              "laptop",
+              "book",
+              "bottle",
+              "apple"
+            ],
+            "collaborating_frames": [
+              "Function/Entity",
+              "Containing/Container"
+            ],
+            "description": "Choosing items to include in the suitcase."
+          },
+          "reason": "No valid objects or frames remained after validation.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": [
+            "Function/Entity",
+            "Containing/Container"
+          ]
+        },
+        {
+          "subframe": {
+            "step": 2,
+            "name": "organizing_items",
+            "relevant_objects": [
+              "suitcase",
+              "laptop",
+              "book",
+              "bottle"
+            ],
+            "collaborating_frames": [
+              "Containing/Container",
+              "Function/Activity"
+            ],
+            "description": "Arranging the selected items inside the suitcase."
+          },
+          "reason": "No valid objects or frames remained after validation.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": [
+            "Containing/Container",
+            "Function/Activity"
+          ]
+        }
+      ]
+    },
+    {
+      "high_level_scenario": "organising a workspace",
+      "subframes": [],
+      "invalid_subframes_removed": []
+    },
+    {
+      "high_level_scenario": "setting the table",
+      "subframes": [
+        {
+          "step": 1,
+          "name": "Assemble tableware",
+          "relevant_objects": [
+            "bowl",
+            "cup",
+            "fork",
+            "spoon"
+          ],
+          "collaborating_frames": [
+            "Containing",
+            "Function"
+          ],
+          "description": "Gathering items needed for the table.",
+          "removed_invalid_objects": [
+            "plate",
+            "glass"
+          ],
+          "removed_invalid_frames": []
+        },
+        {
+          "step": 2,
+          "name": "Arrange items",
+          "relevant_objects": [
+            "bowl",
+            "cup",
+            "fork",
+            "spoon"
+          ],
+          "collaborating_frames": [
+            "Arranging"
+          ],
+          "description": "Organizing the tableware on the table.",
+          "removed_invalid_objects": [
+            "plate",
+            "glass"
+          ],
+          "removed_invalid_frames": []
+        },
+        {
+          "step": 3,
+          "name": "Add napkins and condiments",
+          "relevant_objects": [
+            "bottle"
+          ],
+          "collaborating_frames": [
+            "Function"
+          ],
+          "description": "Placing napkins and condiments on the table.",
+          "removed_invalid_objects": [
+            "napkin"
+          ],
+          "removed_invalid_frames": []
+        }
+      ],
+      "invalid_subframes_removed": []
+    },
+    {
+      "high_level_scenario": "travelling by vehicle",
+      "subframes": [
+        {
+          "step": 1,
+          "name": "Use_vehicle",
+          "relevant_objects": [
+            "person"
+          ],
+          "collaborating_frames": [
+            "Use_vehicle"
+          ],
+          "description": "The person uses or boards a vehicle.",
+          "removed_invalid_objects": [
+            "vehicle"
+          ],
+          "removed_invalid_frames": []
+        },
+        {
+          "step": 3,
+          "name": "Getting_scenario",
+          "relevant_objects": [
+            "person"
+          ],
+          "collaborating_frames": [
+            "Getting_scenario"
+          ],
+          "description": "The scenario of getting to a destination or starting a journey is defined.",
+          "removed_invalid_objects": [
+            "vehicle"
+          ],
+          "removed_invalid_frames": []
+        }
+      ],
+      "invalid_subframes_removed": [
+        {
+          "subframe": {
+            "step": 2,
+            "name": "Transportation_status",
+            "relevant_objects": [
+              "vehicle"
+            ],
+            "collaborating_frames": [
+              "Transportation_status"
+            ],
+            "description": "The status of the vehicle during transportation is considered."
+          },
+          "reason": "No valid objects or frames remained after validation.",
+          "removed_invalid_objects": [
+            "vehicle"
+          ],
+          "removed_invalid_frames": []
+        }
+      ]
+    },
+    {
+      "high_level_scenario": "using kitchen utensils",
+      "subframes": [],
+      "invalid_subframes_removed": []
+    },
+    {
+      "high_level_scenario": "placing objects in containers",
+      "subframes": [
+        {
+          "step": 1,
+          "name": "Choosing a Container",
+          "relevant_objects": [
+            "backpack",
+            "bottle"
+          ],
+          "collaborating_frames": [
+            "Containing"
+          ],
+          "description": "Selecting a container for the items.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "step": 2,
+          "name": "Selecting Items to Place",
+          "relevant_objects": [
+            "apple",
+            "banana",
+            "book"
+          ],
+          "collaborating_frames": [
+            "Food",
+            "Function"
+          ],
+          "description": "Picking objects that can be placed inside a container.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "step": 3,
+          "name": "Placing Objects into Container",
+          "relevant_objects": [
+            "apple",
+            "banana",
+            "backpack"
+          ],
+          "collaborating_frames": [
+            "Arranging",
+            "Locative_relation"
+          ],
+          "description": "Arranging items inside the chosen container.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "step": 4,
+          "name": "Utilizing the Container",
+          "relevant_objects": [
+            "backpack",
+            "person"
+          ],
+          "collaborating_frames": [
+            "Function"
+          ],
+          "description": "Using the container for its intended purpose.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        }
+      ],
+      "invalid_subframes_removed": []
+    },
+    {
+      "high_level_scenario": "playing a sport",
+      "subframes": [
+        {
+          "step": 1,
+          "name": "Preparation",
+          "relevant_objects": [
+            "baseball bat",
+            "baseball glove",
+            "sports ball",
+            "backpack"
+          ],
+          "collaborating_frames": [
+            "Containing"
+          ],
+          "description": "Athlete equips for the game.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": [
+            "Function/Entity"
+          ]
+        }
+      ],
+      "invalid_subframes_removed": [
+        {
+          "subframe": {
+            "step": 2,
+            "name": "Action",
+            "relevant_objects": [
+              "baseball bat",
+              "sports ball",
+              "baseball glove"
+            ],
+            "collaborating_frames": [
+              "Function/Entity",
+              "Function/Activity"
+            ],
+            "description": "Player swings the bat to hit the ball."
+          },
+          "reason": "No valid objects or frames remained after validation.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": [
+            "Function/Entity",
+            "Function/Activity"
+          ]
+        },
+        {
+          "subframe": {
+            "step": 3,
+            "name": "Interaction",
+            "relevant_objects": [
+              "baseball glove",
+              "sports ball",
+              "person"
+            ],
+            "collaborating_frames": [
+              "Function/Entity",
+              "Function/Activity"
+            ],
+            "description": "Fielder catches or deflects the ball."
+          },
+          "reason": "No valid objects or frames remained after validation.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": [
+            "Function/Entity",
+            "Function/Activity"
+          ]
+        },
+        {
+          "subframe": {
+            "step": 4,
+            "name": "Outcome",
+            "relevant_objects": [
+              "sports ball",
+              "person",
+              "bench"
+            ],
+            "collaborating_frames": [
+              "Function/Entity",
+              "Function/Activity"
+            ],
+            "description": "Team advances to score a run."
+          },
+          "reason": "No valid objects or frames remained after validation.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": [
+            "Function/Entity",
+            "Function/Activity"
+          ]
+        }
+      ]
+    },
+    {
+      "high_level_scenario": "doing a leisure activity",
+      "subframes": [
+        {
+          "step": 1,
+          "name": "Use_vehicle",
+          "relevant_objects": [
+            "car",
+            "skateboard"
+          ],
+          "collaborating_frames": [
+            "Use_vehicle",
+            "Transportation_status",
+            "Locative_relation"
+          ],
+          "description": "Using a car or skateboard to travel to a leisure location.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "step": 2,
+          "name": "Function/Activity",
+          "relevant_objects": [
+            "baseball bat",
+            "baseball glove"
+          ],
+          "collaborating_frames": [
+            "Arranging"
+          ],
+          "description": "Engaging in a sport using baseball equipment.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": [
+            "Function/Entity",
+            "Function/Activity"
+          ]
+        },
+        {
+          "step": 3,
+          "name": "Attempt_obtain_food_scenario",
+          "relevant_objects": [
+            "microwave"
+          ],
+          "collaborating_frames": [
+            "Attempt_obtain_food_scenario",
+            "Use_vehicle",
+            "Locative_relation"
+          ],
+          "description": "Obtaining food during a leisure outing.",
+          "removed_invalid_objects": [
+            "diner"
+          ],
+          "removed_invalid_frames": []
+        }
+      ],
+      "invalid_subframes_removed": []
+    },
+    {
+      "high_level_scenario": "taking care of personal hygiene",
+      "subframes": [
+        {
+          "step": 1,
+          "name": "Using a toothbrush",
+          "relevant_objects": [
+            "toothbrush",
+            "sink",
+            "cup"
+          ],
+          "collaborating_frames": [
+            "Function",
+            "Containing"
+          ],
+          "description": "A person brushes their teeth at the sink using a toothbrush and rinses with water from a cup.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "step": 2,
+          "name": "Washing hands",
+          "relevant_objects": [
+            "sink",
+            "bottle"
+          ],
+          "collaborating_frames": [
+            "Function",
+            "Containing"
+          ],
+          "description": "Hands are washed at the sink using water contained in a bottle.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "step": 3,
+          "name": "Using the toilet",
+          "relevant_objects": [
+            "toilet",
+            "person"
+          ],
+          "collaborating_frames": [
+            "Function"
+          ],
+          "description": "A person uses the toilet for personal hygiene.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        }
+      ],
+      "invalid_subframes_removed": []
+    },
+    {
+      "high_level_scenario": "interacting with animals",
+      "subframes": [
+        {
+          "step": 1,
+          "name": "Approaching_animals",
+          "relevant_objects": [
+            "person",
+            "dog"
+          ],
+          "collaborating_frames": [
+            "Animals",
+            "Locative_relation"
+          ],
+          "description": "Getting close to an animal in its environment.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "step": 2,
+          "name": "Interacting_with_animals",
+          "relevant_objects": [
+            "person",
+            "dog"
+          ],
+          "collaborating_frames": [
+            "Animals",
+            "Function"
+          ],
+          "description": "Engaging directly⺟ with the animal through conversation or gestures.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "step": 3,
+          "name": "Feeding_animals",
+          "relevant_objects": [
+            "dog",
+            "apple"
+          ],
+          "collaborating_frames": [
+            "Animals",
+            "Food"
+          ],
+          "description": "Providing food to the animal to build trust.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "step": 4,
+          "name": "Playing_with_animals",
+          "relevant_objects": [
+            "dog",
+            "frisbee"
+          ],
+          "collaborating_frames": [
+            "Animals",
+            "Function"
+          ],
+          "description": "Playing a game with the animal to strengthen the bond.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        }
+      ],
+      "invalid_subframes_removed": []
+    }
+  ]
+}

@@ -1,9 +1,9 @@
 categorical:
   - colour
   - shape
-  - location
   - material
-  - disposition
+  - rigidity
+  - fragility
 
 measurable:
   size:
@@ -15,20 +15,10 @@ measurable:
       - meters
       - centimeters
       - millimeters
-      - inches
-      - feet  
+
   weight:
     quality_dimensions:
       - weight
     units:
       - kilograms
       - grams
-      - pounds
-      - ounces
-  temperature:
-    quality_dimensions:
-      - temperature
-    units:
-      - celsius
-      - fahrenheit
-      - kelvin

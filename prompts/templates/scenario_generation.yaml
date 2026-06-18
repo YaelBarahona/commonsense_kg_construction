@@ -1,0 +1,51 @@
+system: |
+  You are generating grounded everyday commonsense scenarios and semantic subframes.
+
+  Use only the objects and FrameNet frames provided in the prompt.
+  Do not invent new objects.
+  Do not invent new FrameNet frames.
+  Return only valid JSON.
+
+user_template: |
+  Semantic group:
+  {group_name}
+
+  Available objects:
+  {objects}
+
+  Available FrameNet frames:
+  {frames}
+
+  Task:
+  First generate 3 to 5 high-level everyday scenarios that naturally fit this semantic group.
+  Then, for each scenario, generate 2 to 4 connected subframes.
+
+  Rules:
+  - Use only the available objects.
+  - Use only the available FrameNet frames.
+  - Each high-level scenario should involve at least 2 objects.
+  - Each subframe should include relevant objects, collaborating frames, and a short description.
+  - Use British English spelling.
+  - Do not use markdown.
+  - Return only valid JSON.
+
+  Output schema:
+  {{
+    "semantic_group": "{group_name}",
+    "scenarios": [
+      {{
+        "name": "...",
+        "relevant_objects": ["...", "..."],
+        "collaborating_frames": ["...", "..."],
+        "subframes": [
+          {{
+            "step": 1,
+            "name": "...",
+            "relevant_objects": ["...", "..."],
+            "collaborating_frames": ["...", "..."],
+            "description": "..."
+          }}
+        ]
+      }}
+    ]
+  }}

@@ -1,0 +1,4788 @@
+{
+  "TV": {
+    "object": "TV",
+    "assignments": [
+      {
+        "frame": "Function",
+        "role": "Entity",
+        "confidence": "high",
+        "reason": "TV is the entity with a specific purpose"
+      },
+      {
+        "frame": "Function",
+        "role": "Activity",
+        "confidence": "high",
+        "reason": "TV performs the activity of displaying television signals"
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [
+        "rectangle"
+      ],
+      "colour": [
+        "black",
+        "grey",
+        "silver",
+        "white"
+      ],
+      "material": [
+        "aluminium",
+        "glass",
+        "metal",
+        "plastic"
+      ],
+      "fragility": "fragile",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.6849,
+        "length_m": 1.2175,
+        "width_m": 1.218
+      },
+      "weight_kg": 15.0
+    },
+    "grounding": {
+      "id": "62",
+      "name": "TV",
+      "wn_synset": "television_receiver.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q289",
+      "dbpedia": "http://dbpedia.org/resource/TV",
+      "yago": "http://yago-knowledge.org/resource/Television",
+      "cskg": "/c/en/television"
+    },
+    "wordnet": {
+      "synset": "television_receiver.n.01",
+      "definition": "an electronic device that receives television signals and displays them on a screen",
+      "lemmas": [
+        "television_receiver",
+        "television",
+        "television_set",
+        "tv",
+        "tv_set",
+        "idiot_box",
+        "boob_tube",
+        "telly",
+        "goggle_box"
+      ],
+      "hypernyms": [
+        "receiver.n.01"
+      ]
+    }
+  },
+  "airplane": {
+    "object": "airplane",
+    "assignments": [
+      {
+        "frame": "Vehicle",
+        "role": "Vehicle",
+        "confidence": "high",
+        "reason": "Airplane is a type of vehicle for transportation."
+      },
+      {
+        "frame": "Function",
+        "role": "Entity",
+        "confidence": "medium",
+        "reason": "Airplane is designed to fulfill the role of transportation."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [
+        "delta"
+      ],
+      "colour": [
+        "blue",
+        "green",
+        "grey",
+        "red",
+        "silver",
+        "white",
+        "yellow"
+      ],
+      "material": [
+        "aluminium",
+        "fiber",
+        "steel"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 11.5,
+        "length_m": 35.0,
+        "width_m": 4.0
+      },
+      "weight_kg": 50000.0
+    },
+    "grounding": {
+      "id": "4",
+      "name": "airplane",
+      "wn_synset": "airplane.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q197",
+      "dbpedia": "http://dbpedia.org/resource/Airplane",
+      "yago": "http://yago-knowledge.org/resource/Airplane",
+      "cskg": "/c/en/airplane"
+    },
+    "wordnet": {
+      "synset": "airplane.n.01",
+      "definition": "an aircraft that has a fixed wing and is powered by propellers or jets",
+      "lemmas": [
+        "airplane",
+        "aeroplane",
+        "plane"
+      ],
+      "hypernyms": [
+        "heavier-than-air_craft.n.01"
+      ]
+    }
+  },
+  "apple": {
+    "object": "apple",
+    "assignments": [
+      {
+        "frame": "Food",
+        "role": "Food",
+        "confidence": "high",
+        "reason": "Apple is classified as a food item in standard categorization, fitting the Food frame directly."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [
+        "oblong",
+        "pear-shaped",
+        "round"
+      ],
+      "colour": [
+        "green",
+        "red",
+        "yellow"
+      ],
+      "material": [
+        "flesh",
+        "skin"
+      ],
+      "fragility": "fragile",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.075,
+        "length_m": 0.075,
+        "width_m": 0.075
+      },
+      "weight_kg": 0.15
+    },
+    "grounding": {
+      "id": "47",
+      "name": "apple",
+      "wn_synset": "apple.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q89",
+      "dbpedia": "http://dbpedia.org/resource/Apple",
+      "yago": "http://yago-knowledge.org/resource/Apple",
+      "cskg": "/c/en/apple"
+    },
+    "wordnet": {
+      "synset": "apple.n.01",
+      "definition": "fruit with red or yellow or green skin and sweet to tart crisp whitish flesh",
+      "lemmas": [
+        "apple"
+      ],
+      "hypernyms": [
+        "edible_fruit.n.01",
+        "pome.n.01"
+      ]
+    }
+  },
+  "backpack": {
+    "object": "backpack",
+    "assignments": [
+      {
+        "frame": "Containing",
+        "role": "Container",
+        "confidence": "high",
+        "reason": "Backpack is primarily designed to hold items, fitting the core concept of the Containing frame."
+      },
+      {
+        "frame": "Function",
+        "role": "Entity",
+        "confidence": "high",
+        "reason": "Backpack serves the purpose of carrying load, directly mapping to its functional design as an Entity."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [
+        "rectangle"
+      ],
+      "colour": [
+        "black",
+        "blue",
+        "green",
+        "grey",
+        "red",
+        "seal brown"
+      ],
+      "material": [
+        "leather",
+        "nylon",
+        "polyester"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "flexible",
+      "size": {
+        "height_m": 0.45,
+        "length_m": 0.45,
+        "width_m": 0.3
+      },
+      "weight_kg": 1.0
+    },
+    "grounding": {
+      "id": "24",
+      "name": "backpack",
+      "wn_synset": "backpack.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q5843",
+      "dbpedia": "http://dbpedia.org/resource/Backpack",
+      "yago": "http://yago-knowledge.org/resource/Backpack",
+      "cskg": "/c/en/backpack"
+    },
+    "wordnet": {
+      "synset": "backpack.n.01",
+      "definition": "a bag carried by a strap on your back or shoulder",
+      "lemmas": [
+        "backpack",
+        "back_pack",
+        "knapsack",
+        "packsack",
+        "rucksack",
+        "haversack"
+      ],
+      "hypernyms": [
+        "bag.n.01"
+      ]
+    }
+  },
+  "banana": {
+    "object": "banana",
+    "assignments": [
+      {
+        "frame": "Food",
+        "role": "Food",
+        "confidence": "high",
+        "reason": "Banana is commonly classified as a food item."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [],
+      "colour": [
+        "green",
+        "red",
+        "seal brown",
+        "yellow"
+      ],
+      "material": [
+        "fiber"
+      ],
+      "fragility": "fragile",
+      "rigidity": "soft",
+      "size": {
+        "height_m": 5.0,
+        "length_m": 0.15,
+        "width_m": 0.05
+      },
+      "weight_kg": 0.12
+    },
+    "grounding": {
+      "id": "46",
+      "name": "banana",
+      "wn_synset": "banana.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q503",
+      "dbpedia": "http://dbpedia.org/resource/Banana",
+      "yago": "http://yago-knowledge.org/resource/Banana",
+      "cskg": "/c/en/banana"
+    },
+    "wordnet": {
+      "synset": "banana.n.01",
+      "definition": "any of several tropical and subtropical treelike herbs of the genus Musa having a terminal crown of large entire leaves and usually bearing hanging clusters of elongated fruits",
+      "lemmas": [
+        "banana",
+        "banana_tree"
+      ],
+      "hypernyms": [
+        "herb.n.01"
+      ]
+    }
+  },
+  "baseball bat": {
+    "object": "baseball bat",
+    "assignments": [
+      {
+        "frame": "Function",
+        "role": "Entity",
+        "confidence": "high",
+        "reason": "Baseball bat is a device designed for hitting in baseball."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [
+        "cylindrical",
+        "round"
+      ],
+      "colour": [
+        "black",
+        "grey",
+        "seal brown",
+        "silver"
+      ],
+      "material": [
+        "aluminium",
+        "wood"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.8636,
+        "length_m": 0.8636,
+        "width_m": 0.07
+      },
+      "weight_kg": 0.907
+    },
+    "grounding": {
+      "id": "34",
+      "name": "baseball bat",
+      "wn_synset": "baseball_bat.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q809910",
+      "dbpedia": "http://dbpedia.org/resource/Baseball_bat",
+      "yago": "http://yago-knowledge.org/resource/Baseball_bat",
+      "cskg": "/c/en/baseball_bat"
+    },
+    "wordnet": {
+      "synset": "baseball_bat.n.01",
+      "definition": "an implement used in baseball by the batter",
+      "lemmas": [
+        "baseball_bat",
+        "lumber"
+      ],
+      "hypernyms": [
+        "bat.n.05",
+        "baseball_equipment.n.01"
+      ]
+    }
+  },
+  "baseball glove": {
+    "object": "baseball glove",
+    "assignments": [
+      {
+        "frame": "Function",
+        "role": "Entity",
+        "confidence": "high",
+        "reason": "Baseball glove is designed for specific functions in baseball, such as protecting the hand and facilitating ball catching."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [
+        "oval",
+        "rectangular cuboid"
+      ],
+      "colour": [
+        "black",
+        "blue",
+        "red",
+        "seal brown",
+        "white"
+      ],
+      "material": [
+        "leather"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "flexible",
+      "size": {
+        "height_m": 0.2921,
+        "length_m": 0.3048,
+        "width_m": 0.2921
+      },
+      "weight_kg": 0.3544
+    },
+    "grounding": {
+      "id": "35",
+      "name": "baseball glove",
+      "wn_synset": "baseball_glove.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q809894",
+      "dbpedia": "http://dbpedia.org/resource/Baseball_glove",
+      "yago": "None",
+      "cskg": "/c/en/baseball_glove"
+    },
+    "wordnet": {
+      "synset": "baseball_glove.n.01",
+      "definition": "the handwear used by fielders in playing baseball",
+      "lemmas": [
+        "baseball_glove",
+        "glove",
+        "baseball_mitt",
+        "mitt"
+      ],
+      "hypernyms": [
+        "baseball_equipment.n.01"
+      ]
+    }
+  },
+  "bear": {
+    "object": "bear",
+    "assignments": [
+      {
+        "frame": "Animals",
+        "role": "Animal",
+        "confidence": "high",
+        "reason": "Direct biological classification of bear as an animal."
+      },
+      {
+        "frame": "Function",
+        "role": "Entity",
+        "confidence": "medium",
+        "reason": "Bear exists as an entity with ecological and predatory roles."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [
+        "oval"
+      ],
+      "colour": [
+        "black",
+        "seal brown",
+        "white"
+      ],
+      "material": [
+        "bone",
+        "fur"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 1.5,
+        "length_m": 2.0,
+        "width_m": 0.7
+      },
+      "weight_kg": 180.0
+    },
+    "grounding": {
+      "id": "21",
+      "name": "bear",
+      "wn_synset": "bear.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q30090244",
+      "dbpedia": "http://dbpedia.org/resource/Bear",
+      "yago": "http://yago-knowledge.org/resource/Bear",
+      "cskg": "/c/en/bear"
+    },
+    "wordnet": {
+      "synset": "bear.n.01",
+      "definition": "massive plantigrade carnivorous or omnivorous mammals with long shaggy coats and strong claws",
+      "lemmas": [
+        "bear"
+      ],
+      "hypernyms": [
+        "carnivore.n.01"
+      ]
+    }
+  },
+  "bed": {
+    "object": "bed",
+    "assignments": [
+      {
+        "frame": "Function",
+        "role": "Entity",
+        "confidence": "high",
+        "reason": "Bed is an entity designed to fulfill the role of providing a place for sleeping."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [
+        "oval",
+        "rectangle"
+      ],
+      "colour": [
+        "black",
+        "blue",
+        "green",
+        "grey",
+        "red",
+        "seal brown",
+        "white"
+      ],
+      "material": [
+        "fabric",
+        "metal",
+        "plastic",
+        "wood"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "soft",
+      "size": {
+        "height_m": 0.5,
+        "length_m": 1.905,
+        "width_m": 1.5
+      },
+      "weight_kg": 25.0
+    },
+    "grounding": {
+      "id": "59",
+      "name": "bed",
+      "wn_synset": "bed.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q42177",
+      "dbpedia": "http://dbpedia.org/resource/Bed",
+      "yago": "None",
+      "cskg": "/c/en/bed"
+    },
+    "wordnet": {
+      "synset": "bed.n.01",
+      "definition": "a piece of furniture that provides a place to sleep",
+      "lemmas": [
+        "bed"
+      ],
+      "hypernyms": [
+        "bedroom_furniture.n.01"
+      ]
+    }
+  },
+  "bench": {
+    "object": "bench",
+    "assignments": [
+      {
+        "frame": "Function",
+        "role": "Entity",
+        "confidence": "high",
+        "reason": "Bench is a physical entity."
+      }
+    ],
+    "invalid_assignments_removed": [
+      {
+        "frame": "Function",
+        "role": "Sitting Area",
+        "confidence": "high",
+        "reason": "Bench serves as a seat for people."
+      }
+    ],
+    "kb_properties": {
+      "shape": [
+        "rectangle"
+      ],
+      "colour": [
+        "black",
+        "blue",
+        "green",
+        "grey",
+        "red",
+        "seal brown"
+      ],
+      "material": [
+        "concrete",
+        "metal",
+        "plastic",
+        "stone",
+        "wood"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.45,
+        "length_m": 2.0,
+        "width_m": 0.725
+      },
+      "weight_kg": 20.0
+    },
+    "grounding": {
+      "id": "13",
+      "name": "bench",
+      "wn_synset": "bench.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q204776",
+      "dbpedia": "http://dbpedia.org/resource/Bench_(furniture)",
+      "yago": "http://yago-knowledge.org/resource/Bench__u0028_furniture_u0029_",
+      "cskg": "/c/en/bench"
+    },
+    "wordnet": {
+      "synset": "bench.n.01",
+      "definition": "a long seat for more than one person",
+      "lemmas": [
+        "bench"
+      ],
+      "hypernyms": [
+        "seat.n.03"
+      ]
+    }
+  },
+  "bicycle": {
+    "object": "bicycle",
+    "assignments": [
+      {
+        "frame": "Vehicle",
+        "role": "Vehicle",
+        "confidence": "high",
+        "reason": "Bicycle is a wheeled vehicle used for transportation."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [],
+      "colour": [
+        "black",
+        "blue",
+        "green",
+        "red",
+        "silver",
+        "white",
+        "yellow"
+      ],
+      "material": [
+        "aluminium",
+        "fiber",
+        "steel"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 1.0,
+        "length_m": 2.0,
+        "width_m": 0.6
+      },
+      "weight_kg": 15.0
+    },
+    "grounding": {
+      "id": "1",
+      "name": "bicycle",
+      "wn_synset": "bicycle.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q11442",
+      "dbpedia": "http://dbpedia.org/resource/Bicycle",
+      "yago": "http://yago-knowledge.org/resource/Bicycle",
+      "cskg": "/c/en/bicycle"
+    },
+    "wordnet": {
+      "synset": "bicycle.n.01",
+      "definition": "a wheeled vehicle that has two wheels and is moved by foot pedals",
+      "lemmas": [
+        "bicycle",
+        "bike",
+        "wheel",
+        "cycle"
+      ],
+      "hypernyms": [
+        "wheeled_vehicle.n.01"
+      ]
+    }
+  },
+  "bird": {
+    "object": "bird",
+    "assignments": [
+      {
+        "frame": "Animals",
+        "role": "Animal",
+        "confidence": "high",
+        "reason": "Bird is a biological entity, a vertebrate with feathers, fitting the Animals frame definition."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [
+        "oval",
+        "round"
+      ],
+      "colour": [
+        "black",
+        "blue",
+        "green",
+        "red",
+        "seal brown",
+        "white",
+        "yellow"
+      ],
+      "material": [],
+      "fragility": "fragile",
+      "rigidity": "flexible",
+      "size": {
+        "height_m": 0.3,
+        "length_m": 0.25,
+        "width_m": 0.15
+      },
+      "weight_kg": 0.1
+    },
+    "grounding": {
+      "id": "14",
+      "name": "bird",
+      "wn_synset": "bird.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q5113",
+      "dbpedia": "http://dbpedia.org/resource/Bird",
+      "yago": "http://yago-knowledge.org/resource/Bird",
+      "cskg": "/c/en/bird"
+    },
+    "wordnet": {
+      "synset": "bird.n.01",
+      "definition": "warm-blooded egg-laying vertebrates characterized by feathers and forelimbs modified as wings",
+      "lemmas": [
+        "bird"
+      ],
+      "hypernyms": [
+        "vertebrate.n.01"
+      ]
+    }
+  },
+  "boat": {
+    "object": "boat",
+    "assignments": [
+      {
+        "frame": "Vehicle",
+        "role": "Vehicle",
+        "confidence": "high",
+        "reason": "Boat is a type of vehicle used for transportation on water."
+      },
+      {
+        "frame": "Function",
+        "role": "Entity",
+        "confidence": "high",
+        "reason": "Boat is an entity designed for transportation or other uses, fulfilling a specific role."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [],
+      "colour": [
+        "black",
+        "blue",
+        "green",
+        "grey",
+        "red",
+        "white",
+        "yellow"
+      ],
+      "material": [
+        "aluminium",
+        "fiberglass",
+        "plastic",
+        "steel",
+        "wood"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 3.0,
+        "length_m": 6.0,
+        "width_m": 3.0
+      },
+      "weight_kg": 200.0
+    },
+    "grounding": {
+      "id": "8",
+      "name": "boat",
+      "wn_synset": "boat.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q35872",
+      "dbpedia": "http://dbpedia.org/resource/Boat",
+      "yago": "http://yago-knowledge.org/resource/Boat",
+      "cskg": "/c/en/boat"
+    },
+    "wordnet": {
+      "synset": "boat.n.01",
+      "definition": "a small vessel for travel on water",
+      "lemmas": [
+        "boat"
+      ],
+      "hypernyms": [
+        "vessel.n.02"
+      ]
+    }
+  },
+  "book": {
+    "object": "book",
+    "assignments": [
+      {
+        "frame": "Function",
+        "role": "Entity",
+        "confidence": "high",
+        "reason": "Book is a publication designed to convey information or tell a story."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [
+        "oblong",
+        "rectangle",
+        "square"
+      ],
+      "colour": [
+        "black",
+        "blue",
+        "green",
+        "red",
+        "white",
+        "yellow"
+      ],
+      "material": [
+        "cardboard",
+        "cloth",
+        "paper"
+      ],
+      "fragility": "fragile",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.2175,
+        "length_m": 0.22,
+        "width_m": 0.15
+      },
+      "weight_kg": 0.425
+    },
+    "grounding": {
+      "id": "73",
+      "name": "book",
+      "wn_synset": "book.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q571",
+      "dbpedia": "http://dbpedia.org/resource/Book",
+      "yago": "http://yago-knowledge.org/resource/Written_Work_Q47461344",
+      "cskg": "/c/en/book"
+    },
+    "wordnet": {
+      "synset": "book.n.01",
+      "definition": "a written work or composition that has been published (printed on pages bound together)",
+      "lemmas": [
+        "book"
+      ],
+      "hypernyms": [
+        "publication.n.01"
+      ]
+    }
+  },
+  "bottle": {
+    "object": "bottle",
+    "assignments": [
+      {
+        "frame": "Containing",
+        "role": "Container",
+        "confidence": "high",
+        "reason": "Bottle is primarily a container for holding liquids."
+      },
+      {
+        "frame": "Function",
+        "role": "Entity",
+        "confidence": "high",
+        "reason": "Bottle serves as an entity designed for storing or containing liquids."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [
+        "cylindrical",
+        "rectangle"
+      ],
+      "colour": [
+        "blue",
+        "green",
+        "red",
+        "seal brown",
+        "transparent"
+      ],
+      "material": [
+        "glass",
+        "plastic"
+      ],
+      "fragility": "fragile",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.25,
+        "length_m": 0.25,
+        "width_m": 0.07
+      },
+      "weight_kg": 0.3
+    },
+    "grounding": {
+      "id": "39",
+      "name": "bottle",
+      "wn_synset": "bottle.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q80228",
+      "dbpedia": "http://dbpedia.org/resource/Bottle",
+      "yago": "http://yago-knowledge.org/resource/Bottle",
+      "cskg": "/c/en/bottle"
+    },
+    "wordnet": {
+      "synset": "bottle.n.01",
+      "definition": "a glass or plastic vessel used for storing drinks or other liquids; typically cylindrical without handles and with a narrow neck that can be plugged or capped",
+      "lemmas": [
+        "bottle"
+      ],
+      "hypernyms": [
+        "vessel.n.03"
+      ]
+    }
+  },
+  "bowl": {
+    "object": "bowl",
+    "assignments": [
+      {
+        "frame": "Containing",
+        "role": "Container",
+        "confidence": "high",
+        "reason": "Bowl is primarily a container used for holding food or liquids."
+      },
+      {
+        "frame": "Function",
+        "role": "Entity",
+        "confidence": "medium",
+        "reason": "Bowl serves as an entity designed to hold or contain items."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [
+        "oval",
+        "rectangle",
+        "round",
+        "square"
+      ],
+      "colour": [
+        "black",
+        "blue",
+        "green",
+        "red",
+        "transparent",
+        "white",
+        "yellow"
+      ],
+      "material": [
+        "ceramic",
+        "glass",
+        "metal",
+        "plastic",
+        "porcelain",
+        "wood"
+      ],
+      "fragility": "fragile",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.1,
+        "length_m": 0.24,
+        "width_m": 0.25
+      },
+      "weight_kg": 0.5
+    },
+    "grounding": {
+      "id": "45",
+      "name": "bowl",
+      "wn_synset": "bowl.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q153988",
+      "dbpedia": "http://dbpedia.org/resource/Bowl",
+      "yago": "http://yago-knowledge.org/resource/Bowl",
+      "cskg": "/c/en/bowl"
+    },
+    "wordnet": {
+      "synset": "bowl.n.01",
+      "definition": "a round vessel that is open at the top; used chiefly for holding food or liquids",
+      "lemmas": [
+        "bowl"
+      ],
+      "hypernyms": [
+        "vessel.n.03"
+      ]
+    }
+  },
+  "broccoli": {
+    "object": "broccoli",
+    "assignments": [
+      {
+        "frame": "Plants",
+        "role": "Plant",
+        "confidence": "high",
+        "reason": "Broccoli is a plant."
+      },
+      {
+        "frame": "Food",
+        "role": "Food",
+        "confidence": "high",
+        "reason": "Broccoli is commonly used as food."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [
+        "conical"
+      ],
+      "colour": [
+        "green"
+      ],
+      "material": [],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.625,
+        "length_m": 0.15,
+        "width_m": 0.1
+      },
+      "weight_kg": 0.35
+    },
+    "grounding": {
+      "id": "50",
+      "name": "broccoli",
+      "wn_synset": "broccoli.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q47722",
+      "dbpedia": "http://dbpedia.org/resource/Broccoli",
+      "yago": "http://yago-knowledge.org/resource/Broccoli",
+      "cskg": "/c/en/broccoli"
+    },
+    "wordnet": {
+      "synset": "broccoli.n.01",
+      "definition": "plant with dense clusters of tight green flower buds",
+      "lemmas": [
+        "broccoli",
+        "Brassica_oleracea_italica"
+      ],
+      "hypernyms": [
+        "crucifer.n.01"
+      ]
+    }
+  },
+  "bus": {
+    "object": "bus",
+    "assignments": [
+      {
+        "frame": "Vehicle",
+        "role": "Vehicle",
+        "confidence": "high",
+        "reason": "Bus is a vehicle used for transportation."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [
+        "rectangle"
+      ],
+      "colour": [
+        "blue",
+        "green",
+        "red",
+        "white",
+        "yellow"
+      ],
+      "material": [
+        "aluminium",
+        "glass",
+        "plastic",
+        "rubber",
+        "steel"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 3.75,
+        "length_m": 12.0,
+        "width_m": 2.7
+      },
+      "weight_kg": 15000.0
+    },
+    "grounding": {
+      "id": "5",
+      "name": "bus",
+      "wn_synset": "bus.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q5638",
+      "dbpedia": "http://dbpedia.org/resource/Bus",
+      "yago": "http://yago-knowledge.org/resource/Bus",
+      "cskg": "/c/en/bus"
+    },
+    "wordnet": {
+      "synset": "bus.n.01",
+      "definition": "a vehicle carrying many passengers; used for public transport",
+      "lemmas": [
+        "bus",
+        "autobus",
+        "coach",
+        "charabanc",
+        "double-decker",
+        "jitney",
+        "motorbus",
+        "motorcoach",
+        "omnibus",
+        "passenger_vehicle"
+      ],
+      "hypernyms": [
+        "public_transport.n.01"
+      ]
+    }
+  },
+  "cake": {
+    "object": "cake",
+    "assignments": [
+      {
+        "frame": "Food",
+        "role": "Food",
+        "confidence": "high",
+        "reason": "Directly an item of food."
+      },
+      {
+        "frame": "Cooking_creation",
+        "role": "Produced_food",
+        "confidence": "medium",
+        "reason": "Typically produced through baking processes."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [
+        "heart",
+        "rectangle",
+        "round",
+        "square",
+        "star"
+      ],
+      "colour": [
+        "pink",
+        "red",
+        "seal brown",
+        "white",
+        "yellow"
+      ],
+      "material": [],
+      "fragility": "fragile",
+      "rigidity": "soft",
+      "size": {
+        "height_m": 0.1,
+        "length_m": 0.25,
+        "width_m": 0.2286
+      },
+      "weight_kg": 1.0
+    },
+    "grounding": {
+      "id": "55",
+      "name": "cake",
+      "wn_synset": "cake.n.03",
+      "wikidata": "http://www.wikidata.org/entity/Q13276",
+      "dbpedia": "http://dbpedia.org/resource/Cake",
+      "yago": "http://yago-knowledge.org/resource/Cake",
+      "cskg": "/c/en/cake"
+    },
+    "wordnet": {
+      "synset": "cake.n.03",
+      "definition": "baked goods made from or based on a mixture of flour, sugar, eggs, and fat",
+      "lemmas": [
+        "cake"
+      ],
+      "hypernyms": [
+        "baked_goods.n.01"
+      ]
+    }
+  },
+  "car": {
+    "object": "car",
+    "assignments": [
+      {
+        "frame": "Vehicle",
+        "role": "Vehicle",
+        "confidence": "high",
+        "reason": "car is directly a type of vehicle"
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [],
+      "colour": [
+        "black",
+        "blue",
+        "green",
+        "grey",
+        "red",
+        "silver",
+        "white",
+        "yellow"
+      ],
+      "material": [
+        "aluminium",
+        "glass",
+        "plastic",
+        "rubber",
+        "steel"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 1.5,
+        "length_m": 4.55,
+        "width_m": 1.8
+      },
+      "weight_kg": 1500.0
+    },
+    "grounding": {
+      "id": "2",
+      "name": "car",
+      "wn_synset": "car.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q1420",
+      "dbpedia": "http://dbpedia.org/resource/Automobile",
+      "yago": "http://yago-knowledge.org/resource/Car",
+      "cskg": "/c/en/car"
+    },
+    "wordnet": {
+      "synset": "car.n.01",
+      "definition": "a motor vehicle with four wheels; usually propelled by an internal combustion engine",
+      "lemmas": [
+        "car",
+        "auto",
+        "automobile",
+        "machine",
+        "motorcar"
+      ],
+      "hypernyms": [
+        "motor_vehicle.n.01"
+      ]
+    }
+  },
+  "carrot": {
+    "object": "carrot",
+    "assignments": [
+      {
+        "frame": "Food",
+        "role": "Food",
+        "confidence": "high",
+        "reason": "carrot is commonly recognized as food"
+      },
+      {
+        "frame": "Plants",
+        "role": "Plant",
+        "confidence": "high",
+        "reason": "carrot is a cultivated plant"
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [],
+      "colour": [
+        "orange",
+        "purple",
+        "red",
+        "white"
+      ],
+      "material": [
+        "water"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.15,
+        "length_m": 0.15,
+        "width_m": 0.025
+      },
+      "weight_kg": 0.1
+    },
+    "grounding": {
+      "id": "51",
+      "name": "carrot",
+      "wn_synset": "carrot.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q81",
+      "dbpedia": "http://dbpedia.org/resource/Carrot",
+      "yago": "http://yago-knowledge.org/resource/Carrot",
+      "cskg": "/c/en/carrot"
+    },
+    "wordnet": {
+      "synset": "carrot.n.01",
+      "definition": "deep orange edible root of the cultivated carrot plant",
+      "lemmas": [
+        "carrot"
+      ],
+      "hypernyms": [
+        "root.n.01"
+      ]
+    }
+  },
+  "cat": {
+    "object": "cat",
+    "assignments": [
+      {
+        "frame": "Animals",
+        "role": "Animal",
+        "confidence": "high",
+        "reason": "Cat is a biological entity other than human beings, directly fitting the core role in the Animals frame."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [
+        "oval"
+      ],
+      "colour": [
+        "black",
+        "grey",
+        "orange",
+        "white"
+      ],
+      "material": [
+        "fur",
+        "skin"
+      ],
+      "fragility": "fragile",
+      "rigidity": "flexible",
+      "size": {
+        "height_m": 0.25,
+        "length_m": 0.48,
+        "width_m": 0.15
+      },
+      "weight_kg": 4.5
+    },
+    "grounding": {
+      "id": "15",
+      "name": "cat",
+      "wn_synset": "cat.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q146",
+      "dbpedia": "http://dbpedia.org/resource/Cat",
+      "yago": "None",
+      "cskg": "/c/en/cat"
+    },
+    "wordnet": {
+      "synset": "cat.n.01",
+      "definition": "feline mammal usually having thick soft fur and no ability to roar: domestic cats; wildcats",
+      "lemmas": [
+        "cat",
+        "true_cat"
+      ],
+      "hypernyms": [
+        "feline.n.01"
+      ]
+    }
+  },
+  "cell phone": {
+    "object": "cell phone",
+    "assignments": [
+      {
+        "frame": "Function",
+        "role": "Entity",
+        "confidence": "high",
+        "reason": "Cell phone is an entity designed for communication functions."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [
+        "rectangle"
+      ],
+      "colour": [
+        "black",
+        "blue",
+        "green",
+        "grey",
+        "or",
+        "red",
+        "silver",
+        "white"
+      ],
+      "material": [
+        "glass",
+        "metal",
+        "plastic"
+      ],
+      "fragility": "fragile",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.15,
+        "length_m": 0.15,
+        "width_m": 0.07
+      },
+      "weight_kg": 0.15
+    },
+    "grounding": {
+      "id": "67",
+      "name": "cell phone",
+      "wn_synset": "radiotelephone.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q17517",
+      "dbpedia": "http://dbpedia.org/resource/Mobile_phone",
+      "yago": "http://yago-knowledge.org/resource/Mobile_phone",
+      "cskg": "/c/en/cell_phone"
+    },
+    "wordnet": {
+      "synset": "radiotelephone.n.01",
+      "definition": "telephony that uses transmission by radio rather than by wire",
+      "lemmas": [
+        "radiotelephone",
+        "radiotelephony",
+        "wireless_telephone"
+      ],
+      "hypernyms": [
+        "wireless.n.02"
+      ]
+    }
+  },
+  "chair": {
+    "object": "chair",
+    "assignments": [
+      {
+        "frame": "Function",
+        "role": "Entity",
+        "confidence": "high",
+        "reason": "The chair is an entity designed to fulfill a specific function, primarily as a seat for sitting."
+      },
+      {
+        "frame": "Function",
+        "role": "Role",
+        "confidence": "high",
+        "reason": "The chair fulfills the role of providing support and comfort for sitting, aligning with its design purpose."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [
+        "oval",
+        "rectangle"
+      ],
+      "colour": [
+        "beige",
+        "black",
+        "blue",
+        "green",
+        "grey",
+        "red",
+        "seal brown",
+        "white"
+      ],
+      "material": [
+        "fabric",
+        "leather",
+        "metal",
+        "plastic",
+        "wood"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.45,
+        "length_m": 0.475,
+        "width_m": 0.5
+      },
+      "weight_kg": 7.0
+    },
+    "grounding": {
+      "id": "56",
+      "name": "chair",
+      "wn_synset": "chair.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q15026",
+      "dbpedia": "http://dbpedia.org/resource/Chair",
+      "yago": "None",
+      "cskg": "/c/en/chair"
+    },
+    "wordnet": {
+      "synset": "chair.n.01",
+      "definition": "a seat for one person, with a support for the back",
+      "lemmas": [
+        "chair"
+      ],
+      "hypernyms": [
+        "seat.n.03"
+      ]
+    }
+  },
+  "clock": {
+    "object": "clock",
+    "assignments": [
+      {
+        "frame": "Function",
+        "role": "Entity",
+        "confidence": "high",
+        "reason": "Clock is an entity designed for timekeeping."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [
+        "oval",
+        "rectangle",
+        "round",
+        "square"
+      ],
+      "colour": [
+        "black",
+        "blue",
+        "or",
+        "red",
+        "silver",
+        "white"
+      ],
+      "material": [
+        "glass",
+        "leather",
+        "metal",
+        "plastic",
+        "wood"
+      ],
+      "fragility": "fragile",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.3,
+        "length_m": 0.3,
+        "width_m": 0.3
+      },
+      "weight_kg": 1.0
+    },
+    "grounding": {
+      "id": "74",
+      "name": "clock",
+      "wn_synset": "clock.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q376",
+      "dbpedia": "http://dbpedia.org/resource/Clock",
+      "yago": "http://yago-knowledge.org/resource/Clock",
+      "cskg": "/c/en/clock"
+    },
+    "wordnet": {
+      "synset": "clock.n.01",
+      "definition": "a timepiece that shows the time of day",
+      "lemmas": [
+        "clock"
+      ],
+      "hypernyms": [
+        "timepiece.n.01"
+      ]
+    }
+  },
+  "couch": {
+    "object": "couch",
+    "assignments": [
+      {
+        "frame": "Function",
+        "role": "Entity",
+        "confidence": "high",
+        "reason": "Couch is primarily designed to fulfill the role of providing seating and resting, making it a strong fit for the Function frame."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [
+        "l-shaped",
+        "oval",
+        "rectangle"
+      ],
+      "colour": [
+        "beige",
+        "black",
+        "blue",
+        "cream",
+        "green",
+        "grey",
+        "navy blue",
+        "red",
+        "seal brown",
+        "white"
+      ],
+      "material": [
+        "cotton",
+        "leather",
+        "polyester",
+        "wool"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "soft",
+      "size": {
+        "height_m": 0.4,
+        "length_m": 2.032,
+        "width_m": 2.032
+      },
+      "weight_kg": 72.5
+    },
+    "grounding": {
+      "id": "57",
+      "name": "couch",
+      "wn_synset": "couch.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q131514",
+      "dbpedia": "http://dbpedia.org/resource/Couch",
+      "yago": "None",
+      "cskg": "/c/en/couch"
+    },
+    "wordnet": {
+      "synset": "couch.n.01",
+      "definition": "an upholstered seat for more than one person",
+      "lemmas": [
+        "sofa",
+        "couch",
+        "lounge"
+      ],
+      "hypernyms": [
+        "seat.n.03"
+      ]
+    }
+  },
+  "cow": {
+    "object": "cow",
+    "assignments": [
+      {
+        "frame": "Animals",
+        "role": "Animal",
+        "confidence": "high",
+        "reason": "Cow is primarily an animal, and the Animals frame directly identifies the central category."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [
+        "circle",
+        "oval"
+      ],
+      "colour": [
+        "black",
+        "red",
+        "seal brown",
+        "white"
+      ],
+      "material": [
+        "bone",
+        "horn",
+        "leather"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "flexible",
+      "size": {
+        "height_m": 1.5,
+        "length_m": 2.0,
+        "width_m": 0.75
+      },
+      "weight_kg": 500.0
+    },
+    "grounding": {
+      "id": "19",
+      "name": "cow",
+      "wn_synset": "cow.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q11748378",
+      "dbpedia": "http://dbpedia.org/resource/Cow",
+      "yago": "None",
+      "cskg": "/c/en/cow"
+    },
+    "wordnet": {
+      "synset": "cow.n.01",
+      "definition": "female of domestic cattle:",
+      "lemmas": [
+        "cow",
+        "moo-cow"
+      ],
+      "hypernyms": [
+        "cattle.n.01"
+      ]
+    }
+  },
+  "cup": {
+    "object": "cup",
+    "assignments": [
+      {
+        "frame": "Containing",
+        "role": "Container",
+        "confidence": "high",
+        "reason": "Cup is typically a small open container used for holding liquids or other items."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [
+        "cone",
+        "cylinder",
+        "oval"
+      ],
+      "colour": [
+        "black",
+        "blue",
+        "green",
+        "red",
+        "transparent",
+        "white",
+        "yellow"
+      ],
+      "material": [
+        "ceramic",
+        "glass",
+        "metal",
+        "plastic"
+      ],
+      "fragility": "fragile",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.1,
+        "length_m": 0.1,
+        "width_m": 0.08
+      },
+      "weight_kg": 0.25
+    },
+    "grounding": {
+      "id": "41",
+      "name": "cup",
+      "wn_synset": "cup.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q81727",
+      "dbpedia": "http://dbpedia.org/resource/Cup",
+      "yago": "http://yago-knowledge.org/resource/Cup",
+      "cskg": "/c/en/cup"
+    },
+    "wordnet": {
+      "synset": "cup.n.01",
+      "definition": "a small open container usually used for drinking; usually has a handle",
+      "lemmas": [
+        "cup"
+      ],
+      "hypernyms": [
+        "container.n.01",
+        "crockery.n.01"
+      ]
+    }
+  },
+  "dining table": {
+    "object": "dining table",
+    "assignments": [
+      {
+        "frame": "Function",
+        "role": "Entity",
+        "confidence": "high",
+        "reason": "Dining table is designed for dining activities."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [
+        "oval",
+        "rectangle",
+        "round",
+        "square"
+      ],
+      "colour": [
+        "beige",
+        "black",
+        "grey",
+        "seal brown",
+        "white"
+      ],
+      "material": [
+        "glass",
+        "metal",
+        "plastic",
+        "wood"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.75,
+        "length_m": 1.8288,
+        "width_m": 0.889
+      },
+      "weight_kg": 40.0
+    },
+    "grounding": {
+      "id": "60",
+      "name": "dining table",
+      "wn_synset": "dining_table.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q115665141",
+      "dbpedia": "http://dbpedia.org/resource/Dining_table",
+      "yago": "None",
+      "cskg": "/c/en/dining_table"
+    },
+    "wordnet": {
+      "synset": "dining_table.n.01",
+      "definition": "a table at which meals are served",
+      "lemmas": [
+        "dining_table",
+        "board"
+      ],
+      "hypernyms": [
+        "table.n.03"
+      ]
+    }
+  },
+  "dog": {
+    "object": "dog",
+    "assignments": [
+      {
+        "frame": "Animals",
+        "role": "Animal",
+        "confidence": "high",
+        "reason": "Object is a biological entity classified as an animal."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [],
+      "colour": [
+        "black",
+        "grey",
+        "red",
+        "seal brown",
+        "white",
+        "yellow"
+      ],
+      "material": [
+        "bone",
+        "fur",
+        "leather",
+        "skin"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "flexible",
+      "size": {
+        "height_m": 0.5,
+        "length_m": 0.55,
+        "width_m": 0.4
+      },
+      "weight_kg": 15.0
+    },
+    "grounding": {
+      "id": "16",
+      "name": "dog",
+      "wn_synset": "dog.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q144",
+      "dbpedia": "http://dbpedia.org/resource/Dog",
+      "yago": "http://yago-knowledge.org/resource/Canis",
+      "cskg": "/c/en/dog"
+    },
+    "wordnet": {
+      "synset": "dog.n.01",
+      "definition": "a member of the genus Canis (probably descended from the common wolf) that has been domesticated by man since prehistoric times; occurs in many breeds",
+      "lemmas": [
+        "dog",
+        "domestic_dog",
+        "Canis_familiaris"
+      ],
+      "hypernyms": [
+        "domestic_animal.n.01",
+        "canine.n.02"
+      ]
+    }
+  },
+  "donut": {
+    "object": "donut",
+    "assignments": [
+      {
+        "frame": "Food",
+        "role": "Food",
+        "confidence": "high",
+        "reason": "Donut is directly classified as a food item in WordNet."
+      },
+      {
+        "frame": "Cooking_creation",
+        "role": "Produced_food",
+        "confidence": "medium",
+        "reason": "Donut is commonly produced through cooking processes."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [
+        "ball",
+        "ring"
+      ],
+      "colour": [
+        "gold",
+        "pink",
+        "seal brown",
+        "white"
+      ],
+      "material": [],
+      "fragility": "fragile",
+      "rigidity": "soft",
+      "size": {
+        "height_m": 0.025,
+        "length_m": 0.0762,
+        "width_m": 0.0762
+      },
+      "weight_kg": 0.07
+    },
+    "grounding": {
+      "id": "54",
+      "name": "donut",
+      "wn_synset": "donut.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q192783",
+      "dbpedia": "http://dbpedia.org/resource/Doughnut",
+      "yago": "http://yago-knowledge.org/resource/Doughnut",
+      "cskg": "/c/en/donut"
+    },
+    "wordnet": {
+      "synset": "donut.n.01",
+      "definition": "a small ring-shaped friedcake",
+      "lemmas": [
+        "doughnut",
+        "donut",
+        "sinker"
+      ],
+      "hypernyms": [
+        "friedcake.n.01"
+      ]
+    }
+  },
+  "elephant": {
+    "object": "elephant",
+    "assignments": [
+      {
+        "frame": "Animals",
+        "role": "Animal",
+        "confidence": "high",
+        "reason": "Elephant is a biological entity, directly matching the core concept of the Animals frame."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [
+        "cylindrical",
+        "oval"
+      ],
+      "colour": [
+        "grey"
+      ],
+      "material": [
+        "leather"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 3.0,
+        "length_m": 6.5,
+        "width_m": 1.8
+      },
+      "weight_kg": 5000.0
+    },
+    "grounding": {
+      "id": "20",
+      "name": "elephant",
+      "wn_synset": "elephant.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q7378",
+      "dbpedia": "http://dbpedia.org/resource/Elephant",
+      "yago": "http://yago-knowledge.org/resource/Elephantidae",
+      "cskg": "/c/en/elephant"
+    },
+    "wordnet": {
+      "synset": "elephant.n.01",
+      "definition": "five-toed pachyderm",
+      "lemmas": [
+        "elephant"
+      ],
+      "hypernyms": [
+        "pachyderm.n.01",
+        "proboscidean.n.01"
+      ]
+    }
+  },
+  "fire hydrant": {
+    "object": "fire hydrant",
+    "assignments": [
+      {
+        "frame": "Function",
+        "role": "Entity",
+        "confidence": "high",
+        "reason": "The fire hydrant is the primary entity designed for a specific purpose."
+      },
+      {
+        "frame": "Function",
+        "role": "Activity",
+        "confidence": "high",
+        "reason": "It performs the activity of supplying water for firefighting."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [
+        "cylindrical"
+      ],
+      "colour": [
+        "red"
+      ],
+      "material": [
+        "steel"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 1.5,
+        "length_m": 1.5,
+        "width_m": 0.2
+      },
+      "weight_kg": 50.0
+    },
+    "grounding": {
+      "id": "10",
+      "name": "fire hydrant",
+      "wn_synset": "fire_hydrant.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q634299",
+      "dbpedia": "http://dbpedia.org/resource/Fire_hydrant",
+      "yago": "http://yago-knowledge.org/resource/Fire_hydrant",
+      "cskg": "/c/en/fire_hydrant"
+    },
+    "wordnet": {
+      "synset": "fire_hydrant.n.01",
+      "definition": "an upright hydrant for drawing water to use in fighting a fire",
+      "lemmas": [
+        "fireplug",
+        "fire_hydrant",
+        "plug"
+      ],
+      "hypernyms": [
+        "hydrant.n.02"
+      ]
+    }
+  },
+  "fork": {
+    "object": "fork",
+    "assignments": [
+      {
+        "frame": "Function",
+        "role": "Entity",
+        "confidence": "high",
+        "reason": "Fork is a physical object designed for a specific purpose."
+      },
+      {
+        "frame": "Function",
+        "role": "Activity",
+        "confidence": "high",
+        "reason": "Fork is primarily used for eating or serving food."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [],
+      "colour": [
+        "black",
+        "or",
+        "silver"
+      ],
+      "material": [
+        "plastic",
+        "steel",
+        "wood"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.2,
+        "length_m": 0.2,
+        "width_m": 0.02
+      },
+      "weight_kg": 0.055
+    },
+    "grounding": {
+      "id": "42",
+      "name": "fork",
+      "wn_synset": "fork.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q81881",
+      "dbpedia": "http://dbpedia.org/resource/Fork",
+      "yago": "http://yago-knowledge.org/resource/Fork",
+      "cskg": "/c/en/fork"
+    },
+    "wordnet": {
+      "synset": "fork.n.01",
+      "definition": "cutlery used for serving and eating food",
+      "lemmas": [
+        "fork"
+      ],
+      "hypernyms": [
+        "cutlery.n.02"
+      ]
+    }
+  },
+  "frisbee": {
+    "object": "frisbee",
+    "assignments": [
+      {
+        "frame": "Function",
+        "role": "Activity",
+        "confidence": "high",
+        "reason": "Frisbee is designed for recreational activities."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [
+        "circle"
+      ],
+      "colour": [
+        "blue",
+        "green",
+        "orange",
+        "purple",
+        "red",
+        "yellow"
+      ],
+      "material": [
+        "plastic"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.254,
+        "length_m": 0.254,
+        "width_m": 0.254
+      },
+      "weight_kg": 0.15
+    },
+    "grounding": {
+      "id": "29",
+      "name": "frisbee",
+      "wn_synset": "frisbee.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q131689",
+      "dbpedia": "http://dbpedia.org/resource/Frisbee",
+      "yago": "None",
+      "cskg": "/c/en/frisbee"
+    },
+    "wordnet": {
+      "synset": "frisbee.n.01",
+      "definition": "a light, plastic disk about 10 inches in diameter; propelled with a flip of the wrist for recreation or competition",
+      "lemmas": [
+        "Frisbee"
+      ],
+      "hypernyms": [
+        "disk.n.02",
+        "plaything.n.01"
+      ]
+    }
+  },
+  "giraffe": {
+    "object": "giraffe",
+    "assignments": [
+      {
+        "frame": "Animals",
+        "role": "Animal",
+        "confidence": "high",
+        "reason": "Directly refers to the giraffe as a biological entity."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [],
+      "colour": [
+        "black",
+        "seal brown",
+        "yellow"
+      ],
+      "material": [
+        "fur",
+        "horn",
+        "skin"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "flexible",
+      "size": {
+        "height_m": 5.0,
+        "length_m": 3.5,
+        "width_m": 1.0
+      },
+      "weight_kg": 1000.0
+    },
+    "grounding": {
+      "id": "23",
+      "name": "giraffe",
+      "wn_synset": "giraffe.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q15083",
+      "dbpedia": "http://dbpedia.org/resource/Giraffe",
+      "yago": "http://yago-knowledge.org/resource/Giraffe",
+      "cskg": "/c/en/giraffe"
+    },
+    "wordnet": {
+      "synset": "giraffe.n.01",
+      "definition": "tallest living quadruped; having a spotted coat and small horns and very long neck and legs; of savannahs of tropical Africa",
+      "lemmas": [
+        "giraffe",
+        "camelopard",
+        "Giraffa_camelopardalis"
+      ],
+      "hypernyms": [
+        "ruminant.n.01"
+      ]
+    }
+  },
+  "hair drier": {
+    "object": "hair drier",
+    "assignments": [
+      {
+        "frame": "Function",
+        "role": "Entity",
+        "confidence": "high",
+        "reason": "Hair dryer is an entity designed to perform the activity of drying hair."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [
+        "cylindrical"
+      ],
+      "colour": [
+        "black",
+        "red",
+        "silver",
+        "white"
+      ],
+      "material": [
+        "ceramic",
+        "metal",
+        "plastic",
+        "rubber"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.25,
+        "length_m": 0.25,
+        "width_m": 0.0725
+      },
+      "weight_kg": 0.5
+    },
+    "grounding": {
+      "id": "78",
+      "name": "hair drier",
+      "wn_synset": "hair_dryer.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q15004",
+      "dbpedia": "http://dbpedia.org/resource/Hair_dryer",
+      "yago": "http://yago-knowledge.org/resource/Hair_dryer",
+      "cskg": "/c/en/hair_dryer"
+    },
+    "wordnet": {
+      "synset": "hair_dryer.n.01",
+      "definition": "a hand-held electric blower that can blow warm air onto the hair; used for styling hair",
+      "lemmas": [
+        "hand_blower",
+        "blow_dryer",
+        "blow_drier",
+        "hair_dryer",
+        "hair_drier"
+      ],
+      "hypernyms": [
+        "dryer.n.01",
+        "blower.n.01"
+      ]
+    }
+  },
+  "handbag": {
+    "object": "handbag",
+    "assignments": [
+      {
+        "frame": "Containing",
+        "role": "Container",
+        "confidence": "high",
+        "reason": "Handbag is a primary container for holding personal items."
+      },
+      {
+        "frame": "Function",
+        "role": "Entity",
+        "confidence": "high",
+        "reason": "Handbag is an entity designed to fulfill a carrying role."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [
+        "oval",
+        "rectangle"
+      ],
+      "colour": [
+        "beige",
+        "black",
+        "navy blue",
+        "pink",
+        "red",
+        "seal brown",
+        "white"
+      ],
+      "material": [
+        "leather",
+        "nylon",
+        "polyester"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "soft",
+      "size": {
+        "height_m": 0.25,
+        "length_m": 0.35,
+        "width_m": 0.25
+      },
+      "weight_kg": 0.8
+    },
+    "grounding": {
+      "id": "26",
+      "name": "handbag",
+      "wn_synset": "handbag.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q467505",
+      "dbpedia": "http://dbpedia.org/resource/Handbag",
+      "yago": "http://yago-knowledge.org/resource/Handbag",
+      "cskg": "/c/en/handbag"
+    },
+    "wordnet": {
+      "synset": "handbag.n.01",
+      "definition": "a container used for carrying money and small personal items or accessories (especially by women)",
+      "lemmas": [
+        "bag",
+        "handbag",
+        "pocketbook",
+        "purse"
+      ],
+      "hypernyms": [
+        "container.n.01"
+      ]
+    }
+  },
+  "horse": {
+    "object": "horse",
+    "assignments": [
+      {
+        "frame": "Animals",
+        "role": "Animal",
+        "confidence": "high",
+        "reason": "Horse is a biological entity, an animal."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [],
+      "colour": [
+        "bay",
+        "black",
+        "chestnut",
+        "grey",
+        "seal brown",
+        "white"
+      ],
+      "material": [
+        "leather",
+        "metal",
+        "wood"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 1.5443,
+        "length_m": 2.4,
+        "width_m": 0.6
+      },
+      "weight_kg": 500.0
+    },
+    "grounding": {
+      "id": "17",
+      "name": "horse",
+      "wn_synset": "horse.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q726",
+      "dbpedia": "http://dbpedia.org/resource/Horse",
+      "yago": "None",
+      "cskg": "/c/en/horse"
+    },
+    "wordnet": {
+      "synset": "horse.n.01",
+      "definition": "solid-hoofed herbivorous quadruped domesticated since prehistoric times",
+      "lemmas": [
+        "horse",
+        "Equus_caballus"
+      ],
+      "hypernyms": [
+        "equine.n.01"
+      ]
+    }
+  },
+  "hot dog": {
+    "object": "hot dog",
+    "assignments": [
+      {
+        "frame": "Food",
+        "role": "Food",
+        "confidence": "high",
+        "reason": "Hot dog is a type of food item."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [
+        "cylinder"
+      ],
+      "colour": [
+        "red",
+        "seal brown",
+        "white"
+      ],
+      "material": [
+        "water"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "soft",
+      "size": {
+        "height_m": 0.15,
+        "length_m": 0.1524,
+        "width_m": 0.025
+      },
+      "weight_kg": 0.1
+    },
+    "grounding": {
+      "id": "52",
+      "name": "hot dog",
+      "wn_synset": "hotdog.n.02",
+      "wikidata": "http://www.wikidata.org/entity/Q181055",
+      "dbpedia": "http://dbpedia.org/resource/Hot_dog",
+      "yago": "None",
+      "cskg": "/c/en/hot_dog"
+    },
+    "wordnet": {
+      "synset": "hotdog.n.02",
+      "definition": "a frankfurter served hot on a bun",
+      "lemmas": [
+        "hotdog",
+        "hot_dog",
+        "red_hot"
+      ],
+      "hypernyms": [
+        "sandwich.n.01"
+      ]
+    }
+  },
+  "keyboard": {
+    "object": "keyboard",
+    "assignments": [
+      {
+        "frame": "Function",
+        "role": "Entity",
+        "confidence": "high",
+        "reason": "Keyboard is the main entity being described."
+      },
+      {
+        "frame": "Function",
+        "role": "Activity",
+        "confidence": "high",
+        "reason": "Keyboard is designed to perform input activities like typing."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [
+        "rectangle"
+      ],
+      "colour": [
+        "black",
+        "blue",
+        "grey",
+        "red",
+        "white"
+      ],
+      "material": [
+        "fabric",
+        "metal",
+        "plastic",
+        "rubber",
+        "wood"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.25,
+        "length_m": 0.45,
+        "width_m": 0.4
+      },
+      "weight_kg": 1.0
+    },
+    "grounding": {
+      "id": "66",
+      "name": "keyboard",
+      "wn_synset": "keyboard.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q250",
+      "dbpedia": "http://dbpedia.org/resource/Computer_keyboard",
+      "yago": "http://yago-knowledge.org/resource/Computer_keyboard",
+      "cskg": "/c/en/keyboard"
+    },
+    "wordnet": {
+      "synset": "keyboard.n.01",
+      "definition": "device consisting of a set of keys on a piano or organ or typewriter or typesetting machine or computer or the like",
+      "lemmas": [
+        "keyboard"
+      ],
+      "hypernyms": [
+        "device.n.01"
+      ]
+    }
+  },
+  "kite": {
+    "object": "kite",
+    "assignments": [
+      {
+        "frame": "Function",
+        "role": "Entity",
+        "confidence": "high",
+        "reason": "Kite is an entity designed for recreational flying."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [
+        "rhombus",
+        "triangle"
+      ],
+      "colour": [
+        "blue",
+        "green",
+        "orange",
+        "pink",
+        "purple",
+        "red",
+        "yellow"
+      ],
+      "material": [
+        "nylon",
+        "paper",
+        "plastic"
+      ],
+      "fragility": "fragile",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.5,
+        "length_m": 0.5,
+        "width_m": 0.5
+      },
+      "weight_kg": 0.1
+    },
+    "grounding": {
+      "id": "33",
+      "name": "kite",
+      "wn_synset": "kite.n.03",
+      "wikidata": "http://www.wikidata.org/entity/Q42861",
+      "dbpedia": "http://dbpedia.org/resource/Kite",
+      "yago": "http://yago-knowledge.org/resource/Kite",
+      "cskg": "/c/en/kite"
+    },
+    "wordnet": {
+      "synset": "kite.n.03",
+      "definition": "plaything consisting of a light frame covered with tissue paper; flown in wind at end of a string",
+      "lemmas": [
+        "kite"
+      ],
+      "hypernyms": [
+        "plaything.n.01"
+      ]
+    }
+  },
+  "knife": {
+    "object": "knife",
+    "assignments": [],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [],
+      "colour": [
+        "black",
+        "grey",
+        "red",
+        "seal brown",
+        "silver"
+      ],
+      "material": [
+        "ceramic",
+        "plastic",
+        "steel",
+        "wood"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.2,
+        "length_m": 0.2,
+        "width_m": 0.05
+      },
+      "weight_kg": 0.5
+    },
+    "grounding": {
+      "id": "43",
+      "name": "knife",
+      "wn_synset": "knife.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q32489",
+      "dbpedia": "http://dbpedia.org/resource/Knife",
+      "yago": "http://yago-knowledge.org/resource/Knife",
+      "cskg": "/c/en/knife"
+    },
+    "wordnet": {
+      "synset": "knife.n.01",
+      "definition": "edge tool used as a cutting instrument; has a pointed blade with a sharp edge and a handle",
+      "lemmas": [
+        "knife"
+      ],
+      "hypernyms": [
+        "edge_tool.n.01"
+      ]
+    }
+  },
+  "laptop": {
+    "object": "laptop",
+    "assignments": [
+      {
+        "frame": "Function",
+        "role": "Entity",
+        "confidence": "high",
+        "reason": "Laptop is an entity designed for various computing tasks and activities, aligning with the Function frame's focus on entities that perform roles or activities."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [
+        "rectangle"
+      ],
+      "colour": [
+        "black",
+        "blue",
+        "grey",
+        "silver",
+        "white"
+      ],
+      "material": [
+        "aluminium",
+        "fiber",
+        "glass",
+        "plastic"
+      ],
+      "fragility": "fragile",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.22,
+        "length_m": 0.345,
+        "width_m": 0.33
+      },
+      "weight_kg": 2.2
+    },
+    "grounding": {
+      "id": "63",
+      "name": "laptop",
+      "wn_synset": "laptop.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q3962",
+      "dbpedia": "http://dbpedia.org/resource/Laptop",
+      "yago": "http://yago-knowledge.org/resource/Laptop",
+      "cskg": "/c/en/laptop"
+    },
+    "wordnet": {
+      "synset": "laptop.n.01",
+      "definition": "a portable computer small enough to use in your lap",
+      "lemmas": [
+        "laptop",
+        "laptop_computer"
+      ],
+      "hypernyms": [
+        "portable_computer.n.01"
+      ]
+    }
+  },
+  "microwave": {
+    "object": "microwave",
+    "assignments": [
+      {
+        "frame": "Function",
+        "role": "Entity",
+        "confidence": "high",
+        "reason": "Microwave is a device designed for cooking."
+      },
+      {
+        "frame": "Cooking_creation",
+        "role": "Heating_instrument",
+        "confidence": "high",
+        "reason": "Microwave is a heating instrument used in cooking food."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [
+        "rectangle"
+      ],
+      "colour": [
+        "black",
+        "grey",
+        "silver",
+        "white"
+      ],
+      "material": [
+        "ceramic",
+        "glass",
+        "metal",
+        "plastic"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.4,
+        "length_m": 0.5,
+        "width_m": 0.35
+      },
+      "weight_kg": 15.0
+    },
+    "grounding": {
+      "id": "68",
+      "name": "microwave",
+      "wn_synset": "microwave.n.02",
+      "wikidata": "http://www.wikidata.org/entity/Q127956",
+      "dbpedia": "http://dbpedia.org/resource/Microwave_oven",
+      "yago": "http://yago-knowledge.org/resource/Microwave_oven",
+      "cskg": "/c/en/microwave"
+    },
+    "wordnet": {
+      "synset": "microwave.n.02",
+      "definition": "kitchen appliance that cooks food by passing an electromagnetic wave through it; heat results from the absorption of energy by the water molecules in the food",
+      "lemmas": [
+        "microwave",
+        "microwave_oven"
+      ],
+      "hypernyms": [
+        "kitchen_appliance.n.01"
+      ]
+    }
+  },
+  "motorcycle": {
+    "object": "motorcycle",
+    "assignments": [
+      {
+        "frame": "Vehicle",
+        "role": "Vehicle",
+        "confidence": "high",
+        "reason": "Motorcycle is a type of motor vehicle."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [],
+      "colour": [
+        "black",
+        "blue",
+        "green",
+        "red",
+        "silver",
+        "white",
+        "yellow"
+      ],
+      "material": [
+        "aluminium",
+        "plastic",
+        "rubber",
+        "steel"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 1.25,
+        "length_m": 2.0,
+        "width_m": 0.75
+      },
+      "weight_kg": 200.0
+    },
+    "grounding": {
+      "id": "3",
+      "name": "motorcycle",
+      "wn_synset": "motorcycle.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q34493",
+      "dbpedia": "http://dbpedia.org/resource/Motorcycle",
+      "yago": "http://yago-knowledge.org/resource/Motorcycle",
+      "cskg": "/c/en/motorcycle"
+    },
+    "wordnet": {
+      "synset": "motorcycle.n.01",
+      "definition": "a motor vehicle with two wheels and a strong frame",
+      "lemmas": [
+        "motorcycle",
+        "bike"
+      ],
+      "hypernyms": [
+        "motor_vehicle.n.01"
+      ]
+    }
+  },
+  "mouse": {
+    "object": "mouse",
+    "assignments": [
+      {
+        "frame": "Function",
+        "role": "Entity",
+        "confidence": "high",
+        "reason": "Mouse is an electronic entity designed for performing specific functions such as cursor control."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [
+        "rectangle"
+      ],
+      "colour": [
+        "black",
+        "blue",
+        "grey",
+        "seal brown",
+        "silver",
+        "white"
+      ],
+      "material": [
+        "metal",
+        "plastic",
+        "rubber"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.04,
+        "length_m": 0.12,
+        "width_m": 0.07
+      },
+      "weight_kg": 0.12
+    },
+    "grounding": {
+      "id": "64",
+      "name": "mouse",
+      "wn_synset": "mouse.n.04",
+      "wikidata": "http://www.wikidata.org/entity/Q7987",
+      "dbpedia": "http://dbpedia.org/resource/Computer_mouse",
+      "yago": "http://yago-knowledge.org/resource/Computer_mouse",
+      "cskg": "/c/en/mouse"
+    },
+    "wordnet": {
+      "synset": "mouse.n.04",
+      "definition": "a hand-operated electronic device that controls the coordinates of a cursor on your computer screen as you move it around on a pad; on the bottom of the device is a ball that rolls on the surface of the pad",
+      "lemmas": [
+        "mouse",
+        "computer_mouse"
+      ],
+      "hypernyms": [
+        "electronic_device.n.01"
+      ]
+    }
+  },
+  "orange": {
+    "object": "orange",
+    "assignments": [
+      {
+        "frame": "Food",
+        "role": "Food",
+        "confidence": "high",
+        "reason": "Orange is a common edible fruit and food item."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [
+        "round"
+      ],
+      "colour": [
+        "orange",
+        "yellow"
+      ],
+      "material": [],
+      "fragility": "fragile",
+      "rigidity": "soft",
+      "size": {
+        "height_m": 0.0675,
+        "length_m": 0.075,
+        "width_m": 0.07
+      },
+      "weight_kg": 0.15
+    },
+    "grounding": {
+      "id": "49",
+      "name": "orange",
+      "wn_synset": "orange.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q982388",
+      "dbpedia": "http://dbpedia.org/resource/Orange_(fruit)",
+      "yago": "http://yago-knowledge.org/resource/Orange__u0028_fruit_u0029_",
+      "cskg": "/c/en/orange"
+    },
+    "wordnet": {
+      "synset": "orange.n.01",
+      "definition": "round yellow to orange fruit of any of several citrus trees",
+      "lemmas": [
+        "orange"
+      ],
+      "hypernyms": [
+        "citrus.n.01"
+      ]
+    }
+  },
+  "oven": {
+    "object": "oven",
+    "assignments": [
+      {
+        "frame": "Function",
+        "role": "Entity",
+        "confidence": "high",
+        "reason": "Oven is a device designed for cooking."
+      },
+      {
+        "frame": "Cooking_creation",
+        "role": "Heating_instrument",
+        "confidence": "high",
+        "reason": "Oven is used as a heating instrument in food preparation."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [
+        "rectangle",
+        "round",
+        "square"
+      ],
+      "colour": [
+        "black",
+        "grey",
+        "silver",
+        "white"
+      ],
+      "material": [
+        "aluminium",
+        "ceramic",
+        "glass",
+        "steel"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.65,
+        "length_m": 0.6,
+        "width_m": 0.6
+      },
+      "weight_kg": 35.0
+    },
+    "grounding": {
+      "id": "69",
+      "name": "oven",
+      "wn_synset": "oven.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q36539",
+      "dbpedia": "http://dbpedia.org/resource/Oven",
+      "yago": "http://yago-knowledge.org/resource/Oven",
+      "cskg": "/c/en/oven"
+    },
+    "wordnet": {
+      "synset": "oven.n.01",
+      "definition": "kitchen appliance used for baking or roasting",
+      "lemmas": [
+        "oven"
+      ],
+      "hypernyms": [
+        "kitchen_appliance.n.01"
+      ]
+    }
+  },
+  "parking meter": {
+    "object": "parking meter",
+    "assignments": [
+      {
+        "frame": "Function",
+        "role": "Entity",
+        "confidence": "high",
+        "reason": "Parking meter is an entity designed to enforce parking time limits."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [
+        "rectangle"
+      ],
+      "colour": [
+        "blue",
+        "green",
+        "grey",
+        "red",
+        "white"
+      ],
+      "material": [
+        "concrete",
+        "glass",
+        "metal",
+        "plastic"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 1.5,
+        "length_m": 0.75,
+        "width_m": 0.425
+      },
+      "weight_kg": 15.0
+    },
+    "grounding": {
+      "id": "12",
+      "name": "parking meter",
+      "wn_synset": "parking_meter.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q953960",
+      "dbpedia": "http://dbpedia.org/resource/Parking_meter",
+      "yago": "None",
+      "cskg": "/c/en/parking_meter"
+    },
+    "wordnet": {
+      "synset": "parking_meter.n.01",
+      "definition": "a coin-operated timer located next to a parking space; depositing money into it entitles you to park your car there for a specified length of time",
+      "lemmas": [
+        "parking_meter"
+      ],
+      "hypernyms": [
+        "timer.n.01"
+      ]
+    }
+  },
+  "person": {
+    "object": "person",
+    "assignments": [
+      {
+        "frame": "Function",
+        "role": "Entity",
+        "confidence": "high",
+        "reason": "Person is an entity that performs activities or fulfills roles."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [
+        "circle",
+        "oval",
+        "rectangle"
+      ],
+      "colour": [
+        "black",
+        "blue",
+        "green",
+        "red",
+        "seal brown",
+        "white"
+      ],
+      "material": [
+        "bone",
+        "flesh",
+        "hair",
+        "skin"
+      ],
+      "fragility": "fragile",
+      "rigidity": "flexible",
+      "size": {
+        "height_m": 1.7,
+        "length_m": 1.7,
+        "width_m": 0.45
+      },
+      "weight_kg": 70.0
+    },
+    "grounding": {
+      "id": "0",
+      "name": "person",
+      "wn_synset": "person.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q215627",
+      "dbpedia": "http://dbpedia.org/resource/Person",
+      "yago": "http://yago-knowledge.org/resource/Homo_sapiens",
+      "cskg": "/c/en/person"
+    },
+    "wordnet": {
+      "synset": "person.n.01",
+      "definition": "a human being",
+      "lemmas": [
+        "person",
+        "individual",
+        "someone",
+        "somebody",
+        "mortal",
+        "soul"
+      ],
+      "hypernyms": [
+        "organism.n.01",
+        "causal_agent.n.01"
+      ]
+    }
+  },
+  "pizza": {
+    "object": "pizza",
+    "assignments": [
+      {
+        "frame": "Food",
+        "role": "Food",
+        "confidence": "high",
+        "reason": "Pizza is a primary food item."
+      },
+      {
+        "frame": "Cooking_creation",
+        "role": "Produced_food",
+        "confidence": "medium",
+        "reason": "Pizza is commonly produced through cooking processes."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [
+        "rectangle",
+        "round",
+        "square"
+      ],
+      "colour": [
+        "green",
+        "red",
+        "seal brown",
+        "white"
+      ],
+      "material": [],
+      "fragility": "fragile",
+      "rigidity": "flexible",
+      "size": {
+        "height_m": 0.0065,
+        "length_m": 0.3048,
+        "width_m": 0.3048
+      },
+      "weight_kg": 0.475
+    },
+    "grounding": {
+      "id": "53",
+      "name": "pizza",
+      "wn_synset": "pizza.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q177",
+      "dbpedia": "http://dbpedia.org/resource/Pizza",
+      "yago": "http://yago-knowledge.org/resource/Pizza",
+      "cskg": "/c/en/pizza"
+    },
+    "wordnet": {
+      "synset": "pizza.n.01",
+      "definition": "Italian open pie made of thin bread dough spread with a spiced mixture of e.g. tomato sauce and cheese",
+      "lemmas": [
+        "pizza",
+        "pizza_pie"
+      ],
+      "hypernyms": [
+        "dish.n.02"
+      ]
+    }
+  },
+  "potted plant": {
+    "object": "potted plant",
+    "assignments": [
+      {
+        "frame": "Plants",
+        "role": "Plant",
+        "confidence": "high",
+        "reason": "The object is a biological entity that is a plant, fitting the central category in the Plants frame."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [],
+      "colour": [
+        "green",
+        "purple",
+        "red",
+        "white",
+        "yellow"
+      ],
+      "material": [
+        "ceramic",
+        "concrete",
+        "fiberglass",
+        "metal",
+        "plastic",
+        "wood"
+      ],
+      "fragility": "fragile",
+      "rigidity": "flexible",
+      "size": {
+        "height_m": 0.5,
+        "length_m": 0.5,
+        "width_m": 0.25
+      },
+      "weight_kg": 1.5
+    },
+    "grounding": {
+      "id": "58",
+      "name": "potted plant",
+      "wn_synset": "pot_plant.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q27993793",
+      "dbpedia": "http://dbpedia.org/resource/Potted_plant",
+      "yago": "http://yago-knowledge.org/resource/Plant",
+      "cskg": "/c/en/potted_plant"
+    },
+    "wordnet": {
+      "synset": "pot_plant.n.01",
+      "definition": "a plant suitable for growing in a flowerpot (especially indoors)",
+      "lemmas": [
+        "pot_plant"
+      ],
+      "hypernyms": [
+        "plant.n.02"
+      ]
+    }
+  },
+  "refrigerator": {
+    "object": "refrigerator",
+    "assignments": [
+      {
+        "frame": "Containing",
+        "role": "Container",
+        "confidence": "high",
+        "reason": "refrigerator is a physical container designed to hold food and other items."
+      },
+      {
+        "frame": "Function",
+        "role": "Entity",
+        "confidence": "high",
+        "reason": "refrigerator is an entity designed to perform the function of cooling and preserving food."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [
+        "rectangle"
+      ],
+      "colour": [
+        "black",
+        "grey",
+        "silver",
+        "white"
+      ],
+      "material": [
+        "aluminium",
+        "glass",
+        "plastic",
+        "steel"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 1.75,
+        "length_m": 1.524,
+        "width_m": 0.65
+      },
+      "weight_kg": 75.0
+    },
+    "grounding": {
+      "id": "72",
+      "name": "refrigerator",
+      "wn_synset": "refrigerator.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q37828",
+      "dbpedia": "http://dbpedia.org/resource/Refrigerator",
+      "yago": "http://yago-knowledge.org/resource/Refrigerator",
+      "cskg": "/c/en/refrigerator"
+    },
+    "wordnet": {
+      "synset": "refrigerator.n.01",
+      "definition": "white goods in which food can be stored at low temperatures",
+      "lemmas": [
+        "refrigerator",
+        "icebox"
+      ],
+      "hypernyms": [
+        "white_goods.n.01"
+      ]
+    }
+  },
+  "remote": {
+    "object": "remote",
+    "assignments": [
+      {
+        "frame": "Function",
+        "role": "Entity",
+        "confidence": "high",
+        "reason": "The remote is an entity designed to control devices from a distance."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [
+        "rectangle"
+      ],
+      "colour": [
+        "black",
+        "grey",
+        "silver",
+        "white"
+      ],
+      "material": [
+        "metal",
+        "plastic",
+        "rubber"
+      ],
+      "fragility": "fragile",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.126,
+        "length_m": 0.13,
+        "width_m": 0.12
+      },
+      "weight_kg": 0.15
+    },
+    "grounding": {
+      "id": "65",
+      "name": "remote",
+      "wn_synset": "remote.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q185091",
+      "dbpedia": "http://dbpedia.org/resource/Remote_control",
+      "yago": "http://yago-knowledge.org/resource/Remote_control",
+      "cskg": "/c/en/remote_control"
+    },
+    "wordnet": {
+      "synset": "remote.n.01",
+      "definition": "a device that can be used to control a machine or apparatus from a distance",
+      "lemmas": [
+        "remote_control",
+        "remote"
+      ],
+      "hypernyms": [
+        "device.n.01"
+      ]
+    }
+  },
+  "sandwich": {
+    "object": "sandwich",
+    "assignments": [
+      {
+        "frame": "Food",
+        "role": "Food",
+        "confidence": "high",
+        "reason": "Sandwich is directly an item of food as defined by WordNet."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [
+        "circle",
+        "oval",
+        "rectangle",
+        "square",
+        "triangle"
+      ],
+      "colour": [
+        "green",
+        "red",
+        "seal brown",
+        "white",
+        "yellow"
+      ],
+      "material": [],
+      "fragility": "fragile",
+      "rigidity": "soft",
+      "size": {
+        "height_m": 0.045,
+        "length_m": 0.15,
+        "width_m": 0.1
+      },
+      "weight_kg": 0.12
+    },
+    "grounding": {
+      "id": "48",
+      "name": "sandwich",
+      "wn_synset": "sandwich.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q28803",
+      "dbpedia": "http://dbpedia.org/resource/Sandwich",
+      "yago": "http://yago-knowledge.org/resource/Sandwich",
+      "cskg": "/c/en/sandwich"
+    },
+    "wordnet": {
+      "synset": "sandwich.n.01",
+      "definition": "two (or more) slices of bread with a filling between them",
+      "lemmas": [
+        "sandwich"
+      ],
+      "hypernyms": [
+        "snack_food.n.01"
+      ]
+    }
+  },
+  "scissors": {
+    "object": "scissors",
+    "assignments": [
+      {
+        "frame": "Function",
+        "role": "Entity",
+        "confidence": "high",
+        "reason": "Scissors are a tool designed for cutting, fitting the Function frame's description of an entity performing an activity."
+      },
+      {
+        "frame": "Function",
+        "role": "Activity",
+        "confidence": "high",
+        "reason": "Scissors are primarily designed for cutting, which is their main activity, aligning with the Function frame."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [],
+      "colour": [
+        "black",
+        "blue",
+        "green",
+        "red",
+        "silver"
+      ],
+      "material": [
+        "plastic",
+        "steel"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.15,
+        "length_m": 0.15,
+        "width_m": 0.035
+      },
+      "weight_kg": 0.075
+    },
+    "grounding": {
+      "id": "76",
+      "name": "scissors",
+      "wn_synset": "scissors.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q40847",
+      "dbpedia": "http://dbpedia.org/resource/Scissors",
+      "yago": "http://yago-knowledge.org/resource/Scissors",
+      "cskg": "/c/en/scissors"
+    },
+    "wordnet": {
+      "synset": "scissors.n.01",
+      "definition": "an edge tool having two crossed pivoting blades",
+      "lemmas": [
+        "scissors",
+        "pair_of_scissors"
+      ],
+      "hypernyms": [
+        "compound_lever.n.01",
+        "edge_tool.n.01"
+      ]
+    }
+  },
+  "sheep": {
+    "object": "sheep",
+    "assignments": [
+      {
+        "frame": "Animals",
+        "role": "Animal",
+        "confidence": "high",
+        "reason": "Sheep is a biological entity, specifically an animal, fitting the central role in the Animals frame."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [
+        "oval"
+      ],
+      "colour": [
+        "black",
+        "grey",
+        "seal brown",
+        "white"
+      ],
+      "material": [
+        "leather",
+        "wool"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "soft",
+      "size": {
+        "height_m": 1.0,
+        "length_m": 1.3,
+        "width_m": 0.6
+      },
+      "weight_kg": 100.0
+    },
+    "grounding": {
+      "id": "18",
+      "name": "sheep",
+      "wn_synset": "sheep.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q7368",
+      "dbpedia": "http://dbpedia.org/resource/Sheep",
+      "yago": "http://yago-knowledge.org/resource/Sheep",
+      "cskg": "/c/en/sheep"
+    },
+    "wordnet": {
+      "synset": "sheep.n.01",
+      "definition": "woolly usually horned ruminant mammal related to the goat",
+      "lemmas": [
+        "sheep"
+      ],
+      "hypernyms": [
+        "bovid.n.01"
+      ]
+    }
+  },
+  "sink": {
+    "object": "sink",
+    "assignments": [
+      {
+        "frame": "Function",
+        "role": "Entity",
+        "confidence": "high",
+        "reason": "Sink is a plumbing fixture designed for washing activities."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [
+        "oval",
+        "rectangle",
+        "round",
+        "square"
+      ],
+      "colour": [
+        "black",
+        "or",
+        "white"
+      ],
+      "material": [
+        "ceramic",
+        "plastic",
+        "porcelain",
+        "steel"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.8064,
+        "length_m": 0.55,
+        "width_m": 0.55
+      },
+      "weight_kg": 12.0
+    },
+    "grounding": {
+      "id": "71",
+      "name": "sink",
+      "wn_synset": "sink.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q140565",
+      "dbpedia": "http://dbpedia.org/resource/Sink",
+      "yago": "http://yago-knowledge.org/resource/Sink",
+      "cskg": "/c/en/sink"
+    },
+    "wordnet": {
+      "synset": "sink.n.01",
+      "definition": "plumbing fixture consisting of a water basin fixed to a wall or floor and having a drainpipe",
+      "lemmas": [
+        "sink"
+      ],
+      "hypernyms": [
+        "plumbing_fixture.n.01"
+      ]
+    }
+  },
+  "skateboard": {
+    "object": "skateboard",
+    "assignments": [
+      {
+        "frame": "Vehicle",
+        "role": "Vehicle",
+        "confidence": "high",
+        "reason": "Skateboard is a wheeled vehicle used for transportation."
+      },
+      {
+        "frame": "Function",
+        "role": "Entity",
+        "confidence": "high",
+        "reason": "Skateboard exists to perform activities like riding or transportation."
+      },
+      {
+        "frame": "Function",
+        "role": "Activity",
+        "confidence": "high",
+        "reason": "Skateboard is designed for activities such as riding or performing tricks."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [
+        "rectangle"
+      ],
+      "colour": [
+        "black",
+        "blue",
+        "green",
+        "red",
+        "white"
+      ],
+      "material": [
+        "aluminium",
+        "steel",
+        "wood"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.016,
+        "length_m": 0.8,
+        "width_m": 0.2032
+      },
+      "weight_kg": 2.5
+    },
+    "grounding": {
+      "id": "36",
+      "name": "skateboard",
+      "wn_synset": "skateboard.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q15783",
+      "dbpedia": "http://dbpedia.org/resource/Skateboard",
+      "yago": "http://yago-knowledge.org/resource/Skateboard",
+      "cskg": "/c/en/skateboard"
+    },
+    "wordnet": {
+      "synset": "skateboard.n.01",
+      "definition": "a board with wheels that is ridden in a standing or crouching position and propelled by foot",
+      "lemmas": [
+        "skateboard"
+      ],
+      "hypernyms": [
+        "wheeled_vehicle.n.01",
+        "board.n.03"
+      ]
+    }
+  },
+  "skis": {
+    "object": "skis",
+    "assignments": [
+      {
+        "frame": "Vehicle",
+        "role": "Vehicle",
+        "confidence": "high",
+        "reason": "Skis are a type of vehicle used for gliding on snow."
+      },
+      {
+        "frame": "Function",
+        "role": "Entity",
+        "confidence": "high",
+        "reason": "Skis are an entity designed for a specific activity, such as gliding or skiing."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [],
+      "colour": [
+        "black",
+        "blue",
+        "green",
+        "red",
+        "white"
+      ],
+      "material": [
+        "fiber",
+        "fiberglass",
+        "metal",
+        "plastic",
+        "wood"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 1.8,
+        "length_m": 1.8,
+        "width_m": 0.09
+      },
+      "weight_kg": 2.5
+    },
+    "grounding": {
+      "id": "30",
+      "name": "skis",
+      "wn_synset": "ski.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q172226",
+      "dbpedia": "http://dbpedia.org/resource/Ski",
+      "yago": "http://yago-knowledge.org/resource/Ski",
+      "cskg": "/c/en/skis"
+    },
+    "wordnet": {
+      "synset": "ski.n.01",
+      "definition": "narrow wood or metal or plastic runners used in pairs for gliding over snow",
+      "lemmas": [
+        "ski"
+      ],
+      "hypernyms": [
+        "runner.n.09"
+      ]
+    }
+  },
+  "snowboard": {
+    "object": "snowboard",
+    "assignments": [
+      {
+        "frame": "Function",
+        "role": "Entity",
+        "confidence": "high",
+        "reason": "Snowboard is primarily designed for the activity of sliding down snow."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [],
+      "colour": [
+        "black",
+        "blue",
+        "green",
+        "red",
+        "white",
+        "yellow"
+      ],
+      "material": [
+        "fiberglass",
+        "plastic",
+        "wood"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 1.6,
+        "length_m": 1.6,
+        "width_m": 0.255
+      },
+      "weight_kg": 2.25
+    },
+    "grounding": {
+      "id": "31",
+      "name": "snowboard",
+      "wn_synset": "snowboard.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q2000617",
+      "dbpedia": "http://dbpedia.org/resource/Snowboard",
+      "yago": "None",
+      "cskg": "/c/en/snowboard"
+    },
+    "wordnet": {
+      "synset": "snowboard.n.01",
+      "definition": "a board that resembles a broad ski or a small surfboard; used in a standing position to slide down snow-covered slopes",
+      "lemmas": [
+        "snowboard"
+      ],
+      "hypernyms": [
+        "board.n.03"
+      ]
+    }
+  },
+  "spoon": {
+    "object": "spoon",
+    "assignments": [
+      {
+        "frame": "Function",
+        "role": "Entity",
+        "confidence": "high",
+        "reason": "Spoon is a tool designed for specific activities like stirring or serving food."
+      },
+      {
+        "frame": "Function",
+        "role": "Activity",
+        "confidence": "medium",
+        "reason": "Spoon performs activities such as stirring or serving food."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [
+        "oval",
+        "round"
+      ],
+      "colour": [
+        "black",
+        "or",
+        "silver"
+      ],
+      "material": [
+        "plastic",
+        "steel",
+        "wood"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.075,
+        "length_m": 0.15,
+        "width_m": 0.04
+      },
+      "weight_kg": 0.01
+    },
+    "grounding": {
+      "id": "44",
+      "name": "spoon",
+      "wn_synset": "spoon.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q81895",
+      "dbpedia": "http://dbpedia.org/resource/Spoon",
+      "yago": "http://yago-knowledge.org/resource/Spoon",
+      "cskg": "/c/en/spoon"
+    },
+    "wordnet": {
+      "synset": "spoon.n.01",
+      "definition": "a piece of cutlery with a shallow bowl-shaped container and a handle; used to stir or serve or take up food",
+      "lemmas": [
+        "spoon"
+      ],
+      "hypernyms": [
+        "container.n.01",
+        "cutlery.n.02"
+      ]
+    }
+  },
+  "sports ball": {
+    "object": "sports ball",
+    "assignments": [
+      {
+        "frame": "Function",
+        "role": "Entity",
+        "confidence": "high",
+        "reason": "The sports ball is an entity designed for performing activities in sports, such as being thrown or kicked."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [
+        "prolate spheroid",
+        "sphere"
+      ],
+      "colour": [
+        "blue",
+        "green",
+        "orange",
+        "red",
+        "white",
+        "yellow"
+      ],
+      "material": [
+        "leather",
+        "rubber"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "flexible",
+      "size": {
+        "height_m": 0.22,
+        "length_m": 0.22,
+        "width_m": 0.22
+      },
+      "weight_kg": 0.43
+    },
+    "grounding": {
+      "id": "32",
+      "name": "sports ball",
+      "wn_synset": "ball.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q18545",
+      "dbpedia": "http://dbpedia.org/resource/Ball",
+      "yago": "http://yago-knowledge.org/resource/Ball",
+      "cskg": "/c/en/sports_ball"
+    },
+    "wordnet": {
+      "synset": "ball.n.01",
+      "definition": "round object that is hit or thrown or kicked in games",
+      "lemmas": [
+        "ball"
+      ],
+      "hypernyms": [
+        "game_equipment.n.01"
+      ]
+    }
+  },
+  "stop sign": {
+    "object": "stop sign",
+    "assignments": [
+      {
+        "frame": "Function",
+        "role": "Entity",
+        "confidence": "high",
+        "reason": "The stop sign is an entity designed to perform the activity of stopping traffic and fulfilling the role of a traffic control device."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [
+        "octagon"
+      ],
+      "colour": [
+        "red",
+        "white"
+      ],
+      "material": [
+        "aluminium",
+        "plastic"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 1.016,
+        "length_m": 0.762,
+        "width_m": 0.762
+      },
+      "weight_kg": 1.5
+    },
+    "grounding": {
+      "id": "11",
+      "name": "stop sign",
+      "wn_synset": "street_sign.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q250429",
+      "dbpedia": "http://dbpedia.org/resource/Stop_sign",
+      "yago": "http://yago-knowledge.org/resource/Stop_sign",
+      "cskg": "/c/en/stop_sign"
+    },
+    "wordnet": {
+      "synset": "street_sign.n.01",
+      "definition": "a sign visible from the street",
+      "lemmas": [
+        "street_sign"
+      ],
+      "hypernyms": [
+        "sign.n.02"
+      ]
+    }
+  },
+  "suitcase": {
+    "object": "suitcase",
+    "assignments": [
+      {
+        "frame": "Containing",
+        "role": "Container",
+        "confidence": "high",
+        "reason": "Suitcase is a container that holds clothes and other items."
+      },
+      {
+        "frame": "Function",
+        "role": "Entity",
+        "confidence": "high",
+        "reason": "Suitcase is an entity designed to fulfill the role of carrying personal belongings."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [
+        "rectangle"
+      ],
+      "colour": [
+        "black",
+        "blue",
+        "grey",
+        "seal brown",
+        "silver",
+        "white"
+      ],
+      "material": [
+        "leather",
+        "nylon",
+        "plastic",
+        "polyester"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.55,
+        "length_m": 0.6,
+        "width_m": 0.55
+      },
+      "weight_kg": 4.0
+    },
+    "grounding": {
+      "id": "28",
+      "name": "suitcase",
+      "wn_synset": "suitcase.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q200814",
+      "dbpedia": "http://dbpedia.org/resource/Suitcase",
+      "yago": "http://yago-knowledge.org/resource/Suitcase",
+      "cskg": "/c/en/suitcase"
+    },
+    "wordnet": {
+      "synset": "suitcase.n.01",
+      "definition": "a portable rectangular container for carrying clothes",
+      "lemmas": [
+        "bag",
+        "traveling_bag",
+        "travelling_bag",
+        "grip",
+        "suitcase"
+      ],
+      "hypernyms": [
+        "baggage.n.01"
+      ]
+    }
+  },
+  "surfboard": {
+    "object": "surfboard",
+    "assignments": [
+      {
+        "frame": "Vehicle",
+        "role": "Vehicle",
+        "confidence": "high",
+        "reason": "Surfboard is used as a means of transportation for riding surf."
+      },
+      {
+        "frame": "Function",
+        "role": "Entity",
+        "confidence": "high",
+        "reason": "Surfboard is designed for the activity of surfing."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [
+        "fish"
+      ],
+      "colour": [
+        "black",
+        "blue",
+        "green",
+        "red",
+        "white",
+        "yellow"
+      ],
+      "material": [
+        "fiberglass"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 1.9812,
+        "length_m": 1.9812,
+        "width_m": 0.5657
+      },
+      "weight_kg": 9.25
+    },
+    "grounding": {
+      "id": "37",
+      "name": "surfboard",
+      "wn_synset": "surfboard.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q457689",
+      "dbpedia": "http://dbpedia.org/resource/Surfboard",
+      "yago": "None",
+      "cskg": "/c/en/surfboard"
+    },
+    "wordnet": {
+      "synset": "surfboard.n.01",
+      "definition": "a narrow buoyant board for riding surf",
+      "lemmas": [
+        "surfboard"
+      ],
+      "hypernyms": [
+        "board.n.03"
+      ]
+    }
+  },
+  "teddy bear": {
+    "object": "teddy bear",
+    "assignments": [
+      {
+        "frame": "Function",
+        "role": "Entity",
+        "confidence": "high",
+        "reason": "Teddy bear is a plaything designed for children to engage in imaginative play, making it a central aspect of its semantic role."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [
+        "bear"
+      ],
+      "colour": [
+        "black",
+        "blue",
+        "pink",
+        "seal brown",
+        "white"
+      ],
+      "material": [
+        "cotton",
+        "polyester"
+      ],
+      "fragility": "fragile",
+      "rigidity": "soft",
+      "size": {
+        "height_m": 0.3,
+        "length_m": 0.25,
+        "width_m": 0.2
+      },
+      "weight_kg": 0.65
+    },
+    "grounding": {
+      "id": "77",
+      "name": "teddy bear",
+      "wn_synset": "teddy_bear.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q213477",
+      "dbpedia": "http://dbpedia.org/resource/Teddy_bear",
+      "yago": "http://yago-knowledge.org/resource/Teddy_bear",
+      "cskg": "/c/en/teddy_bear"
+    },
+    "wordnet": {
+      "synset": "teddy_bear.n.01",
+      "definition": "plaything consisting of a child's toy bear (usually plush and stuffed with soft materials)",
+      "lemmas": [
+        "teddy",
+        "teddy_bear"
+      ],
+      "hypernyms": [
+        "plaything.n.01"
+      ]
+    }
+  },
+  "tennis racket": {
+    "object": "tennis racket",
+    "assignments": [
+      {
+        "frame": "Function",
+        "role": "Entity",
+        "confidence": "high",
+        "reason": "Tennis racket is a device designed for a specific function in sports."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [
+        "oval",
+        "rectangle"
+      ],
+      "colour": [
+        "black",
+        "blue",
+        "green",
+        "red",
+        "white",
+        "yellow"
+      ],
+      "material": [
+        "aluminium",
+        "fiber"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.69,
+        "length_m": 0.685,
+        "width_m": 0.3
+      },
+      "weight_kg": 0.325
+    },
+    "grounding": {
+      "id": "38",
+      "name": "tennis racket",
+      "wn_synset": "tennis_racket.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q153362",
+      "dbpedia": "http://dbpedia.org/resource/Tennis_racket",
+      "yago": "None",
+      "cskg": "/c/en/tennis_racket"
+    },
+    "wordnet": {
+      "synset": "tennis_racket.n.01",
+      "definition": "a racket used to play tennis",
+      "lemmas": [
+        "tennis_racket",
+        "tennis_racquet"
+      ],
+      "hypernyms": [
+        "racket.n.04"
+      ]
+    }
+  },
+  "tie": {
+    "object": "tie",
+    "assignments": [
+      {
+        "frame": "Function",
+        "role": "Entity",
+        "confidence": "high",
+        "reason": "Tie is an entity designed for the purpose of fastening or tying."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [],
+      "colour": [
+        "black",
+        "blue",
+        "green",
+        "navy blue",
+        "red",
+        "white",
+        "yellow"
+      ],
+      "material": [
+        "cotton",
+        "nylon",
+        "polyester",
+        "silk",
+        "wool"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "flexible",
+      "size": {
+        "height_m": 1.5,
+        "length_m": 1.4732,
+        "width_m": 0.075
+      },
+      "weight_kg": 0.06
+    },
+    "grounding": {
+      "id": "27",
+      "name": "tie",
+      "wn_synset": "tie.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q44416",
+      "dbpedia": "http://dbpedia.org/resource/Necktie",
+      "yago": "http://yago-knowledge.org/resource/Necktie",
+      "cskg": "/c/en/tie"
+    },
+    "wordnet": {
+      "synset": "tie.n.01",
+      "definition": "neckwear consisting of a long narrow piece of material worn (mostly by men) under a collar and tied in knot at the front",
+      "lemmas": [
+        "necktie",
+        "tie"
+      ],
+      "hypernyms": [
+        "neckwear.n.01"
+      ]
+    }
+  },
+  "toaster": {
+    "object": "toaster",
+    "assignments": [
+      {
+        "frame": "Function",
+        "role": "Entity",
+        "confidence": "high",
+        "reason": "Toaster is an appliance designed for toasting bread."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [
+        "rectangle"
+      ],
+      "colour": [
+        "black",
+        "silver",
+        "white"
+      ],
+      "material": [
+        "aluminium",
+        "ceramic",
+        "glass",
+        "plastic",
+        "steel"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.25,
+        "length_m": 0.35,
+        "width_m": 0.33
+      },
+      "weight_kg": 1.75
+    },
+    "grounding": {
+      "id": "70",
+      "name": "toaster",
+      "wn_synset": "toaster.n.02",
+      "wikidata": "http://www.wikidata.org/entity/Q14890",
+      "dbpedia": "http://dbpedia.org/resource/Toaster",
+      "yago": "None",
+      "cskg": "/c/en/toaster"
+    },
+    "wordnet": {
+      "synset": "toaster.n.02",
+      "definition": "a kitchen appliance (usually electric) for toasting bread",
+      "lemmas": [
+        "toaster"
+      ],
+      "hypernyms": [
+        "kitchen_appliance.n.01"
+      ]
+    }
+  },
+  "toilet": {
+    "object": "toilet",
+    "assignments": [
+      {
+        "frame": "Function",
+        "role": "Entity",
+        "confidence": "high",
+        "reason": "Toilet is an entity designed for personal hygiene functions."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [
+        "oval",
+        "rectangle",
+        "round"
+      ],
+      "colour": [
+        "black",
+        "grey",
+        "white"
+      ],
+      "material": [
+        "plastic",
+        "porcelain",
+        "steel"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.762,
+        "length_m": 0.762,
+        "width_m": 0.762
+      },
+      "weight_kg": 45.0
+    },
+    "grounding": {
+      "id": "61",
+      "name": "toilet",
+      "wn_synset": "toilet.n.02",
+      "wikidata": "http://www.wikidata.org/entity/Q7857",
+      "dbpedia": "http://dbpedia.org/resource/Toilet",
+      "yago": "http://yago-knowledge.org/resource/Toilet",
+      "cskg": "/c/en/toilet"
+    },
+    "wordnet": {
+      "synset": "toilet.n.02",
+      "definition": "a plumbing fixture for defecation and urination",
+      "lemmas": [
+        "toilet",
+        "can",
+        "commode",
+        "crapper",
+        "pot",
+        "potty",
+        "stool",
+        "throne"
+      ],
+      "hypernyms": [
+        "plumbing_fixture.n.01"
+      ]
+    }
+  },
+  "toothbrush": {
+    "object": "toothbrush",
+    "assignments": [
+      {
+        "frame": "Function",
+        "role": "Entity",
+        "confidence": "high",
+        "reason": "toothbrush is designed for cleaning teeth"
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [
+        "oval",
+        "rectangle"
+      ],
+      "colour": [
+        "blue",
+        "green",
+        "pink",
+        "red",
+        "white"
+      ],
+      "material": [
+        "nylon",
+        "plastic",
+        "rubber"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.15,
+        "length_m": 0.1,
+        "width_m": 0.015
+      },
+      "weight_kg": 0.05
+    },
+    "grounding": {
+      "id": "79",
+      "name": "toothbrush",
+      "wn_synset": "toothbrush.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q134205",
+      "dbpedia": "http://dbpedia.org/resource/Toothbrush",
+      "yago": "http://yago-knowledge.org/resource/Toothbrush",
+      "cskg": "/c/en/toothbrush"
+    },
+    "wordnet": {
+      "synset": "toothbrush.n.01",
+      "definition": "small brush; has long handle; used to clean teeth",
+      "lemmas": [
+        "toothbrush"
+      ],
+      "hypernyms": [
+        "toiletry.n.01",
+        "brush.n.02"
+      ]
+    }
+  },
+  "traffic light": {
+    "object": "traffic light",
+    "assignments": [
+      {
+        "frame": "Function",
+        "role": "Entity",
+        "confidence": "high",
+        "reason": "Traffic light is the entity performing the function of controlling traffic."
+      },
+      {
+        "frame": "Function",
+        "role": "Activity",
+        "confidence": "high",
+        "reason": "Traffic light exists to perform the activity of controlling traffic flow at intersections."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [
+        "circle",
+        "rectangle"
+      ],
+      "colour": [
+        "green",
+        "red",
+        "yellow"
+      ],
+      "material": [
+        "aluminium",
+        "glass",
+        "plastic"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 2.0,
+        "length_m": 1.2,
+        "width_m": 1.0
+      },
+      "weight_kg": 15.0
+    },
+    "grounding": {
+      "id": "9",
+      "name": "traffic light",
+      "wn_synset": "traffic_light.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q8004",
+      "dbpedia": "http://dbpedia.org/resource/Traffic_light",
+      "yago": "http://yago-knowledge.org/resource/Traffic_light",
+      "cskg": "/c/en/traffic_light"
+    },
+    "wordnet": {
+      "synset": "traffic_light.n.01",
+      "definition": "a visual signal to control the flow of traffic at intersections",
+      "lemmas": [
+        "traffic_light",
+        "traffic_signal",
+        "stoplight"
+      ],
+      "hypernyms": [
+        "light.n.14"
+      ]
+    }
+  },
+  "train": {
+    "object": "train",
+    "assignments": [
+      {
+        "frame": "Vehicle",
+        "role": "Vehicle",
+        "confidence": "high",
+        "reason": "The train is a public transportation vehicle."
+      },
+      {
+        "frame": "Function",
+        "role": "Entity",
+        "confidence": "high",
+        "reason": "The train is designed for transportation."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [],
+      "colour": [
+        "black",
+        "blue",
+        "green",
+        "red",
+        "silver"
+      ],
+      "material": [
+        "aluminium",
+        "steel",
+        "wood"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 4.0,
+        "length_m": 150.0,
+        "width_m": 3.0
+      },
+      "weight_kg": 500000.0
+    },
+    "grounding": {
+      "id": "6",
+      "name": "train",
+      "wn_synset": "train.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q870",
+      "dbpedia": "http://dbpedia.org/resource/Train",
+      "yago": "http://yago-knowledge.org/resource/Train",
+      "cskg": "/c/en/train"
+    },
+    "wordnet": {
+      "synset": "train.n.01",
+      "definition": "public transport provided by a line of railway cars coupled together and drawn by a locomotive",
+      "lemmas": [
+        "train",
+        "railroad_train"
+      ],
+      "hypernyms": [
+        "public_transport.n.01"
+      ]
+    }
+  },
+  "truck": {
+    "object": "truck",
+    "assignments": [
+      {
+        "frame": "Vehicle",
+        "role": "Vehicle",
+        "confidence": "high",
+        "reason": "Truck is a primary vehicle used for transportation."
+      },
+      {
+        "frame": "Function",
+        "role": "Entity",
+        "confidence": "high",
+        "reason": "Truck is designed for specific uses like hauling."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [
+        "rectangle",
+        "rectangular cuboid"
+      ],
+      "colour": [
+        "black",
+        "blue",
+        "green",
+        "grey",
+        "red",
+        "silver",
+        "white"
+      ],
+      "material": [
+        "aluminium",
+        "plastic",
+        "rubber",
+        "steel"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 2.5,
+        "length_m": 6.0,
+        "width_m": 2.2
+      },
+      "weight_kg": 5000.0
+    },
+    "grounding": {
+      "id": "7",
+      "name": "truck",
+      "wn_synset": "truck.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q43193",
+      "dbpedia": "http://dbpedia.org/resource/Truck",
+      "yago": "http://yago-knowledge.org/resource/Truck",
+      "cskg": "/c/en/truck"
+    },
+    "wordnet": {
+      "synset": "truck.n.01",
+      "definition": "an automotive vehicle suitable for hauling",
+      "lemmas": [
+        "truck",
+        "motortruck"
+      ],
+      "hypernyms": [
+        "motor_vehicle.n.01"
+      ]
+    }
+  },
+  "umbrella": {
+    "object": "umbrella",
+    "assignments": [
+      {
+        "frame": "Function",
+        "role": "Entity",
+        "confidence": "high",
+        "reason": "The umbrella is the entity designed to perform the activity of protection."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [
+        "oval",
+        "round"
+      ],
+      "colour": [
+        "black",
+        "blue",
+        "green",
+        "pink",
+        "red",
+        "white",
+        "yellow"
+      ],
+      "material": [
+        "aluminium",
+        "nylon",
+        "plastic",
+        "polyester"
+      ],
+      "fragility": "fragile",
+      "rigidity": "flexible",
+      "size": {
+        "height_m": 0.75,
+        "length_m": 0.7,
+        "width_m": 0.7
+      },
+      "weight_kg": 0.375
+    },
+    "grounding": {
+      "id": "25",
+      "name": "umbrella",
+      "wn_synset": "umbrella.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q41607",
+      "dbpedia": "http://dbpedia.org/resource/Umbrella",
+      "yago": "http://yago-knowledge.org/resource/Umbrella",
+      "cskg": "/c/en/umbrella"
+    },
+    "wordnet": {
+      "synset": "umbrella.n.01",
+      "definition": "a lightweight handheld collapsible canopy",
+      "lemmas": [
+        "umbrella"
+      ],
+      "hypernyms": [
+        "canopy.n.03"
+      ]
+    }
+  },
+  "vase": {
+    "object": "vase",
+    "assignments": [
+      {
+        "frame": "Containing",
+        "role": "Container",
+        "confidence": "high",
+        "reason": "Vase is designed to hold contents."
+      },
+      {
+        "frame": "Function",
+        "role": "Entity",
+        "confidence": "high",
+        "reason": "Vase serves as an entity with a specific purpose."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [
+        "bell-shaped",
+        "cylinder"
+      ],
+      "colour": [
+        "black",
+        "blue",
+        "green",
+        "pink",
+        "purple",
+        "red",
+        "transparent",
+        "white",
+        "yellow"
+      ],
+      "material": [
+        "ceramic",
+        "glass",
+        "metal",
+        "plastic",
+        "porcelain",
+        "wood"
+      ],
+      "fragility": "fragile",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.3,
+        "length_m": 0.29,
+        "width_m": 0.15
+      },
+      "weight_kg": 0.75
+    },
+    "grounding": {
+      "id": "75",
+      "name": "vase",
+      "wn_synset": "vase.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q191851",
+      "dbpedia": "http://dbpedia.org/resource/Vase",
+      "yago": "http://yago-knowledge.org/resource/Vase",
+      "cskg": "/c/en/vase"
+    },
+    "wordnet": {
+      "synset": "vase.n.01",
+      "definition": "an open jar of glass or porcelain used as an ornament or to hold flowers",
+      "lemmas": [
+        "vase"
+      ],
+      "hypernyms": [
+        "jar.n.01"
+      ]
+    }
+  },
+  "wine glass": {
+    "object": "wine glass",
+    "assignments": [
+      {
+        "frame": "Containing",
+        "role": "Container",
+        "confidence": "high",
+        "reason": "Wine glass is primarily designed to hold liquids, fitting the definition of a container."
+      },
+      {
+        "frame": "Function",
+        "role": "Entity",
+        "confidence": "high",
+        "reason": "Wine glass is an entity designed for specific purposes, such as serving or drinking from."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [],
+      "colour": [
+        "transparent",
+        "white"
+      ],
+      "material": [
+        "glass",
+        "plastic"
+      ],
+      "fragility": "fragile",
+      "rigidity": "rigid",
+      "size": {
+        "height_m": 0.13,
+        "length_m": 0.13,
+        "width_m": 0.075
+      },
+      "weight_kg": 0.2
+    },
+    "grounding": {
+      "id": "40",
+      "name": "wine glass",
+      "wn_synset": "wineglass.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q1531435",
+      "dbpedia": "http://dbpedia.org/resource/Wine_glass",
+      "yago": "http://yago-knowledge.org/resource/Wine_glass",
+      "cskg": "/c/en/wine_glass"
+    },
+    "wordnet": {
+      "synset": "wineglass.n.01",
+      "definition": "a glass that has a stem and in which wine is served",
+      "lemmas": [
+        "wineglass"
+      ],
+      "hypernyms": [
+        "glass.n.02"
+      ]
+    }
+  },
+  "zebra": {
+    "object": "zebra",
+    "assignments": [
+      {
+        "frame": "Animals",
+        "role": "Animal",
+        "confidence": "high",
+        "reason": "Zebra is a biological entity other than human beings and plants."
+      }
+    ],
+    "invalid_assignments_removed": [],
+    "kb_properties": {
+      "shape": [],
+      "colour": [
+        "black",
+        "white"
+      ],
+      "material": [
+        "fur",
+        "hair",
+        "leather"
+      ],
+      "fragility": "sturdy",
+      "rigidity": "flexible",
+      "size": {
+        "height_m": 1.3,
+        "length_m": 2.5,
+        "width_m": 0.725
+      },
+      "weight_kg": 275.0
+    },
+    "grounding": {
+      "id": "22",
+      "name": "zebra",
+      "wn_synset": "zebra.n.01",
+      "wikidata": "http://www.wikidata.org/entity/Q32789",
+      "dbpedia": "http://dbpedia.org/resource/Zebra",
+      "yago": "http://yago-knowledge.org/resource/Zebra",
+      "cskg": "/c/en/zebra"
+    },
+    "wordnet": {
+      "synset": "zebra.n.01",
+      "definition": "any of several fleet black-and-white striped African equines",
+      "lemmas": [
+        "zebra"
+      ],
+      "hypernyms": [
+        "equine.n.01"
+      ]
+    }
+  }
+}

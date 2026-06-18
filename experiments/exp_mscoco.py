@@ -14,10 +14,10 @@ from pathlib import Path
 
 logger = setup_logger()
 
-INPUT_DIR = "inputs"
+INPUT_DIR = os.path.join("inputs", "mscoco concepts")
 concept_file= "concepts_mscoco.json"
 property_file = "exp_properties.yaml"
-RUNS = int(os.getenv("RUNS", 20))
+RUNS = int(os.getenv("RUNS", 7))
 OUTPUT_PARENT_DIR = "output"
 condition = 'avg'
 
@@ -88,10 +88,16 @@ def run_experiment(current_client, condition):
                     )
         if condition != 'ranges':
             logger.info(f"Processing categorical domains")
+
+            template_map = {
+                "rigidity": "rigidity",
+                "fragility": "fragility",
+            }
+
             for domain in properties.get("categorical", []):
                 logger.info(f"Processing {domain} for concept: {name}")
-                
-                template_name = "categorical"
+
+                template_name = template_map.get(domain, "categorical")
 
                 output_path = os.path.join(output_dir, f"{RUNS}_{domain}_{name}.json")
                 logger.info(f"Running {model_name} and saving output to:\n\t\t{output_path}")
@@ -114,7 +120,7 @@ def run_batch():
 
     model_config = load_model_config()
 
-    for condition in ['avg', 'context', 'ranges']:
+    for condition in ['avg']:
         
         # for entry in model_config.get("groq", []):
         #     logger.info(f"Loading Groq model: {entry['model_path']}")
@@ -123,21 +129,21 @@ def run_batch():
         #     logger.info(f"Loaded client: {model_name}")
         #     run_experiment(current_client, condition)
 
-        for entry in model_config.get("local", []):
-            logger.info(f"Loading local model: {entry['model_path']}")
-            model_name = entry['name']
-            current_client = LocalClient(model_path=entry["model_path"], model_name=model_name)
+        # for entry in model_config.get("local", []):
+        #    logger.info(f"Loading local model: {entry['model_path']}")
+        #    model_name = entry['name']
+        #    current_client = LocalClient(model_path=entry["model_path"], model_name=model_name)
+        #    logger.info(f"Loaded client: {model_name}")
+        #    run_experiment(current_client, condition)
+
+
+        for entry in model_config.get("nebula", []):
+            model_path = entry["model_path"]
+            model_name = entry["name"]
+            logger.info(f"Loading Nebula model: {model_name}")
+            current_client = NebulaClient(api_key=os.getenv("NEBULA_API_KEY"), model_name=model_name, model_path=model_path)
             logger.info(f"Loaded client: {model_name}")
             run_experiment(current_client, condition)
-
-
-        # for entry in model_config.get("nebula", []):
-        #     model_path = entry["model_path"]
-        #     model_name = entry["name"]
-        #     logger.info(f"Loading Nebula model: {model_name}")
-        #     current_client = NebulaClient(api_key=os.getenv("NEBULA_API_KEY"), model_name=model_name, model_path=model_path)
-        #     logger.info(f"Loaded client: {model_name}")
-        #     run_experiment(current_client, condition)
         
 
 

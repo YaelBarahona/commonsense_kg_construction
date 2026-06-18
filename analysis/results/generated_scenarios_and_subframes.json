@@ -1,0 +1,826 @@
+{
+  "high_level_scenarios": [
+    {
+      "name": "Meal Preparation",
+      "domain": "Food",
+      "relevant_objects": [
+        "oven",
+        "microwave",
+        "toaster",
+        "pizza",
+        "cake",
+        "donut",
+        "sandwich"
+      ],
+      "relevant_frames": [
+        "Cooking_creation",
+        "Function",
+        "Containing"
+      ],
+      "description": "Preparing various meals using kitchen appliances and storing food.",
+      "removed_invalid_objects": [],
+      "removed_invalid_frames": []
+    },
+    {
+      "name": "Picnic Preparation",
+      "domain": "Leisure",
+      "relevant_objects": [
+        "backpack",
+        "bottle",
+        "cup",
+        "sandwich",
+        "banana",
+        "apple",
+        "book",
+        "laptop"
+      ],
+      "relevant_frames": [
+        "Containing",
+        "Function",
+        "Use_vehicle",
+        "Transportation_status"
+      ],
+      "description": "Packing items for a picnic, using a bike for transportation, and engaging in leisure activities.",
+      "removed_invalid_objects": [
+        "bike"
+      ],
+      "removed_invalid_frames": []
+    },
+    {
+      "name": "Commuting",
+      "domain": "Transport",
+      "relevant_objects": [
+        "car",
+        "bus",
+        "train",
+        "bicycle",
+        "motorcycle",
+        "boat",
+        "airplane",
+        "skateboard"
+      ],
+      "relevant_frames": [
+        "Use_vehicle",
+        "Transportation_status"
+      ],
+      "description": "Using various vehicles for transportation purposes and monitoring their status.",
+      "removed_invalid_objects": [],
+      "removed_invalid_frames": []
+    },
+    {
+      "name": "Office Work",
+      "domain": "Work",
+      "relevant_objects": [
+        "laptop",
+        "keyboard",
+        "chair",
+        "dining table",
+        "remote",
+        "microwave"
+      ],
+      "relevant_frames": [
+        "Function"
+      ],
+      "description": "Engaging in work activities using office equipment and appliances.",
+      "removed_invalid_objects": [],
+      "removed_invalid_frames": []
+    },
+    {
+      "name": "Personal Hygiene",
+      "domain": "Hygiene",
+      "relevant_objects": [
+        "toothbrush",
+        "sink",
+        "bottle"
+      ],
+      "relevant_frames": [
+        "Function"
+      ],
+      "description": "Performing daily hygiene routines using bathroom items.",
+      "removed_invalid_objects": [
+        "soap",
+        "towel"
+      ],
+      "removed_invalid_frames": []
+    },
+    {
+      "name": "Pet Care",
+      "domain": "Animals",
+      "relevant_objects": [
+        "dog",
+        "cat",
+        "bird",
+        "teddy bear"
+      ],
+      "relevant_frames": [
+        "Animals"
+      ],
+      "description": "Caring for and interacting with pets and animal toys.",
+      "removed_invalid_objects": [
+        "fish"
+      ],
+      "removed_invalid_frames": []
+    },
+    {
+      "name": "Gardening",
+      "domain": "Household Activities",
+      "relevant_objects": [
+        "potted plant",
+        "spoon",
+        "bowl"
+      ],
+      "relevant_frames": [
+        "Plants",
+        "Function"
+      ],
+      "description": "Engaging in gardening activities to maintain and arrange plants.",
+      "removed_invalid_objects": [
+        "watering can",
+        "soil"
+      ],
+      "removed_invalid_frames": []
+    },
+    {
+      "name": "Meal Storage",
+      "domain": "Household Activities",
+      "relevant_objects": [
+        "refrigerator",
+        "bottle",
+        "cup"
+      ],
+      "relevant_frames": [
+        "Containing",
+        "Function"
+      ],
+      "description": "Storing food and other items using containers for preservation.",
+      "removed_invalid_objects": [
+        "jar",
+        "plate"
+      ],
+      "removed_invalid_frames": []
+    },
+    {
+      "name": "Airport Scenario",
+      "domain": "Transport",
+      "relevant_objects": [
+        "airplane",
+        "clock"
+      ],
+      "relevant_frames": [
+        "Transportation_status",
+        "Use_vehicle"
+      ],
+      "description": "Navigating through an airport and preparing for air travel.",
+      "removed_invalid_objects": [
+        "luggage",
+        "ticket",
+        "security"
+      ],
+      "removed_invalid_frames": []
+    }
+  ],
+  "scenario_subframes": [
+    {
+      "high_level_scenario": "Meal Preparation",
+      "domain": "Food",
+      "scenario_description": "Preparing various meals using kitchen appliances and storing food.",
+      "relevant_objects": [
+        "oven",
+        "microwave",
+        "toaster",
+        "pizza",
+        "cake",
+        "donut",
+        "sandwich"
+      ],
+      "relevant_frames": [
+        "Cooking_creation",
+        "Function",
+        "Containing"
+      ],
+      "subframes": [
+        {
+          "step": 1,
+          "name": "Preparation",
+          "relevant_objects": [
+            "pizza",
+            "cake",
+            "donut",
+            "sandwich"
+          ],
+          "collaborating_frames": [
+            "Function",
+            "Containing"
+          ],
+          "description": "Assembling the food items for cooking.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "step": 2,
+          "name": "Oven Heating",
+          "relevant_objects": [
+            "oven",
+            "pizza",
+            "cake",
+            "donut"
+          ],
+          "collaborating_frames": [
+            "Function",
+            "Containing"
+          ],
+          "description": "Placing food items into the oven to cook.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "step": 3,
+          "name": "Toaster Use",
+          "relevant_objects": [
+            "toaster",
+            "donut"
+          ],
+          "collaborating_frames": [
+            "Function"
+          ],
+          "description": "Using the toaster to heat the donut.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "step": 4,
+          "name": "Final Assembly",
+          "relevant_objects": [
+            "sandwich",
+            "oven",
+            "microwave",
+            "toaster"
+          ],
+          "collaborating_frames": [
+            "Function"
+          ],
+          "description": "Completing the meal preparation process.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        }
+      ],
+      "invalid_subframes_removed": []
+    },
+    {
+      "high_level_scenario": "Picnic Preparation",
+      "domain": "Leisure",
+      "scenario_description": "Packing items for a picnic, using a bike for transportation, and engaging in leisure activities.",
+      "relevant_objects": [
+        "backpack",
+        "bottle",
+        "cup",
+        "sandwich",
+        "banana",
+        "apple",
+        "book",
+        "laptop"
+      ],
+      "relevant_frames": [
+        "Containing",
+        "Function",
+        "Use_vehicle",
+        "Transportation_status"
+      ],
+      "subframes": [
+        {
+          "step": 1,
+          "name": "Packing the backpack",
+          "relevant_objects": [
+            "backpack",
+            "sandwich",
+            "banana",
+            "bottle"
+          ],
+          "collaborating_frames": [
+            "Containing",
+            "Function"
+          ],
+          "description": "Putting items into the backpack for carrying.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "step": 2,
+          "name": "Transporting the items",
+          "relevant_objects": [
+            "backpack",
+            "cup",
+            "book",
+            "laptop"
+          ],
+          "collaborating_frames": [
+            "Transportation_status",
+            "Use_vehicle"
+          ],
+          "description": "Moving the backpack to the picnic location.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "step": 3,
+          "name": "Preparing food and drink",
+          "relevant_objects": [
+            "sandwich",
+            "banana",
+            "bottle",
+            "cup"
+          ],
+          "collaborating_frames": [
+            "Function"
+          ],
+          "description": "Organizing food and drink items for the picnic.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        }
+      ],
+      "invalid_subframes_removed": []
+    },
+    {
+      "high_level_scenario": "Commuting",
+      "domain": "Transport",
+      "scenario_description": "Using various vehicles for transportation purposes and monitoring their status.",
+      "relevant_objects": [
+        "car",
+        "bus",
+        "train",
+        "bicycle",
+        "motorcycle",
+        "boat",
+        "airplane",
+        "skateboard"
+      ],
+      "relevant_frames": [
+        "Use_vehicle",
+        "Transportation_status"
+      ],
+      "subframes": [
+        {
+          "step": 1,
+          "name": "Choosing_vehicle",
+          "relevant_objects": [
+            "car",
+            "bus",
+            "train",
+            "bicycle"
+          ],
+          "collaborating_frames": [
+            "Use_vehicle"
+          ],
+          "description": "Selecting a mode of transport for the journey.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "step": 2,
+          "name": "Use_vehicle",
+          "relevant_objects": [
+            "car",
+            "bus",
+            "train",
+            "bicycle",
+            "motorcycle"
+          ],
+          "collaborating_frames": [
+            "Transportation_status"
+          ],
+          "description": "Operating the chosen vehicle to start the journey.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "step": 3,
+          "name": "Boarding_vehicle",
+          "relevant_objects": [
+            "bus",
+            "train"
+          ],
+          "collaborating_frames": [
+            "Use_vehicle"
+          ],
+          "description": "Entering a public transport vehicle.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "step": 5,
+          "name": "Arrival",
+          "relevant_objects": [
+            "car",
+            "bus",
+            "train",
+            "bicycle"
+          ],
+          "collaborating_frames": [
+            "Use_vehicle"
+          ],
+          "description": "Reaching the destination after the commute.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        }
+      ],
+      "invalid_subframes_removed": [
+        {
+          "subframe": {
+            "step": 4,
+            "name": "Transportation_status",
+            "relevant_objects": [
+              "car",
+              "bus",
+              "train"
+            ],
+            "collaborating_frames": [],
+            "description": "Monitoring the journey's progress and conditions."
+          },
+          "reason": "No valid objects or frames remained.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        }
+      ]
+    },
+    {
+      "high_level_scenario": "Office Work",
+      "domain": "Work",
+      "scenario_description": "Engaging in work activities using office equipment and appliances.",
+      "relevant_objects": [
+        "laptop",
+        "keyboard",
+        "chair",
+        "dining table",
+        "remote",
+        "microwave"
+      ],
+      "relevant_frames": [
+        "Function"
+      ],
+      "subframes": [
+        {
+          "step": 1,
+          "name": "Arrival and Seating",
+          "relevant_objects": [
+            "chair",
+            "laptop",
+            "keyboard"
+          ],
+          "collaborating_frames": [
+            "Function"
+          ],
+          "description": "Arriving at the office and sitting down to begin work.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "step": 2,
+          "name": "Computer Work",
+          "relevant_objects": [
+            "laptop",
+            "keyboard",
+            "remote"
+          ],
+          "collaborating_frames": [
+            "Function"
+          ],
+          "description": "Using the laptop and keyboard to perform tasks, possibly communicating with the remote.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "step": 3,
+          "name": "Lunch Break",
+          "relevant_objects": [
+            "dining table",
+            "microwave"
+          ],
+          "collaborating_frames": [
+            "Function"
+          ],
+          "description": "Taking a break to eat lunch at the dining table, heating food in the microwave.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "step": 4,
+          "name": "Meeting Conclusion",
+          "relevant_objects": [
+            "remote",
+            "laptop"
+          ],
+          "collaborating_frames": [
+            "Function"
+          ],
+          "description": "Ending a meeting using the remote and preparing to close down the laptop.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        }
+      ],
+      "invalid_subframes_removed": []
+    },
+    {
+      "high_level_scenario": "Personal Hygiene",
+      "domain": "Hygiene",
+      "scenario_description": "Performing daily hygiene routines using bathroom items.",
+      "relevant_objects": [
+        "toothbrush",
+        "sink",
+        "bottle"
+      ],
+      "relevant_frames": [
+        "Function"
+      ],
+      "subframes": [
+        {
+          "step": 1,
+          "name": ".Brushing Teeth",
+          "relevant_objects": [
+            "toothbrush",
+            "sink"
+          ],
+          "collaborating_frames": [
+            "Function"
+          ],
+          "description": "Using the toothbrush at the sink to clean teeth.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "step": 2,
+          "name": ".Rinsing Mouth",
+          "relevant_objects": [
+            "sink",
+            "bottle"
+          ],
+          "collaborating_frames": [
+            "Function"
+          ],
+          "description": "Rinsing the mouth with water from the bottle using the sink.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "step": 3,
+          "name": ".Storing Toothbrush",
+          "relevant_objects": [
+            "toothbrush",
+            "bottle"
+          ],
+          "collaborating_frames": [
+            "Function"
+          ],
+          "description": "Storing the toothbrush in the bottle for hygiene purposes.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        }
+      ],
+      "invalid_subframes_removed": []
+    },
+    {
+      "high_level_scenario": "Pet Care",
+      "domain": "Animals",
+      "scenario_description": "Caring for and interacting with pets and animal toys.",
+      "relevant_objects": [
+        "dog",
+        "cat",
+        "bird",
+        "teddy bear"
+      ],
+      "relevant_frames": [
+        "Animals"
+      ],
+      "subframes": [],
+      "invalid_subframes_removed": []
+    },
+    {
+      "high_level_scenario": "Gardening",
+      "domain": "Household Activities",
+      "scenario_description": "Engaging in gardening activities to maintain and arrange plants.",
+      "relevant_objects": [
+        "potted plant",
+        "spoon",
+        "bowl"
+      ],
+      "relevant_frames": [
+        "Plants",
+        "Function"
+      ],
+      "subframes": [
+        {
+          "step": 1,
+          "name": "Watering Plants",
+          "relevant_objects": [
+            "potted plant",
+            "bowl",
+            "spoon"
+          ],
+          "collaborating_frames": [
+            "Function",
+            "Plants"
+          ],
+          "description": "Using a bowl and spoon to water the potted plant.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "step": 2,
+          "name": "Preparing Soil Mix",
+          "relevant_objects": [
+            "bowl",
+            "spoon"
+          ],
+          "collaborating_frames": [
+            "Function",
+            "Plants"
+          ],
+          "description": "Mixing soil components in a bowl using a spoon.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "step": 3,
+          "name": "Transplanting",
+          "relevant_objects": [
+            "potted plant",
+            "bowl"
+          ],
+          "collaborating_frames": [
+            "Function",
+            "Plants"
+          ],
+          "description": "Moving the potted plant from a bowl to a planting area.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "step": 4,
+          "name": "Feeding Plants",
+          "relevant_objects": [
+            "potted plant",
+            "spoon"
+          ],
+          "collaborating_frames": [
+            "Function",
+            "Plants"
+          ],
+          "description": "Adding plant food to the potted plant using a spoon.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "step": 5,
+          "name": "Fertilising",
+          "relevant_objects": [
+            "bowl"
+          ],
+          "collaborating_frames": [
+            "Function",
+            "Plants"
+          ],
+          "description": "Mixing fertiliser in a bowl for plant application.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        }
+      ],
+      "invalid_subframes_removed": []
+    },
+    {
+      "high_level_scenario": "Meal Storage",
+      "domain": "Household Activities",
+      "scenario_description": "Storing food and other items using containers for preservation.",
+      "relevant_objects": [
+        "refrigerator",
+        "bottle",
+        "cup"
+      ],
+      "relevant_frames": [
+        "Containing",
+        "Function"
+      ],
+      "subframes": [
+        {
+          "step": 1,
+          "name": "Prepare Meal",
+          "relevant_objects": [
+            "bottle",
+            "cup"
+          ],
+          "collaborating_frames": [
+            "Function",
+            "Containing"
+          ],
+          "description": "Mix ingredients in the bottle and pour into the cup.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "step": 2,
+          "name": "Transfer Meal",
+          "relevant_objects": [
+            "refrigerator",
+            "bottle",
+            "cup"
+          ],
+          "collaborating_frames": [
+            "Containing"
+          ],
+          "description": "Pour the meal from the bottle or cup into the refrigerator.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "step": 3,
+          "name": "Store Meal",
+          "relevant_objects": [
+            "refrigerator",
+            "bottle",
+            "cup"
+          ],
+          "collaborating_frames": [
+            "Function",
+            "Containing"
+          ],
+          "description": "Place the stored meal items inside the refrigerator.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        }
+      ],
+      "invalid_subframes_removed": []
+    },
+    {
+      "high_level_scenario": "Airport Scenario",
+      "domain": "Transport",
+      "scenario_description": "Navigating through an airport and preparing for air travel.",
+      "relevant_objects": [
+        "airplane",
+        "clock"
+      ],
+      "relevant_frames": [
+        "Transportation_status",
+        "Use_vehicle"
+      ],
+      "subframes": [
+        {
+          "step": 2,
+          "name": "Boarding",
+          "relevant_objects": [
+            "airplane",
+            "clock"
+          ],
+          "collaborating_frames": [
+            "Transportation_status"
+          ],
+          "description": "Passengers board the airplane at the given time.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "step": 3,
+          "name": "Departure",
+          "relevant_objects": [
+            "airplane",
+            "clock"
+          ],
+          "collaborating_frames": [
+            "Transportation_status"
+          ],
+          "description": "The airplane departs at the scheduled time.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        },
+        {
+          "step": 4,
+          "name": "Turnaround",
+          "relevant_objects": [
+            "airplane",
+            "clock"
+          ],
+          "collaborating_frames": [
+            "Transportation_status"
+          ],
+          "description": "The airplane is moved to the departure gate.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        }
+      ],
+      "invalid_subframes_removed": [
+        {
+          "subframe": {
+            "step": 1,
+            "name": "Arrival_time",
+            "relevant_objects": [
+              "airplane",
+              "clock"
+            ],
+            "collaborating_frames": [],
+            "description": "The airplane arrives at the specified time."
+          },
+          "reason": "No valid objects or frames remained.",
+          "removed_invalid_objects": [],
+          "removed_invalid_frames": []
+        }
+      ]
+    }
+  ]
+}

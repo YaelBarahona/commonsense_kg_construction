@@ -1,0 +1,1874 @@
+GOAL: have breakfast
+You are a semantic reasoning system using FrameNet.
+
+Goal:
+have breakfast
+
+Available objects:
+TV, airplane, apple, backpack, banana, baseball bat, baseball glove, bear, bed, bench, bicycle, bird, boat, book, bottle, bowl, broccoli, bus, cake, car, carrot, cat, cell phone, chair, clock, couch, cow, cup, dining table, dog, donut, elephant, fire hydrant, fork, frisbee, giraffe, hair drier, handbag, horse, hot dog, keyboard, kite, knife, laptop, microwave, motorcycle, mouse, orange, oven, parking meter, person, pizza, potted plant, refrigerator, remote, sandwich, scissors, sheep, sink, skateboard, skis, snowboard, spoon, sports ball, stop sign, suitcase, surfboard, teddy bear, tennis racket, tie, toaster, toilet, toothbrush, traffic light, train, truck, umbrella, vase, wine glass, zebra
+
+Allowed FrameNet frames and roles:
+
+- Arranging (ID: 921)
+  Roles: Agent, Theme
+
+- Getting (ID: 179)
+  Roles: Recipient, Theme, Source
+
+- Getting_scenario (ID: 1191)
+  Roles: Recipient, Theme, Source
+
+- Locative_relation (ID: 199)
+  Roles: Figure, Ground
+
+- Attempt_obtain_food_scenario (ID: 2007)
+  Roles: Seeker, Food, Ground
+
+Instructions:
+1. Select only relevant objects for the goal.
+2. Assign them to appropriate FrameNet roles.
+3. Use only the frames listed above.
+4. Do NOT invent new objects or frames.
+5. Keep assignments realistic and logical.
+
+Output ONLY valid JSON in this format:
+
+{
+  "goal": "...",
+  "relevant_objects": [...],
+  "frames": [
+    {
+      "frame": "...",
+      "assignments": [
+        {"role": "...", "object": "..."}
+      ]
+    }
+  ]
+}
+
+Example:
+
+Goal: have breakfast
+
+Output:
+{{
+  "goal": "have breakfast",
+  "relevant_objects": [
+    "person",
+    "banana",
+    "bowl",
+    "dining table",
+    "refrigerator"
+  ],
+  "frames": [
+    {{
+      "frame": "Attempt_obtain_food_scenario",
+      "assignments": [
+        {{"role": "Seeker", "object": "person"}},
+        {{"role": "Food", "object": "banana"}},
+        {{"role": "Ground", "object": "refrigerator"}}
+      ]
+    }},
+    {{
+      "frame": "Getting_scenario",
+      "assignments": [
+        {{"role": "Recipient", "object": "person"}},
+        {{"role": "Theme", "object": "banana"}},
+        {{"role": "Source", "object": "refrigerator"}}
+      ]
+    }},
+    {{
+      "frame": "Arranging",
+      "assignments": [
+        {{"role": "Agent", "object": "person"}},
+        {{"role": "Theme", "object": "banana"}}
+      ]
+    }},
+    {{
+      "frame": "Locative_relation",
+      "assignments": [
+        {{"role": "Figure", "object": "banana"}},
+        {{"role": "Ground", "object": "bowl"}}
+      ]
+    }},
+    {{
+      "frame": "Locative_relation",
+      "assignments": [
+        {{"role": "Figure", "object": "bowl"}},
+        {{"role": "Ground", "object": "dining table"}}
+      ]
+    }}
+  ]
+}}
+
+
+================================================================================
+
+GOAL: have breakfast
+You are a semantic reasoning system using FrameNet.
+
+Goal:
+have breakfast
+
+Available objects:
+TV, airplane, apple, backpack, banana, baseball bat, baseball glove, bear, bed, bench, bicycle, bird, boat, book, bottle, bowl, broccoli, bus, cake, car, carrot, cat, cell phone, chair, clock, couch, cow, cup, dining table, dog, donut, elephant, fire hydrant, fork, frisbee, giraffe, hair drier, handbag, horse, hot dog, keyboard, kite, knife, laptop, microwave, motorcycle, mouse, orange, oven, parking meter, person, pizza, potted plant, refrigerator, remote, sandwich, scissors, sheep, sink, skateboard, skis, snowboard, spoon, sports ball, stop sign, suitcase, surfboard, teddy bear, tennis racket, tie, toaster, toilet, toothbrush, traffic light, train, truck, umbrella, vase, wine glass, zebra
+
+Allowed FrameNet frames and roles:
+
+- Arranging (ID: 921)
+  Roles: Agent, Theme
+
+- Getting (ID: 179)
+  Roles: Recipient, Theme, Source
+
+- Getting_scenario (ID: 1191)
+  Roles: Recipient, Theme, Source
+
+- Locative_relation (ID: 199)
+  Roles: Figure, Ground
+
+- Attempt_obtain_food_scenario (ID: 2007)
+  Roles: Seeker, Food, Ground
+
+Instructions:
+1. Select only relevant objects for the goal.
+2. Assign them to appropriate FrameNet roles.
+3. Use only the frames listed above.
+4. Do NOT invent new objects or frames.
+5. Keep assignments realistic and logical.
+
+Output ONLY valid JSON in this format:
+
+{
+  "goal": "...",
+  "relevant_objects": [...],
+  "frames": [
+    {
+      "frame": "...",
+      "assignments": [
+        {"role": "...", "object": "..."}
+      ]
+    }
+  ]
+}
+
+Example:
+
+Goal: have breakfast
+
+Output:
+{{
+  "goal": "have breakfast",
+  "relevant_objects": [
+    "person",
+    "banana",
+    "bowl",
+    "dining table",
+    "refrigerator"
+  ],
+  "frames": [
+    {{
+      "frame": "Attempt_obtain_food_scenario",
+      "assignments": [
+        {{"role": "Seeker", "object": "person"}},
+        {{"role": "Food", "object": "banana"}},
+        {{"role": "Ground", "object": "refrigerator"}}
+      ]
+    }},
+    {{
+      "frame": "Getting_scenario",
+      "assignments": [
+        {{"role": "Recipient", "object": "person"}},
+        {{"role": "Theme", "object": "banana"}},
+        {{"role": "Source", "object": "refrigerator"}}
+      ]
+    }},
+    {{
+      "frame": "Arranging",
+      "assignments": [
+        {{"role": "Agent", "object": "person"}},
+        {{"role": "Theme", "object": "banana"}}
+      ]
+    }},
+    {{
+      "frame": "Locative_relation",
+      "assignments": [
+        {{"role": "Figure", "object": "banana"}},
+        {{"role": "Ground", "object": "bowl"}}
+      ]
+    }},
+    {{
+      "frame": "Locative_relation",
+      "assignments": [
+        {{"role": "Figure", "object": "bowl"}},
+        {{"role": "Ground", "object": "dining table"}}
+      ]
+    }}
+  ]
+}}
+
+
+================================================================================
+
+GOAL: have breakfast
+You are a semantic reasoning system using FrameNet.
+
+Goal:
+have breakfast
+
+Available objects:
+TV, airplane, apple, backpack, banana, baseball bat, baseball glove, bear, bed, bench, bicycle, bird, boat, book, bottle, bowl, broccoli, bus, cake, car, carrot, cat, cell phone, chair, clock, couch, cow, cup, dining table, dog, donut, elephant, fire hydrant, fork, frisbee, giraffe, hair drier, handbag, horse, hot dog, keyboard, kite, knife, laptop, microwave, motorcycle, mouse, orange, oven, parking meter, person, pizza, potted plant, refrigerator, remote, sandwich, scissors, sheep, sink, skateboard, skis, snowboard, spoon, sports ball, stop sign, suitcase, surfboard, teddy bear, tennis racket, tie, toaster, toilet, toothbrush, traffic light, train, truck, umbrella, vase, wine glass, zebra
+
+Allowed FrameNet frames and roles:
+
+- Arranging (ID: 921)
+  Roles: Agent, Theme
+
+- Getting (ID: 179)
+  Roles: Recipient, Theme, Source
+
+- Getting_scenario (ID: 1191)
+  Roles: Recipient, Theme, Source
+
+- Locative_relation (ID: 199)
+  Roles: Figure, Ground
+
+- Attempt_obtain_food_scenario (ID: 2007)
+  Roles: Seeker, Food, Ground
+
+Instructions:
+1. Select only relevant objects for the goal.
+2. Assign them to appropriate FrameNet roles.
+3. Use only the frames listed above.
+4. Do NOT invent new objects or frames.
+5. Keep assignments realistic and logical.
+
+Output ONLY valid JSON in this format:
+
+{
+  "goal": "...",
+  "relevant_objects": [...],
+  "frames": [
+    {
+      "frame": "...",
+      "assignments": [
+        {"role": "...", "object": "..."}
+      ]
+    }
+  ]
+}
+
+Example:
+
+Goal: have breakfast
+
+Output:
+{{
+  "goal": "have breakfast",
+  "relevant_objects": [
+    "person",
+    "banana",
+    "bowl",
+    "dining table",
+    "refrigerator"
+  ],
+  "frames": [
+    {{
+      "frame": "Attempt_obtain_food_scenario",
+      "assignments": [
+        {{"role": "Seeker", "object": "person"}},
+        {{"role": "Food", "object": "banana"}},
+        {{"role": "Ground", "object": "refrigerator"}}
+      ]
+    }},
+    {{
+      "frame": "Getting_scenario",
+      "assignments": [
+        {{"role": "Recipient", "object": "person"}},
+        {{"role": "Theme", "object": "banana"}},
+        {{"role": "Source", "object": "refrigerator"}}
+      ]
+    }},
+    {{
+      "frame": "Arranging",
+      "assignments": [
+        {{"role": "Agent", "object": "person"}},
+        {{"role": "Theme", "object": "banana"}}
+      ]
+    }},
+    {{
+      "frame": "Locative_relation",
+      "assignments": [
+        {{"role": "Figure", "object": "banana"}},
+        {{"role": "Ground", "object": "bowl"}}
+      ]
+    }},
+    {{
+      "frame": "Locative_relation",
+      "assignments": [
+        {{"role": "Figure", "object": "bowl"}},
+        {{"role": "Ground", "object": "dining table"}}
+      ]
+    }}
+  ]
+}}
+
+
+================================================================================
+
+GOAL: have breakfast
+You are a semantic reasoning system using FrameNet.
+
+Goal:
+have breakfast
+
+Available objects:
+TV, airplane, apple, backpack, banana, baseball bat, baseball glove, bear, bed, bench, bicycle, bird, boat, book, bottle, bowl, broccoli, bus, cake, car, carrot, cat, cell phone, chair, clock, couch, cow, cup, dining table, dog, donut, elephant, fire hydrant, fork, frisbee, giraffe, hair drier, handbag, horse, hot dog, keyboard, kite, knife, laptop, microwave, motorcycle, mouse, orange, oven, parking meter, person, pizza, potted plant, refrigerator, remote, sandwich, scissors, sheep, sink, skateboard, skis, snowboard, spoon, sports ball, stop sign, suitcase, surfboard, teddy bear, tennis racket, tie, toaster, toilet, toothbrush, traffic light, train, truck, umbrella, vase, wine glass, zebra
+
+Allowed FrameNet frames and roles:
+
+- Arranging (ID: 921)
+  Roles: Agent, Theme
+
+- Getting (ID: 179)
+  Roles: Recipient, Theme, Source
+
+- Getting_scenario (ID: 1191)
+  Roles: Recipient, Theme, Source
+
+- Locative_relation (ID: 199)
+  Roles: Figure, Ground
+
+- Attempt_obtain_food_scenario (ID: 2007)
+  Roles: Seeker, Food, Ground
+
+Instructions:
+1. Select only relevant objects for the goal.
+2. Assign them to appropriate FrameNet roles.
+3. Use only the frames listed above.
+4. Do NOT invent new objects or frames.
+5. Keep assignments realistic and logical.
+
+Output ONLY valid JSON in this format:
+
+{
+  "goal": "...",
+  "relevant_objects": [...],
+  "frames": [
+    {
+      "frame": "...",
+      "assignments": [
+        {"role": "...", "object": "..."}
+      ]
+    }
+  ]
+}
+
+Example:
+
+Goal: have breakfast
+
+Output:
+{{
+  "goal": "have breakfast",
+  "relevant_objects": [
+    "person",
+    "banana",
+    "bowl",
+    "dining table",
+    "refrigerator"
+  ],
+  "frames": [
+    {{
+      "frame": "Attempt_obtain_food_scenario",
+      "assignments": [
+        {{"role": "Seeker", "object": "person"}},
+        {{"role": "Food", "object": "banana"}},
+        {{"role": "Ground", "object": "refrigerator"}}
+      ]
+    }},
+    {{
+      "frame": "Getting_scenario",
+      "assignments": [
+        {{"role": "Recipient", "object": "person"}},
+        {{"role": "Theme", "object": "banana"}},
+        {{"role": "Source", "object": "refrigerator"}}
+      ]
+    }},
+    {{
+      "frame": "Arranging",
+      "assignments": [
+        {{"role": "Agent", "object": "person"}},
+        {{"role": "Theme", "object": "banana"}}
+      ]
+    }},
+    {{
+      "frame": "Locative_relation",
+      "assignments": [
+        {{"role": "Figure", "object": "banana"}},
+        {{"role": "Ground", "object": "bowl"}}
+      ]
+    }},
+    {{
+      "frame": "Locative_relation",
+      "assignments": [
+        {{"role": "Figure", "object": "bowl"}},
+        {{"role": "Ground", "object": "dining table"}}
+      ]
+    }}
+  ]
+}}
+
+
+================================================================================
+
+GOAL: have breakfast
+You are a semantic reasoning system using FrameNet.
+
+Goal:
+have breakfast
+
+Available objects:
+TV, airplane, apple, backpack, banana, baseball bat, baseball glove, bear, bed, bench, bicycle, bird, boat, book, bottle, bowl, broccoli, bus, cake, car, carrot, cat, cell phone, chair, clock, couch, cow, cup, dining table, dog, donut, elephant, fire hydrant, fork, frisbee, giraffe, hair drier, handbag, horse, hot dog, keyboard, kite, knife, laptop, microwave, motorcycle, mouse, orange, oven, parking meter, person, pizza, potted plant, refrigerator, remote, sandwich, scissors, sheep, sink, skateboard, skis, snowboard, spoon, sports ball, stop sign, suitcase, surfboard, teddy bear, tennis racket, tie, toaster, toilet, toothbrush, traffic light, train, truck, umbrella, vase, wine glass, zebra
+
+Allowed FrameNet frames and roles:
+
+- Arranging (ID: 921)
+  Roles: Agent, Theme
+
+- Getting (ID: 179)
+  Roles: Recipient, Theme, Source
+
+- Getting_scenario (ID: 1191)
+  Roles: Recipient, Theme, Source
+
+- Locative_relation (ID: 199)
+  Roles: Figure, Ground
+
+- Attempt_obtain_food_scenario (ID: 2007)
+  Roles: Seeker, Food, Ground
+
+Instructions:
+1. Select only relevant objects for the goal.
+2. Assign them to appropriate FrameNet roles.
+3. Use only the frames listed above.
+4. Do NOT invent new objects or frames.
+5. Keep assignments realistic and logical.
+
+Output ONLY valid JSON in this format:
+
+{
+  "goal": "...",
+  "relevant_objects": [...],
+  "frames": [
+    {
+      "frame": "...",
+      "assignments": [
+        {"role": "...", "object": "..."}
+      ]
+    }
+  ]
+}
+
+Example:
+
+Goal: have breakfast
+
+Output:
+{{
+  "goal": "have breakfast",
+  "relevant_objects": [
+    "person",
+    "banana",
+    "bowl",
+    "dining table",
+    "refrigerator"
+  ],
+  "frames": [
+    {{
+      "frame": "Attempt_obtain_food_scenario",
+      "assignments": [
+        {{"role": "Seeker", "object": "person"}},
+        {{"role": "Food", "object": "banana"}},
+        {{"role": "Ground", "object": "refrigerator"}}
+      ]
+    }},
+    {{
+      "frame": "Getting_scenario",
+      "assignments": [
+        {{"role": "Recipient", "object": "person"}},
+        {{"role": "Theme", "object": "banana"}},
+        {{"role": "Source", "object": "refrigerator"}}
+      ]
+    }},
+    {{
+      "frame": "Arranging",
+      "assignments": [
+        {{"role": "Agent", "object": "person"}},
+        {{"role": "Theme", "object": "banana"}}
+      ]
+    }},
+    {{
+      "frame": "Locative_relation",
+      "assignments": [
+        {{"role": "Figure", "object": "banana"}},
+        {{"role": "Ground", "object": "bowl"}}
+      ]
+    }},
+    {{
+      "frame": "Locative_relation",
+      "assignments": [
+        {{"role": "Figure", "object": "bowl"}},
+        {{"role": "Ground", "object": "dining table"}}
+      ]
+    }}
+  ]
+}}
+
+
+================================================================================
+
+GOAL: have breakfast
+You are a semantic reasoning system using FrameNet.
+
+Goal:
+have breakfast
+
+Available objects:
+TV, airplane, apple, backpack, banana, baseball bat, baseball glove, bear, bed, bench, bicycle, bird, boat, book, bottle, bowl, broccoli, bus, cake, car, carrot, cat, cell phone, chair, clock, couch, cow, cup, dining table, dog, donut, elephant, fire hydrant, fork, frisbee, giraffe, hair drier, handbag, horse, hot dog, keyboard, kite, knife, laptop, microwave, motorcycle, mouse, orange, oven, parking meter, person, pizza, potted plant, refrigerator, remote, sandwich, scissors, sheep, sink, skateboard, skis, snowboard, spoon, sports ball, stop sign, suitcase, surfboard, teddy bear, tennis racket, tie, toaster, toilet, toothbrush, traffic light, train, truck, umbrella, vase, wine glass, zebra
+
+Allowed FrameNet frames and roles:
+
+- Arranging (ID: 921)
+  Roles: Agent, Theme
+
+- Getting (ID: 179)
+  Roles: Recipient, Theme, Source
+
+- Getting_scenario (ID: 1191)
+  Roles: Recipient, Theme, Source
+
+- Locative_relation (ID: 199)
+  Roles: Figure, Ground
+
+- Attempt_obtain_food_scenario (ID: 2007)
+  Roles: Seeker, Food, Ground
+
+Instructions:
+1. Select only relevant objects for the goal.
+2. Assign them to appropriate FrameNet roles.
+3. Use only the frames listed above.
+4. Do NOT invent new objects or frames.
+5. Keep assignments realistic and logical.
+
+Output ONLY valid JSON in this format:
+
+{
+  "goal": "...",
+  "relevant_objects": [...],
+  "frames": [
+    {
+      "frame": "...",
+      "assignments": [
+        {"role": "...", "object": "..."}
+      ]
+    }
+  ]
+}
+
+Example:
+
+Goal: have breakfast
+
+Output:
+{{
+  "goal": "have breakfast",
+  "relevant_objects": [
+    "person",
+    "banana",
+    "bowl",
+    "dining table",
+    "refrigerator"
+  ],
+  "frames": [
+    {{
+      "frame": "Attempt_obtain_food_scenario",
+      "assignments": [
+        {{"role": "Seeker", "object": "person"}},
+        {{"role": "Food", "object": "banana"}},
+        {{"role": "Ground", "object": "refrigerator"}}
+      ]
+    }},
+    {{
+      "frame": "Getting_scenario",
+      "assignments": [
+        {{"role": "Recipient", "object": "person"}},
+        {{"role": "Theme", "object": "banana"}},
+        {{"role": "Source", "object": "refrigerator"}}
+      ]
+    }},
+    {{
+      "frame": "Arranging",
+      "assignments": [
+        {{"role": "Agent", "object": "person"}},
+        {{"role": "Theme", "object": "banana"}}
+      ]
+    }},
+    {{
+      "frame": "Locative_relation",
+      "assignments": [
+        {{"role": "Figure", "object": "banana"}},
+        {{"role": "Ground", "object": "bowl"}}
+      ]
+    }},
+    {{
+      "frame": "Locative_relation",
+      "assignments": [
+        {{"role": "Figure", "object": "bowl"}},
+        {{"role": "Ground", "object": "dining table"}}
+      ]
+    }}
+  ]
+}}
+
+
+================================================================================
+
+GOAL: prepare a snack
+You are a semantic reasoning system using FrameNet.
+
+Goal:
+prepare a snack
+
+Available objects:
+TV, airplane, apple, backpack, banana, baseball bat, baseball glove, bear, bed, bench, bicycle, bird, boat, book, bottle, bowl, broccoli, bus, cake, car, carrot, cat, cell phone, chair, clock, couch, cow, cup, dining table, dog, donut, elephant, fire hydrant, fork, frisbee, giraffe, hair drier, handbag, horse, hot dog, keyboard, kite, knife, laptop, microwave, motorcycle, mouse, orange, oven, parking meter, person, pizza, potted plant, refrigerator, remote, sandwich, scissors, sheep, sink, skateboard, skis, snowboard, spoon, sports ball, stop sign, suitcase, surfboard, teddy bear, tennis racket, tie, toaster, toilet, toothbrush, traffic light, train, truck, umbrella, vase, wine glass, zebra
+
+Allowed FrameNet frames and roles:
+
+- Arranging (ID: 921)
+  Roles: Agent, Theme
+
+- Getting (ID: 179)
+  Roles: Recipient, Theme, Source
+
+- Getting_scenario (ID: 1191)
+  Roles: Recipient, Theme, Source
+
+- Locative_relation (ID: 199)
+  Roles: Figure, Ground
+
+- Attempt_obtain_food_scenario (ID: 2007)
+  Roles: Seeker, Food, Ground
+
+Instructions:
+1. Select only relevant objects for the goal.
+2. Assign them to appropriate FrameNet roles.
+3. Use only the frames listed above.
+4. Do NOT invent new objects or frames.
+5. Keep assignments realistic and logical.
+
+Output ONLY valid JSON in this format:
+
+{
+  "goal": "...",
+  "relevant_objects": [...],
+  "frames": [
+    {
+      "frame": "...",
+      "assignments": [
+        {"role": "...", "object": "..."}
+      ]
+    }
+  ]
+}
+
+Example:
+
+Goal: have breakfast
+
+Output:
+{{
+  "goal": "have breakfast",
+  "relevant_objects": [
+    "person",
+    "banana",
+    "bowl",
+    "dining table",
+    "refrigerator"
+  ],
+  "frames": [
+    {{
+      "frame": "Attempt_obtain_food_scenario",
+      "assignments": [
+        {{"role": "Seeker", "object": "person"}},
+        {{"role": "Food", "object": "banana"}},
+        {{"role": "Ground", "object": "refrigerator"}}
+      ]
+    }},
+    {{
+      "frame": "Getting_scenario",
+      "assignments": [
+        {{"role": "Recipient", "object": "person"}},
+        {{"role": "Theme", "object": "banana"}},
+        {{"role": "Source", "object": "refrigerator"}}
+      ]
+    }},
+    {{
+      "frame": "Arranging",
+      "assignments": [
+        {{"role": "Agent", "object": "person"}},
+        {{"role": "Theme", "object": "banana"}}
+      ]
+    }},
+    {{
+      "frame": "Locative_relation",
+      "assignments": [
+        {{"role": "Figure", "object": "banana"}},
+        {{"role": "Ground", "object": "bowl"}}
+      ]
+    }},
+    {{
+      "frame": "Locative_relation",
+      "assignments": [
+        {{"role": "Figure", "object": "bowl"}},
+        {{"role": "Ground", "object": "dining table"}}
+      ]
+    }}
+  ]
+}}
+
+
+================================================================================
+
+GOAL: set up food on the table
+You are a semantic reasoning system using FrameNet.
+
+Goal:
+set up food on the table
+
+Available objects:
+TV, airplane, apple, backpack, banana, baseball bat, baseball glove, bear, bed, bench, bicycle, bird, boat, book, bottle, bowl, broccoli, bus, cake, car, carrot, cat, cell phone, chair, clock, couch, cow, cup, dining table, dog, donut, elephant, fire hydrant, fork, frisbee, giraffe, hair drier, handbag, horse, hot dog, keyboard, kite, knife, laptop, microwave, motorcycle, mouse, orange, oven, parking meter, person, pizza, potted plant, refrigerator, remote, sandwich, scissors, sheep, sink, skateboard, skis, snowboard, spoon, sports ball, stop sign, suitcase, surfboard, teddy bear, tennis racket, tie, toaster, toilet, toothbrush, traffic light, train, truck, umbrella, vase, wine glass, zebra
+
+Allowed FrameNet frames and roles:
+
+- Arranging (ID: 921)
+  Roles: Agent, Theme
+
+- Getting (ID: 179)
+  Roles: Recipient, Theme, Source
+
+- Getting_scenario (ID: 1191)
+  Roles: Recipient, Theme, Source
+
+- Locative_relation (ID: 199)
+  Roles: Figure, Ground
+
+- Attempt_obtain_food_scenario (ID: 2007)
+  Roles: Seeker, Food, Ground
+
+Instructions:
+1. Select only relevant objects for the goal.
+2. Assign them to appropriate FrameNet roles.
+3. Use only the frames listed above.
+4. Do NOT invent new objects or frames.
+5. Keep assignments realistic and logical.
+
+Output ONLY valid JSON in this format:
+
+{
+  "goal": "...",
+  "relevant_objects": [...],
+  "frames": [
+    {
+      "frame": "...",
+      "assignments": [
+        {"role": "...", "object": "..."}
+      ]
+    }
+  ]
+}
+
+Example:
+
+Goal: have breakfast
+
+Output:
+{{
+  "goal": "have breakfast",
+  "relevant_objects": [
+    "person",
+    "banana",
+    "bowl",
+    "dining table",
+    "refrigerator"
+  ],
+  "frames": [
+    {{
+      "frame": "Attempt_obtain_food_scenario",
+      "assignments": [
+        {{"role": "Seeker", "object": "person"}},
+        {{"role": "Food", "object": "banana"}},
+        {{"role": "Ground", "object": "refrigerator"}}
+      ]
+    }},
+    {{
+      "frame": "Getting_scenario",
+      "assignments": [
+        {{"role": "Recipient", "object": "person"}},
+        {{"role": "Theme", "object": "banana"}},
+        {{"role": "Source", "object": "refrigerator"}}
+      ]
+    }},
+    {{
+      "frame": "Arranging",
+      "assignments": [
+        {{"role": "Agent", "object": "person"}},
+        {{"role": "Theme", "object": "banana"}}
+      ]
+    }},
+    {{
+      "frame": "Locative_relation",
+      "assignments": [
+        {{"role": "Figure", "object": "banana"}},
+        {{"role": "Ground", "object": "bowl"}}
+      ]
+    }},
+    {{
+      "frame": "Locative_relation",
+      "assignments": [
+        {{"role": "Figure", "object": "bowl"}},
+        {{"role": "Ground", "object": "dining table"}}
+      ]
+    }}
+  ]
+}}
+
+
+================================================================================
+
+GOAL: store groceries
+You are a semantic reasoning system using FrameNet.
+
+Goal:
+store groceries
+
+Available objects:
+TV, airplane, apple, backpack, banana, baseball bat, baseball glove, bear, bed, bench, bicycle, bird, boat, book, bottle, bowl, broccoli, bus, cake, car, carrot, cat, cell phone, chair, clock, couch, cow, cup, dining table, dog, donut, elephant, fire hydrant, fork, frisbee, giraffe, hair drier, handbag, horse, hot dog, keyboard, kite, knife, laptop, microwave, motorcycle, mouse, orange, oven, parking meter, person, pizza, potted plant, refrigerator, remote, sandwich, scissors, sheep, sink, skateboard, skis, snowboard, spoon, sports ball, stop sign, suitcase, surfboard, teddy bear, tennis racket, tie, toaster, toilet, toothbrush, traffic light, train, truck, umbrella, vase, wine glass, zebra
+
+Allowed FrameNet frames and roles:
+
+- Arranging (ID: 921)
+  Roles: Agent, Theme
+
+- Getting (ID: 179)
+  Roles: Recipient, Theme, Source
+
+- Getting_scenario (ID: 1191)
+  Roles: Recipient, Theme, Source
+
+- Locative_relation (ID: 199)
+  Roles: Figure, Ground
+
+- Attempt_obtain_food_scenario (ID: 2007)
+  Roles: Seeker, Food, Ground
+
+Instructions:
+1. Select only relevant objects for the goal.
+2. Assign them to appropriate FrameNet roles.
+3. Use only the frames listed above.
+4. Do NOT invent new objects or frames.
+5. Keep assignments realistic and logical.
+
+Output ONLY valid JSON in this format:
+
+{
+  "goal": "...",
+  "relevant_objects": [...],
+  "frames": [
+    {
+      "frame": "...",
+      "assignments": [
+        {"role": "...", "object": "..."}
+      ]
+    }
+  ]
+}
+
+Example:
+
+Goal: have breakfast
+
+Output:
+{{
+  "goal": "have breakfast",
+  "relevant_objects": [
+    "person",
+    "banana",
+    "bowl",
+    "dining table",
+    "refrigerator"
+  ],
+  "frames": [
+    {{
+      "frame": "Attempt_obtain_food_scenario",
+      "assignments": [
+        {{"role": "Seeker", "object": "person"}},
+        {{"role": "Food", "object": "banana"}},
+        {{"role": "Ground", "object": "refrigerator"}}
+      ]
+    }},
+    {{
+      "frame": "Getting_scenario",
+      "assignments": [
+        {{"role": "Recipient", "object": "person"}},
+        {{"role": "Theme", "object": "banana"}},
+        {{"role": "Source", "object": "refrigerator"}}
+      ]
+    }},
+    {{
+      "frame": "Arranging",
+      "assignments": [
+        {{"role": "Agent", "object": "person"}},
+        {{"role": "Theme", "object": "banana"}}
+      ]
+    }},
+    {{
+      "frame": "Locative_relation",
+      "assignments": [
+        {{"role": "Figure", "object": "banana"}},
+        {{"role": "Ground", "object": "bowl"}}
+      ]
+    }},
+    {{
+      "frame": "Locative_relation",
+      "assignments": [
+        {{"role": "Figure", "object": "bowl"}},
+        {{"role": "Ground", "object": "dining table"}}
+      ]
+    }}
+  ]
+}}
+
+
+================================================================================
+
+GOAL: pack a bag
+You are a semantic reasoning system using FrameNet.
+
+Goal:
+pack a bag
+
+Available objects:
+TV, airplane, apple, backpack, banana, baseball bat, baseball glove, bear, bed, bench, bicycle, bird, boat, book, bottle, bowl, broccoli, bus, cake, car, carrot, cat, cell phone, chair, clock, couch, cow, cup, dining table, dog, donut, elephant, fire hydrant, fork, frisbee, giraffe, hair drier, handbag, horse, hot dog, keyboard, kite, knife, laptop, microwave, motorcycle, mouse, orange, oven, parking meter, person, pizza, potted plant, refrigerator, remote, sandwich, scissors, sheep, sink, skateboard, skis, snowboard, spoon, sports ball, stop sign, suitcase, surfboard, teddy bear, tennis racket, tie, toaster, toilet, toothbrush, traffic light, train, truck, umbrella, vase, wine glass, zebra
+
+Allowed FrameNet frames and roles:
+
+- Arranging (ID: 921)
+  Roles: Agent, Theme
+
+- Getting (ID: 179)
+  Roles: Recipient, Theme, Source
+
+- Getting_scenario (ID: 1191)
+  Roles: Recipient, Theme, Source
+
+- Locative_relation (ID: 199)
+  Roles: Figure, Ground
+
+- Attempt_obtain_food_scenario (ID: 2007)
+  Roles: Seeker, Food, Ground
+
+Instructions:
+1. Select only relevant objects for the goal.
+2. Assign them to appropriate FrameNet roles.
+3. Use only the frames listed above.
+4. Do NOT invent new objects or frames.
+5. Keep assignments realistic and logical.
+
+Output ONLY valid JSON in this format:
+
+{
+  "goal": "...",
+  "relevant_objects": [...],
+  "frames": [
+    {
+      "frame": "...",
+      "assignments": [
+        {"role": "...", "object": "..."}
+      ]
+    }
+  ]
+}
+
+Example:
+
+Goal: have breakfast
+
+Output:
+{{
+  "goal": "have breakfast",
+  "relevant_objects": [
+    "person",
+    "banana",
+    "bowl",
+    "dining table",
+    "refrigerator"
+  ],
+  "frames": [
+    {{
+      "frame": "Attempt_obtain_food_scenario",
+      "assignments": [
+        {{"role": "Seeker", "object": "person"}},
+        {{"role": "Food", "object": "banana"}},
+        {{"role": "Ground", "object": "refrigerator"}}
+      ]
+    }},
+    {{
+      "frame": "Getting_scenario",
+      "assignments": [
+        {{"role": "Recipient", "object": "person"}},
+        {{"role": "Theme", "object": "banana"}},
+        {{"role": "Source", "object": "refrigerator"}}
+      ]
+    }},
+    {{
+      "frame": "Arranging",
+      "assignments": [
+        {{"role": "Agent", "object": "person"}},
+        {{"role": "Theme", "object": "banana"}}
+      ]
+    }},
+    {{
+      "frame": "Locative_relation",
+      "assignments": [
+        {{"role": "Figure", "object": "banana"}},
+        {{"role": "Ground", "object": "bowl"}}
+      ]
+    }},
+    {{
+      "frame": "Locative_relation",
+      "assignments": [
+        {{"role": "Figure", "object": "bowl"}},
+        {{"role": "Ground", "object": "dining table"}}
+      ]
+    }}
+  ]
+}}
+
+
+================================================================================
+
+GOAL: organize a workspace
+You are a semantic reasoning system using FrameNet.
+
+Goal:
+organize a workspace
+
+Available objects:
+TV, airplane, apple, backpack, banana, baseball bat, baseball glove, bear, bed, bench, bicycle, bird, boat, book, bottle, bowl, broccoli, bus, cake, car, carrot, cat, cell phone, chair, clock, couch, cow, cup, dining table, dog, donut, elephant, fire hydrant, fork, frisbee, giraffe, hair drier, handbag, horse, hot dog, keyboard, kite, knife, laptop, microwave, motorcycle, mouse, orange, oven, parking meter, person, pizza, potted plant, refrigerator, remote, sandwich, scissors, sheep, sink, skateboard, skis, snowboard, spoon, sports ball, stop sign, suitcase, surfboard, teddy bear, tennis racket, tie, toaster, toilet, toothbrush, traffic light, train, truck, umbrella, vase, wine glass, zebra
+
+Allowed FrameNet frames and roles:
+
+- Arranging (ID: 921)
+  Roles: Agent, Theme
+
+- Getting (ID: 179)
+  Roles: Recipient, Theme, Source
+
+- Getting_scenario (ID: 1191)
+  Roles: Recipient, Theme, Source
+
+- Locative_relation (ID: 199)
+  Roles: Figure, Ground
+
+- Attempt_obtain_food_scenario (ID: 2007)
+  Roles: Seeker, Food, Ground
+
+Instructions:
+1. Select only relevant objects for the goal.
+2. Assign them to appropriate FrameNet roles.
+3. Use only the frames listed above.
+4. Do NOT invent new objects or frames.
+5. Keep assignments realistic and logical.
+
+Output ONLY valid JSON in this format:
+
+{
+  "goal": "...",
+  "relevant_objects": [...],
+  "frames": [
+    {
+      "frame": "...",
+      "assignments": [
+        {"role": "...", "object": "..."}
+      ]
+    }
+  ]
+}
+
+Example:
+
+Goal: have breakfast
+
+Output:
+{{
+  "goal": "have breakfast",
+  "relevant_objects": [
+    "person",
+    "banana",
+    "bowl",
+    "dining table",
+    "refrigerator"
+  ],
+  "frames": [
+    {{
+      "frame": "Attempt_obtain_food_scenario",
+      "assignments": [
+        {{"role": "Seeker", "object": "person"}},
+        {{"role": "Food", "object": "banana"}},
+        {{"role": "Ground", "object": "refrigerator"}}
+      ]
+    }},
+    {{
+      "frame": "Getting_scenario",
+      "assignments": [
+        {{"role": "Recipient", "object": "person"}},
+        {{"role": "Theme", "object": "banana"}},
+        {{"role": "Source", "object": "refrigerator"}}
+      ]
+    }},
+    {{
+      "frame": "Arranging",
+      "assignments": [
+        {{"role": "Agent", "object": "person"}},
+        {{"role": "Theme", "object": "banana"}}
+      ]
+    }},
+    {{
+      "frame": "Locative_relation",
+      "assignments": [
+        {{"role": "Figure", "object": "banana"}},
+        {{"role": "Ground", "object": "bowl"}}
+      ]
+    }},
+    {{
+      "frame": "Locative_relation",
+      "assignments": [
+        {{"role": "Figure", "object": "bowl"}},
+        {{"role": "Ground", "object": "dining table"}}
+      ]
+    }}
+  ]
+}}
+
+
+================================================================================
+
+GOAL: have breakfast
+You are a semantic reasoning system using FrameNet.
+
+You MUST follow the output format exactly.
+If you do not follow the format, the answer is invalid.
+
+DO NOT:
+- write normal sentences outside the JSON
+- invent people like "John"
+- invent objects not in the allowed list
+- invent frames not in the allowed list
+- change field names
+- return anything except valid JSON
+
+
+Goal:
+have breakfast
+
+Available objects:
+TV, airplane, apple, backpack, banana, baseball bat, baseball glove, bear, bed, bench, bicycle, bird, boat, book, bottle, bowl, broccoli, bus, cake, car, carrot, cat, cell phone, chair, clock, couch, cow, cup, dining table, dog, donut, elephant, fire hydrant, fork, frisbee, giraffe, hair drier, handbag, horse, hot dog, keyboard, kite, knife, laptop, microwave, motorcycle, mouse, orange, oven, parking meter, person, pizza, potted plant, refrigerator, remote, sandwich, scissors, sheep, sink, skateboard, skis, snowboard, spoon, sports ball, stop sign, suitcase, surfboard, teddy bear, tennis racket, tie, toaster, toilet, toothbrush, traffic light, train, truck, umbrella, vase, wine glass, zebra
+
+Allowed FrameNet frames and roles:
+
+- Arranging (ID: 921)
+  Roles: Agent, Theme
+
+- Getting (ID: 179)
+  Roles: Recipient, Theme, Source
+
+- Getting_scenario (ID: 1191)
+  Roles: Recipient, Theme, Source
+
+- Locative_relation (ID: 199)
+  Roles: Figure, Ground
+
+- Attempt_obtain_food_scenario (ID: 2007)
+  Roles: Seeker, Food, Ground
+
+Instructions:
+1. Select only relevant objects for the goal.
+2. Assign them to appropriate FrameNet roles.
+3. Use only the frames listed above.
+4. Do NOT invent new objects or frames.
+5. Keep assignments realistic and logical.
+
+Output ONLY valid JSON in this format:
+
+{
+  "goal": "...",
+  "relevant_objects": [...],
+  "frames": [
+    {
+      "frame": "...",
+      "assignments": [
+        {"role": "...", "object": "..."}
+      ]
+    }
+  ]
+}
+
+Example:
+
+Goal: have breakfast
+
+Output:
+{{
+  "goal": "have breakfast",
+  "relevant_objects": [
+    "person",
+    "banana",
+    "bowl",
+    "dining table",
+    "refrigerator"
+  ],
+  "frames": [
+    {{
+      "frame": "Attempt_obtain_food_scenario",
+      "assignments": [
+        {{"role": "Seeker", "object": "person"}},
+        {{"role": "Food", "object": "banana"}},
+        {{"role": "Ground", "object": "refrigerator"}}
+      ]
+    }},
+    {{
+      "frame": "Getting_scenario",
+      "assignments": [
+        {{"role": "Recipient", "object": "person"}},
+        {{"role": "Theme", "object": "banana"}},
+        {{"role": "Source", "object": "refrigerator"}}
+      ]
+    }},
+    {{
+      "frame": "Arranging",
+      "assignments": [
+        {{"role": "Agent", "object": "person"}},
+        {{"role": "Theme", "object": "banana"}}
+      ]
+    }},
+    {{
+      "frame": "Locative_relation",
+      "assignments": [
+        {{"role": "Figure", "object": "banana"}},
+        {{"role": "Ground", "object": "bowl"}}
+      ]
+    }},
+    {{
+      "frame": "Locative_relation",
+      "assignments": [
+        {{"role": "Figure", "object": "bowl"}},
+        {{"role": "Ground", "object": "dining table"}}
+      ]
+    }}
+  ]
+}}
+
+
+================================================================================
+
+GOAL: prepare a snack
+You are a semantic reasoning system using FrameNet.
+
+You MUST follow the output format exactly.
+If you do not follow the format, the answer is invalid.
+
+DO NOT:
+- write normal sentences outside the JSON
+- invent people like "John"
+- invent objects not in the allowed list
+- invent frames not in the allowed list
+- change field names
+- return anything except valid JSON
+
+
+Goal:
+prepare a snack
+
+Available objects:
+TV, airplane, apple, backpack, banana, baseball bat, baseball glove, bear, bed, bench, bicycle, bird, boat, book, bottle, bowl, broccoli, bus, cake, car, carrot, cat, cell phone, chair, clock, couch, cow, cup, dining table, dog, donut, elephant, fire hydrant, fork, frisbee, giraffe, hair drier, handbag, horse, hot dog, keyboard, kite, knife, laptop, microwave, motorcycle, mouse, orange, oven, parking meter, person, pizza, potted plant, refrigerator, remote, sandwich, scissors, sheep, sink, skateboard, skis, snowboard, spoon, sports ball, stop sign, suitcase, surfboard, teddy bear, tennis racket, tie, toaster, toilet, toothbrush, traffic light, train, truck, umbrella, vase, wine glass, zebra
+
+Allowed FrameNet frames and roles:
+
+- Arranging (ID: 921)
+  Roles: Agent, Theme
+
+- Getting (ID: 179)
+  Roles: Recipient, Theme, Source
+
+- Getting_scenario (ID: 1191)
+  Roles: Recipient, Theme, Source
+
+- Locative_relation (ID: 199)
+  Roles: Figure, Ground
+
+- Attempt_obtain_food_scenario (ID: 2007)
+  Roles: Seeker, Food, Ground
+
+Instructions:
+1. Select only relevant objects for the goal.
+2. Assign them to appropriate FrameNet roles.
+3. Use only the frames listed above.
+4. Do NOT invent new objects or frames.
+5. Keep assignments realistic and logical.
+
+Output ONLY valid JSON in this format:
+
+{
+  "goal": "...",
+  "relevant_objects": [...],
+  "frames": [
+    {
+      "frame": "...",
+      "assignments": [
+        {"role": "...", "object": "..."}
+      ]
+    }
+  ]
+}
+
+Example:
+
+Goal: have breakfast
+
+Output:
+{{
+  "goal": "have breakfast",
+  "relevant_objects": [
+    "person",
+    "banana",
+    "bowl",
+    "dining table",
+    "refrigerator"
+  ],
+  "frames": [
+    {{
+      "frame": "Attempt_obtain_food_scenario",
+      "assignments": [
+        {{"role": "Seeker", "object": "person"}},
+        {{"role": "Food", "object": "banana"}},
+        {{"role": "Ground", "object": "refrigerator"}}
+      ]
+    }},
+    {{
+      "frame": "Getting_scenario",
+      "assignments": [
+        {{"role": "Recipient", "object": "person"}},
+        {{"role": "Theme", "object": "banana"}},
+        {{"role": "Source", "object": "refrigerator"}}
+      ]
+    }},
+    {{
+      "frame": "Arranging",
+      "assignments": [
+        {{"role": "Agent", "object": "person"}},
+        {{"role": "Theme", "object": "banana"}}
+      ]
+    }},
+    {{
+      "frame": "Locative_relation",
+      "assignments": [
+        {{"role": "Figure", "object": "banana"}},
+        {{"role": "Ground", "object": "bowl"}}
+      ]
+    }},
+    {{
+      "frame": "Locative_relation",
+      "assignments": [
+        {{"role": "Figure", "object": "bowl"}},
+        {{"role": "Ground", "object": "dining table"}}
+      ]
+    }}
+  ]
+}}
+
+
+================================================================================
+
+GOAL: set up food on the table
+You are a semantic reasoning system using FrameNet.
+
+You MUST follow the output format exactly.
+If you do not follow the format, the answer is invalid.
+
+DO NOT:
+- write normal sentences outside the JSON
+- invent people like "John"
+- invent objects not in the allowed list
+- invent frames not in the allowed list
+- change field names
+- return anything except valid JSON
+
+
+Goal:
+set up food on the table
+
+Available objects:
+TV, airplane, apple, backpack, banana, baseball bat, baseball glove, bear, bed, bench, bicycle, bird, boat, book, bottle, bowl, broccoli, bus, cake, car, carrot, cat, cell phone, chair, clock, couch, cow, cup, dining table, dog, donut, elephant, fire hydrant, fork, frisbee, giraffe, hair drier, handbag, horse, hot dog, keyboard, kite, knife, laptop, microwave, motorcycle, mouse, orange, oven, parking meter, person, pizza, potted plant, refrigerator, remote, sandwich, scissors, sheep, sink, skateboard, skis, snowboard, spoon, sports ball, stop sign, suitcase, surfboard, teddy bear, tennis racket, tie, toaster, toilet, toothbrush, traffic light, train, truck, umbrella, vase, wine glass, zebra
+
+Allowed FrameNet frames and roles:
+
+- Arranging (ID: 921)
+  Roles: Agent, Theme
+
+- Getting (ID: 179)
+  Roles: Recipient, Theme, Source
+
+- Getting_scenario (ID: 1191)
+  Roles: Recipient, Theme, Source
+
+- Locative_relation (ID: 199)
+  Roles: Figure, Ground
+
+- Attempt_obtain_food_scenario (ID: 2007)
+  Roles: Seeker, Food, Ground
+
+Instructions:
+1. Select only relevant objects for the goal.
+2. Assign them to appropriate FrameNet roles.
+3. Use only the frames listed above.
+4. Do NOT invent new objects or frames.
+5. Keep assignments realistic and logical.
+
+Output ONLY valid JSON in this format:
+
+{
+  "goal": "...",
+  "relevant_objects": [...],
+  "frames": [
+    {
+      "frame": "...",
+      "assignments": [
+        {"role": "...", "object": "..."}
+      ]
+    }
+  ]
+}
+
+Example:
+
+Goal: have breakfast
+
+Output:
+{{
+  "goal": "have breakfast",
+  "relevant_objects": [
+    "person",
+    "banana",
+    "bowl",
+    "dining table",
+    "refrigerator"
+  ],
+  "frames": [
+    {{
+      "frame": "Attempt_obtain_food_scenario",
+      "assignments": [
+        {{"role": "Seeker", "object": "person"}},
+        {{"role": "Food", "object": "banana"}},
+        {{"role": "Ground", "object": "refrigerator"}}
+      ]
+    }},
+    {{
+      "frame": "Getting_scenario",
+      "assignments": [
+        {{"role": "Recipient", "object": "person"}},
+        {{"role": "Theme", "object": "banana"}},
+        {{"role": "Source", "object": "refrigerator"}}
+      ]
+    }},
+    {{
+      "frame": "Arranging",
+      "assignments": [
+        {{"role": "Agent", "object": "person"}},
+        {{"role": "Theme", "object": "banana"}}
+      ]
+    }},
+    {{
+      "frame": "Locative_relation",
+      "assignments": [
+        {{"role": "Figure", "object": "banana"}},
+        {{"role": "Ground", "object": "bowl"}}
+      ]
+    }},
+    {{
+      "frame": "Locative_relation",
+      "assignments": [
+        {{"role": "Figure", "object": "bowl"}},
+        {{"role": "Ground", "object": "dining table"}}
+      ]
+    }}
+  ]
+}}
+
+
+================================================================================
+
+GOAL: store groceries
+You are a semantic reasoning system using FrameNet.
+
+You MUST follow the output format exactly.
+If you do not follow the format, the answer is invalid.
+
+DO NOT:
+- write normal sentences outside the JSON
+- invent people like "John"
+- invent objects not in the allowed list
+- invent frames not in the allowed list
+- change field names
+- return anything except valid JSON
+
+
+Goal:
+store groceries
+
+Available objects:
+TV, airplane, apple, backpack, banana, baseball bat, baseball glove, bear, bed, bench, bicycle, bird, boat, book, bottle, bowl, broccoli, bus, cake, car, carrot, cat, cell phone, chair, clock, couch, cow, cup, dining table, dog, donut, elephant, fire hydrant, fork, frisbee, giraffe, hair drier, handbag, horse, hot dog, keyboard, kite, knife, laptop, microwave, motorcycle, mouse, orange, oven, parking meter, person, pizza, potted plant, refrigerator, remote, sandwich, scissors, sheep, sink, skateboard, skis, snowboard, spoon, sports ball, stop sign, suitcase, surfboard, teddy bear, tennis racket, tie, toaster, toilet, toothbrush, traffic light, train, truck, umbrella, vase, wine glass, zebra
+
+Allowed FrameNet frames and roles:
+
+- Arranging (ID: 921)
+  Roles: Agent, Theme
+
+- Getting (ID: 179)
+  Roles: Recipient, Theme, Source
+
+- Getting_scenario (ID: 1191)
+  Roles: Recipient, Theme, Source
+
+- Locative_relation (ID: 199)
+  Roles: Figure, Ground
+
+- Attempt_obtain_food_scenario (ID: 2007)
+  Roles: Seeker, Food, Ground
+
+Instructions:
+1. Select only relevant objects for the goal.
+2. Assign them to appropriate FrameNet roles.
+3. Use only the frames listed above.
+4. Do NOT invent new objects or frames.
+5. Keep assignments realistic and logical.
+
+Output ONLY valid JSON in this format:
+
+{
+  "goal": "...",
+  "relevant_objects": [...],
+  "frames": [
+    {
+      "frame": "...",
+      "assignments": [
+        {"role": "...", "object": "..."}
+      ]
+    }
+  ]
+}
+
+Example:
+
+Goal: have breakfast
+
+Output:
+{{
+  "goal": "have breakfast",
+  "relevant_objects": [
+    "person",
+    "banana",
+    "bowl",
+    "dining table",
+    "refrigerator"
+  ],
+  "frames": [
+    {{
+      "frame": "Attempt_obtain_food_scenario",
+      "assignments": [
+        {{"role": "Seeker", "object": "person"}},
+        {{"role": "Food", "object": "banana"}},
+        {{"role": "Ground", "object": "refrigerator"}}
+      ]
+    }},
+    {{
+      "frame": "Getting_scenario",
+      "assignments": [
+        {{"role": "Recipient", "object": "person"}},
+        {{"role": "Theme", "object": "banana"}},
+        {{"role": "Source", "object": "refrigerator"}}
+      ]
+    }},
+    {{
+      "frame": "Arranging",
+      "assignments": [
+        {{"role": "Agent", "object": "person"}},
+        {{"role": "Theme", "object": "banana"}}
+      ]
+    }},
+    {{
+      "frame": "Locative_relation",
+      "assignments": [
+        {{"role": "Figure", "object": "banana"}},
+        {{"role": "Ground", "object": "bowl"}}
+      ]
+    }},
+    {{
+      "frame": "Locative_relation",
+      "assignments": [
+        {{"role": "Figure", "object": "bowl"}},
+        {{"role": "Ground", "object": "dining table"}}
+      ]
+    }}
+  ]
+}}
+
+
+================================================================================
+
+GOAL: pack a bag
+You are a semantic reasoning system using FrameNet.
+
+You MUST follow the output format exactly.
+If you do not follow the format, the answer is invalid.
+
+DO NOT:
+- write normal sentences outside the JSON
+- invent people like "John"
+- invent objects not in the allowed list
+- invent frames not in the allowed list
+- change field names
+- return anything except valid JSON
+
+
+Goal:
+pack a bag
+
+Available objects:
+TV, airplane, apple, backpack, banana, baseball bat, baseball glove, bear, bed, bench, bicycle, bird, boat, book, bottle, bowl, broccoli, bus, cake, car, carrot, cat, cell phone, chair, clock, couch, cow, cup, dining table, dog, donut, elephant, fire hydrant, fork, frisbee, giraffe, hair drier, handbag, horse, hot dog, keyboard, kite, knife, laptop, microwave, motorcycle, mouse, orange, oven, parking meter, person, pizza, potted plant, refrigerator, remote, sandwich, scissors, sheep, sink, skateboard, skis, snowboard, spoon, sports ball, stop sign, suitcase, surfboard, teddy bear, tennis racket, tie, toaster, toilet, toothbrush, traffic light, train, truck, umbrella, vase, wine glass, zebra
+
+Allowed FrameNet frames and roles:
+
+- Arranging (ID: 921)
+  Roles: Agent, Theme
+
+- Getting (ID: 179)
+  Roles: Recipient, Theme, Source
+
+- Getting_scenario (ID: 1191)
+  Roles: Recipient, Theme, Source
+
+- Locative_relation (ID: 199)
+  Roles: Figure, Ground
+
+- Attempt_obtain_food_scenario (ID: 2007)
+  Roles: Seeker, Food, Ground
+
+Instructions:
+1. Select only relevant objects for the goal.
+2. Assign them to appropriate FrameNet roles.
+3. Use only the frames listed above.
+4. Do NOT invent new objects or frames.
+5. Keep assignments realistic and logical.
+
+Output ONLY valid JSON in this format:
+
+{
+  "goal": "...",
+  "relevant_objects": [...],
+  "frames": [
+    {
+      "frame": "...",
+      "assignments": [
+        {"role": "...", "object": "..."}
+      ]
+    }
+  ]
+}
+
+Example:
+
+Goal: have breakfast
+
+Output:
+{{
+  "goal": "have breakfast",
+  "relevant_objects": [
+    "person",
+    "banana",
+    "bowl",
+    "dining table",
+    "refrigerator"
+  ],
+  "frames": [
+    {{
+      "frame": "Attempt_obtain_food_scenario",
+      "assignments": [
+        {{"role": "Seeker", "object": "person"}},
+        {{"role": "Food", "object": "banana"}},
+        {{"role": "Ground", "object": "refrigerator"}}
+      ]
+    }},
+    {{
+      "frame": "Getting_scenario",
+      "assignments": [
+        {{"role": "Recipient", "object": "person"}},
+        {{"role": "Theme", "object": "banana"}},
+        {{"role": "Source", "object": "refrigerator"}}
+      ]
+    }},
+    {{
+      "frame": "Arranging",
+      "assignments": [
+        {{"role": "Agent", "object": "person"}},
+        {{"role": "Theme", "object": "banana"}}
+      ]
+    }},
+    {{
+      "frame": "Locative_relation",
+      "assignments": [
+        {{"role": "Figure", "object": "banana"}},
+        {{"role": "Ground", "object": "bowl"}}
+      ]
+    }},
+    {{
+      "frame": "Locative_relation",
+      "assignments": [
+        {{"role": "Figure", "object": "bowl"}},
+        {{"role": "Ground", "object": "dining table"}}
+      ]
+    }}
+  ]
+}}
+
+
+================================================================================
+
+GOAL: organize a workspace
+You are a semantic reasoning system using FrameNet.
+
+You MUST follow the output format exactly.
+If you do not follow the format, the answer is invalid.
+
+DO NOT:
+- write normal sentences outside the JSON
+- invent people like "John"
+- invent objects not in the allowed list
+- invent frames not in the allowed list
+- change field names
+- return anything except valid JSON
+
+
+Goal:
+organize a workspace
+
+Available objects:
+TV, airplane, apple, backpack, banana, baseball bat, baseball glove, bear, bed, bench, bicycle, bird, boat, book, bottle, bowl, broccoli, bus, cake, car, carrot, cat, cell phone, chair, clock, couch, cow, cup, dining table, dog, donut, elephant, fire hydrant, fork, frisbee, giraffe, hair drier, handbag, horse, hot dog, keyboard, kite, knife, laptop, microwave, motorcycle, mouse, orange, oven, parking meter, person, pizza, potted plant, refrigerator, remote, sandwich, scissors, sheep, sink, skateboard, skis, snowboard, spoon, sports ball, stop sign, suitcase, surfboard, teddy bear, tennis racket, tie, toaster, toilet, toothbrush, traffic light, train, truck, umbrella, vase, wine glass, zebra
+
+Allowed FrameNet frames and roles:
+
+- Arranging (ID: 921)
+  Roles: Agent, Theme
+
+- Getting (ID: 179)
+  Roles: Recipient, Theme, Source
+
+- Getting_scenario (ID: 1191)
+  Roles: Recipient, Theme, Source
+
+- Locative_relation (ID: 199)
+  Roles: Figure, Ground
+
+- Attempt_obtain_food_scenario (ID: 2007)
+  Roles: Seeker, Food, Ground
+
+Instructions:
+1. Select only relevant objects for the goal.
+2. Assign them to appropriate FrameNet roles.
+3. Use only the frames listed above.
+4. Do NOT invent new objects or frames.
+5. Keep assignments realistic and logical.
+
+Output ONLY valid JSON in this format:
+
+{
+  "goal": "...",
+  "relevant_objects": [...],
+  "frames": [
+    {
+      "frame": "...",
+      "assignments": [
+        {"role": "...", "object": "..."}
+      ]
+    }
+  ]
+}
+
+Example:
+
+Goal: have breakfast
+
+Output:
+{{
+  "goal": "have breakfast",
+  "relevant_objects": [
+    "person",
+    "banana",
+    "bowl",
+    "dining table",
+    "refrigerator"
+  ],
+  "frames": [
+    {{
+      "frame": "Attempt_obtain_food_scenario",
+      "assignments": [
+        {{"role": "Seeker", "object": "person"}},
+        {{"role": "Food", "object": "banana"}},
+        {{"role": "Ground", "object": "refrigerator"}}
+      ]
+    }},
+    {{
+      "frame": "Getting_scenario",
+      "assignments": [
+        {{"role": "Recipient", "object": "person"}},
+        {{"role": "Theme", "object": "banana"}},
+        {{"role": "Source", "object": "refrigerator"}}
+      ]
+    }},
+    {{
+      "frame": "Arranging",
+      "assignments": [
+        {{"role": "Agent", "object": "person"}},
+        {{"role": "Theme", "object": "banana"}}
+      ]
+    }},
+    {{
+      "frame": "Locative_relation",
+      "assignments": [
+        {{"role": "Figure", "object": "banana"}},
+        {{"role": "Ground", "object": "bowl"}}
+      ]
+    }},
+    {{
+      "frame": "Locative_relation",
+      "assignments": [
+        {{"role": "Figure", "object": "bowl"}},
+        {{"role": "Ground", "object": "dining table"}}
+      ]
+    }}
+  ]
+}}
+
+
+================================================================================
+

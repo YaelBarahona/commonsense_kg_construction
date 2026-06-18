@@ -9,6 +9,7 @@ from llm_clients.groq_client import GroqClient
 from llm_clients.nebula_client import NebulaClient
 from config.config_loader import load_model_config
 from pathlib import Path
+import os
 
 class ConstructionPipeline:
     """A class to handle the construction pipeline for concepts and properties."""
@@ -20,7 +21,7 @@ class ConstructionPipeline:
         self.model_name = model_name
         self.model_path = model_path
         self.ontology_path = ontology_path
-        self.api_key = api_key
+        self.api_key = api_key or os.getenv("NEBULA_API_KEY") or os.getenv("OPENAI_API_KEY") or os.getenv("GROQ_API_KEY")
         self.kwargs = kwargs
         self.logger = setup_logger(level="DEBUG")
         self.logger.info(f"Initialized ConstructionPipeline for concept: {self.concept}, model: {self.model_name}")

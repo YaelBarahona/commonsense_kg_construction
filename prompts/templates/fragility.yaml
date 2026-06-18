@@ -1,0 +1,7 @@
+name: fragility
+type: string
+template: |
+  Given the concept of {concept} {description_clause},
+  classify the object's typical fragility as exactly one of: fragile, sturdy.
+  Return only JSON with key:
+    - fragility (string)

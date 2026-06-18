@@ -1,4 +1,4 @@
-# Load the files
+# Load the filesavg
 
 import os
 from pathlib import Path
@@ -70,9 +70,12 @@ condition_runs = {"context": RUNS, "avg": RUNS, "ranges": RUNS}
 condition_files = {"context": 1, "avg": 35, "ranges": 11}
 # Define the paths
 BASE_DIR = Path(__file__).resolve().parent.parent
-OUTPUT_PARENT_DIR = BASE_DIR / "data"
+OUTPUT_PARENT_DIR = BASE_DIR / "output"
 OUTPUT  = BASE_DIR / "analysis" / "results"
 OUTPUT_ANALYSIS_DIR = BASE_DIR / "analysis" / "results"
+
+OUTPUT.mkdir(parents=True, exist_ok=True)
+OUTPUT_ANALYSIS_DIR.mkdir(parents=True, exist_ok=True)
 
 def completeness_analysis():
     """
@@ -396,8 +399,19 @@ def semantic_check(response, row, experiment_type, file_path):
     # --------------------------------------------------------------
     if experiment_type == "avg":
         domain = row.get("domain")
+        if isinstance(response, list):
+            if not row.get("measurement"):
+                if domain in {'colour', 'shape', 'material', 'location', 'disposition', 'pattern', 'texture'}:
+                    clean_response = [str(x).strip().lower() for x in response if str(x).strip()]
+                    data_out = DataOutput(**meta, values=clean_response)
+                    return data_out, None
+                else:
+                    return None, "Lists of JSONs"
+            else:
+                return None, "Lists of JSONs"
+
         try:
-            keys   = list(response.keys())
+            keys = list(response.keys())
             values = list(response.values())
         except AttributeError:
             return None, "Lists of JSONs"
@@ -410,24 +424,61 @@ def semantic_check(response, row, experiment_type, file_path):
         if not row.get("measurement"):
             if domain in {'function', 'scenario', 'context'}:
                 return None, 'Skipped domain'
-            elif domain in {'location', 'colour', 'disposition', 'shape', 'material', 'pattern', 'texture'}:
+
+            elif domain in {'colour', 'shape', 'material', 'location', 'disposition', 'pattern', 'texture'}:
                 clean_response = clean_with_yaml_row(response, domain)
+                data_out = DataOutput(**meta, values=clean_response)
+                return data_out, None
+
+            elif domain == "rigidity":
+                val = response.get("rigidity")
+                if isinstance(val, list):
+                    if len(val) == 0:
+                        return None, "Empty rigidity value"
+                    val = str(val[0]).strip().lower()
+                else:
+                    val = str(val).strip().lower()
+
+                allowed = {"rigid", "flexible", "soft"}
+                if val not in allowed:
+                    return None, "Incorrect rigidity value"
+
+                data_out = DataOutput(**meta, values=val)
+                return data_out, None
+
+            elif domain == "fragility":
+                val = response.get("fragility")
+                if isinstance(val, list):
+                    if len(val) == 0:
+                        return None, "Empty fragility value"
+                    val = str(val[0]).strip().lower()
+                else:
+                    val = str(val).strip().lower()
+
+                allowed = {"fragile", "sturdy"}
+                if val not in allowed:
+                    return None, "Incorrect fragility value"
+
+                data_out = DataOutput(**meta, values=val)
+                return data_out, None
+
             else:
                 return None, "Unrecognized domain"
-
-            data_out = DataOutput(**meta, values=clean_response)
-            return data_out, None   
         # ---- Processing measurements ----------------------------
-        if len(keys) != 1:                        # more than one key – search
+        if len(keys) != 1:
             domains_variants = assemble_dictionary(
                 [row.get("domain"), row.get("dimension"),
-                 row.get("measurement"), row.get("concept")]
+                row.get("measurement"), row.get("concept")]
             )
             key_candidates = [k for k in keys
-                              if k.strip().lower().replace("_", " ") in domains_variants]
-            if len(key_candidates) != 1:
+                            if k.strip().lower().replace("_", " ") in domains_variants]
+
+            if len(key_candidates) == 1:
+                target_key = key_candidates[0]
+            elif "answer" in keys:
+                target_key = "answer"
+            else:
                 return None, "Too many keys" if key_candidates else "Incorrect key name"
-            target_key = key_candidates[0]
         else:
             target_key = keys[0]
 
@@ -441,91 +492,6 @@ def semantic_check(response, row, experiment_type, file_path):
 
         data_out = DataOutput(**meta, values=float(val))
         return data_out, None
-
-    # ==============================================================
-    # 2 · CONTEXT
-    # --------------------------------------------------------------
-    elif experiment_type == "context":
-        domains = row.get("domain")
-        keys    = list(response.keys())
-        output = {}
-
-        if len(domains) + 1 != len(keys):   # +1 for the 'concept' key
-            return None, "Missing domains"
-
-        for k in keys:
-            if k == "concept":
-                continue
-            block = response[k]
-            if not isinstance(block, dict):
-                return None, "Output format incorrect"
-            if "value" not in block:
-                return None, "No truth value returned"
-            try:
-                tv = block["value"]
-                if not isinstance(tv, bool):
-                    tv = eval(str(tv).capitalize())
-                    if not isinstance(tv, bool):
-                        raise ValueError
-                output[k] = tv
-            except Exception:
-                return None, "Incorrect truth value"
-
-        data_out = DataOutput(**meta, values=output)
-        return data_out, None
-
-    # ==============================================================
-    # 3 · RANGES
-    # --------------------------------------------------------------
-    elif experiment_type == "ranges":
-        dom        = row.get("domain")
-        concept    = row.get("concept")
-        keys       = list(response.keys())
-
-        # ------------------------------ helpers
-        def _expected_keys(d):            # ['min_weight', 'max_weight']
-            return [f"min_{d}", f"max_{d}"]
-
-        rng_dict = {}                   # will hold the final {min_: x, max_: y}
-
-        # Empty object
-        if len(keys) == 0:
-            return None, "Empty response"
-
-        # Wrapped form:  { "<concept>" : { "min_dom": .. , "max_dom": .. } }
-        if len(keys) == 1 and keys[0] == concept and isinstance(response[concept], dict):
-            inner = response[concept]
-            if sorted(inner.keys()) != sorted(_expected_keys(dom)):
-                return None, "Unrecognized keys"
-            rng_dict = inner
-
-        # Flat form: { "min_dom": .. , "max_dom": .. }
-        elif len(keys) == 2 and set(keys) == set(_expected_keys(dom)):
-            rng_dict = response
-
-        # One key only  → “Not enough keys”
-        elif len(keys) == 1:
-            return None, "Not enough keys"
-
-        # More keys, and min/max not in them
-        elif len(keys) > 2:
-            if all([key in keys for key in set(_expected_keys(dom))]):
-                rng_dict[f"min_{dom}"] = response[f"min_{dom}"]
-                rng_dict[f"max_{dom}"] = response[f"max_{dom}"]
-            else:
-                return None, "Too many keys"
-        # More than two keys or wrong names
-        else:
-            return None, "Unrecognized keys"
-
-        # --- optional numeric type-check (keep or drop) -----------------------
-        try:
-            float(rng_dict[f"min_{dom}"])
-            float(rng_dict[f"max_{dom}"])
-        except (ValueError, TypeError, KeyError):
-            return None, "Incorrect data type"
-
-        return DataOutput(**meta, values=rng_dict), None
 
     # ------------------------------------------------------------------
     else:
@@ -556,13 +522,13 @@ def analyse(exp):
                 rows_checked  += len(df)
 
                 # completeness of runs
-                if len(df) != condition_runs[exp]:
-                    errors.append(ErrorRecord(
-                        exp, model_dir.name, concept_dir.name, f.name, str(f), -1,
-                        "other", "incomplete_runs",
-                        f"found {len(df)} rows, expected {condition_runs[exp]}",
-                        ""
-                    ))
+                # if len(df) != condition_runs[exp]:
+                    # errors.append(ErrorRecord(
+                        # exp, model_dir.name, concept_dir.name, f.name, str(f), -1,
+                        # "other", "incomplete_runs",
+                        # f"found {len(df)} rows, expected {condition_runs[exp]}",
+                        # ""
+                    #))
 
                 # row-level checks
                 for idx, row in df.iterrows():
@@ -658,12 +624,12 @@ def dump_errors(err_list: list[ErrorRecord], exp):
         return
 
     df = pd.DataFrame([asdict(e) for e in err_list])
-    df.to_csv(OUTPUT / "error_summary_{exp}.csv", index=False)
-    df.to_json(OUTPUT / "error_summary_{exp}.json", orient="records", lines=True)
+    df.to_csv(OUTPUT / f"error_summary_{exp}.csv", index=False)
+    df.to_json(OUTPUT / f"error_summary_{exp}.json", orient="records", lines=True)
     logger.info("Wrote %d error rows to error_summary.*", len(df))
 
 if __name__ == "__main__":
-    conditions = ['ranges', 'avg', 'context']
+    conditions = ['avg']
     for exp in conditions:
         errors.clear()
         files_checked = 0
@@ -672,14 +638,21 @@ if __name__ == "__main__":
         analyse(exp)
 
         dump_errors(errors, exp)
-        summarize_error_stats(
-            OUTPUT / "error_summary_{exp}.csv",
+        error_file = OUTPUT / f"error_summary_{exp}.csv"
+if error_file.exists():
+    summarize_error_stats(
+            error_file,
             condition=exp,
-            total_files = files_checked,
-            total_rows  = rows_checked
+            total_files=files_checked,
+            total_rows=rows_checked
         )
-    dump_aggregated(OUTPUT)
-    logger.info(f"🔎 GLOBAL unmatched stats across all domains:")
-    logger.info(f"    Total unmatched: {sum(unmatched_tokens_all.values())}")
-    logger.info(f"    Unique unmatched: {len(unmatched_tokens_all)}")
-    logger.info(f"    Top offenders: {unmatched_tokens_all.most_common(20)}")
+else:
+    logger.info(f"No error file for {exp}, skipping error summary.")
+    
+logger.info(f"Collected clean rows: {len(_agg_rows)}")
+logger.info(f"Collected unique keys: {len(_agg_by_key)}")
+dump_aggregated(OUTPUT)
+logger.info(f"🔎 GLOBAL unmatched stats across all domains:")
+logger.info(f"    Total unmatched: {sum(unmatched_tokens_all.values())}")
+logger.info(f"    Unique unmatched: {len(unmatched_tokens_all)}")
+logger.info(f"    Top offenders: {unmatched_tokens_all.most_common(20)}")
