@@ -7,7 +7,7 @@ The experiments focus on the 80 object categories from the MS COCO dataset and g
 
 The repository includes scripts for knowledge generation, knowledge base construction, coverage analysis, error analysis, and comparison with existing knowledge sources.
 
-![High-level overview of the system](docs/cskg-overview.png "Overview")
+![High-level overview of the system](docs/pipeline_picture.png "Overview")
 
 ## Repository Structure
 
